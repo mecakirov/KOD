@@ -9,6 +9,10 @@ def process_image(image_path):
     # Görüntüyü gri tona çevir
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
+    cv2.imshow("Original Image", img)
+    cv2.imshow("Gray", gray)
+    cv2.waitKey(0)
+
     # QR kodunu algıla ve çöz
     qr_codes = decode(gray)
 
@@ -26,6 +30,10 @@ def process_image(image_path):
 def adjust_perspective(image_path):
     img = cv2.imread(image_path)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    
+    cv2.imshow("Original Image", img)
+    cv2.imshow("Gray", gray)
+    cv2.waitKey(0)
 
     # Kenarları algıla
     edges = cv2.Canny(gray, 50, 150)
@@ -47,15 +55,15 @@ def adjust_perspective(image_path):
     return corrected_img
 
 if __name__ == "__main__":
-    image_path = "test_image.png"  # Test görselinin yolu
+    image_path = r"C:\Users\muham\Desktop\Kod\Python//image6.png"  # Test görselinin yolu
 
     # Görüntüyü işleme
     print("Görüntü işleniyor...")
-    corrected_image = adjust_perspective(image_path)
+   # corrected_image = adjust_perspective(image_path)
 
     # Düzeltme sonrası QR kodu çöz
-    cv2.imwrite("corrected_image.png", corrected_image)  # Düzeltme sonrası görseli kaydet
-    qr_data = process_image("corrected_image.png")
+   # cv2.imwrite("corrected_image.png", corrected_image)  # Düzeltme sonrası görseli kaydet
+    qr_data = process_image(image_path)
 
     if qr_data:
         print(f"Elde Edilen Belge No: {qr_data}")
