@@ -9,7 +9,8 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 img = cv2.imread(r"C:\Users\muham\Desktop\Kod\Python//image.png")
 cv2.imshow("Original Image", img)
 cv2.waitKey(0)
-
+cv2.imshow("Original Image", img)
+cv2.waitKey(0)
 if img is None:
     print("Resim dosyası bulunamadı veya okunamadı!")
     exit()
