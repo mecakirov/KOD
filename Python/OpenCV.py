@@ -6,13 +6,14 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # In case using colab after installing above modules
 
 # Read image from which text needs to be extracted
-img = cv2.imread(r"C:\Users\muham\Desktop\Kod\Python//image.png")
+img = cv2.imread(r"C:\Users\muham\Documents\GitHub\KOD\Python//image6.png")
 cv2.imshow("Original Image", img)
 cv2.waitKey(0)
 cv2.imshow("Original Image", img)
 cv2.waitKey(0)
 if img is None:
     print("Resim dosyası bulunamadı veya okunamadı!")
+
     exit()
 # Preprocessing the image starts
 
@@ -75,17 +76,17 @@ for cnt in contours:
     dim = (width, height)
 
     # Görseli yeniden boyutlandırma (interpolasyon kullanarak)
-    resized_img = cv2.resize(thresh1, dim, interpolation=cv2.INTER_CUBIC)  # INTER_CUBIC daha kaliteli büyütme sağlar
+   # resized_img = cv2.resize(thresh1, dim, interpolation=cv2.INTER_CUBIC)  # INTER_CUBIC daha kaliteli büyütme sağlar
     
     # Sonuçları gösterme
     cv2.imshow("Original Image",thresh1)
-    cv2.imshow("Resized Image", resized_img)
+    #cv2.imshow("Resized Image", resized_img)
     cv2.waitKey(0)
 
     # Apply OCR on the cropped image
 
     custom_config = r"--oem3"
-    text = pytesseract.image_to_string(resized_img)
+    text = pytesseract.image_to_string(thresh1)
     
     # Appending the text into file
     file.write(text)
