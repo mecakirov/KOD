@@ -6,7 +6,7 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # In case using colab after installing above modules
 
 # Read image from which text needs to be extracted
-img = cv2.imread(r"C:\Users\muham\Documents\GitHub\KOD\Python//image6.png")
+img = cv2.imread(r"C:\Users\muham\Documents\GitHub\KOD\Python//image7.png")
 cv2.imshow("Original Image", img)
 cv2.waitKey(0)
 cv2.imshow("Original Image", img)
@@ -30,7 +30,7 @@ cv2.waitKey(0)
 # of the rectangle to be detected.
 # A smaller value like (10, 10) will detect 
 # each word instead of a sentence.
-rect_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (18, 18))
+rect_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (10, 10))
 
 # Applying dilation on the threshold image
 dilation = cv2.dilate(thresh1, rect_kernel, iterations = 1)
@@ -57,12 +57,12 @@ for cnt in contours:
     
     # Drawing a rectangle on copied image
     rect = cv2.rectangle(im2, (x, y), (x + w, y + h), (0, 255, 0), 2)
-    cv2.imshow("Original Image", rect)
-    cv2.waitKey(0)
+   # cv2.imshow("Original Image", rect)
+   # cv2.waitKey(0)
     # Cropping the text block for giving input to OCR
     cropped = im2[y:y + h, x:x + w]
-    cv2.imshow("Cropped", cropped)
-    cv2.waitKey(0)
+   # cv2.imshow("Cropped", cropped)
+   # cv2.waitKey(0)
     # Open the file in append mode
     file = open("recognized.txt", "a")
     
@@ -79,9 +79,9 @@ for cnt in contours:
    # resized_img = cv2.resize(thresh1, dim, interpolation=cv2.INTER_CUBIC)  # INTER_CUBIC daha kaliteli büyütme sağlar
     
     # Sonuçları gösterme
-    cv2.imshow("Original Image",thresh1)
+    #cv2.imshow("Original Image",thresh1)
     #cv2.imshow("Resized Image", resized_img)
-    cv2.waitKey(0)
+    #cv2.waitKey(0)
 
     # Apply OCR on the cropped image
 

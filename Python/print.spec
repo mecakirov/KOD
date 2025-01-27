@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['print.py', 'image6.png'],
+    ['print.py'],
     pathex=[],
     binaries=[],
     datas=[],

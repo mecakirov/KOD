@@ -61,7 +61,8 @@ def adjust_perspective(image_path):
 
 if __name__ == "__main__":
     # Görüntü yolu belirle
-    image_path = r"C:\\Users\\muham\Documents\\GitHub\\KOD\\Python\\image6.png"
+    time.sleep(5);
+    image_path = r"C:\Users\muham\Documents\GitHub\KOD\Python\image7.png"
 
     print("Görüntü işleniyor...")
     process_image(image_path)
@@ -80,3 +81,4 @@ if __name__ == "__main__":
             print(".")
     else:
         print("Perspektif düzeltme başarısız oldu.")
+        time.sleep(5);
