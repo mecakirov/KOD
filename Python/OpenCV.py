@@ -2,14 +2,20 @@
 import cv2
 import pytesseract
 
+from pyzbar.pyzbar import decode
+from pyzbar.pyzbar import ZBarSymbol
+
+import numpy as np
+import skimage.filters as filters
+
 # Mention the installed location of Tesseract-OCR in your system
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # In case using colab after installing above modules
 
 # Read image from which text needs to be extracted
 img = cv2.imread(r"C:\Users\muham\Documents\GitHub\KOD\Python//image7.png")
-cv2.imshow("Original Image", img)
+#cv2.imshow("Original Image", img)
 cv2.waitKey(0)
-cv2.imshow("Original Image", img)
+#cv2.imshow("Original Image", img)
 cv2.waitKey(0)
 if img is None:
     print("Resim dosyası bulunamadı veya okunamadı!")
@@ -19,7 +25,7 @@ if img is None:
 
 # Convert the image to gray scale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-cv2.imshow("gray", gray)
+#cv2.imshow("gray", gray)
 cv2.waitKey(0)
 # Performing OTSU threshold
 ret, thresh1 = cv2.threshold(gray, 0, 255, cv2.THRESH_OTSU | cv2.THRESH_BINARY_INV)
@@ -30,11 +36,11 @@ cv2.waitKey(0)
 # of the rectangle to be detected.
 # A smaller value like (10, 10) will detect 
 # each word instead of a sentence.
-rect_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (10, 10))
+rect_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (18, 18))
 
 # Applying dilation on the threshold image
 dilation = cv2.dilate(thresh1, rect_kernel, iterations = 1)
-cv2.imshow("dilation", dilation)
+#cv2.imshow("dilation", dilation)
 cv2.waitKey(0)
 # Finding contours
 contours, hierarchy = cv2.findContours(dilation, cv2.RETR_EXTERNAL, 
