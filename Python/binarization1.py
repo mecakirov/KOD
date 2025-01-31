@@ -14,14 +14,14 @@ smooth = cv2.GaussianBlur(gray, (95,95), 0)
 # divide gray by morphology image
 division = cv2.divide(gray, smooth, scale=255)
 
-
 # sharpen using unsharp masking
-
-sharp = filters.unsharp_mask(division, radius=0.5, amount=1.5,  preserve_range=False,channel_axis=False)
-
+sharp = filters.unsharp_mask(division, radius=0.5, amount=0.5,  preserve_range=False,channel_axis=False)
+cv2.imshow('sharp', sharp) 
+cv2.waitKey(0)
+sharp2 = filters.unsharp_mask(division, radius=0.5, amount=5,  preserve_range=False,channel_axis=False)
+cv2.imshow('sharp', sharp2)  
+cv2.waitKey(0) 
 sharp = (255*sharp).clip(0,255).astype(np.uint8)
-
-
 
 # threshold
 thresh = cv2.threshold(sharp, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]

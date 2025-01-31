@@ -1,0 +1,99 @@
+import cv2
+import time
+import numpy as np
+from pyzbar.pyzbar import decode
+import zxing  # Zxing QR kod okuyucu
+
+def read_qr_opencv(image_path):
+    """OpenCV'nin QRCodeDetector ile QR kodunu okuma"""
+    detector = cv2.QRCodeDetector()
+    image = cv2.imread(image_path)
+    
+    start_time = time.time()
+    data, bbox, _ = detector.detectAndDecode(image)
+    end_time = time.time()
+    
+    return data, end_time - start_time
+
+def read_qr_pyzbar(image_path):
+    """pyzbar ile QR kodunu okuma"""
+    image = cv2.imread(image_path)
+    
+    start_time = time.time()
+    decoded_objects = decode(image)
+    end_time = time.time()
+    
+    data = decoded_objects[0].data.decode('utf-8') if decoded_objects else None
+    return data, end_time - start_time
+
+def read_qr_zxing(image_path):
+    """Zxing ile QR kodunu okuma"""
+    reader = zxing.BarCodeReader()
+    
+    start_time = time.time()
+    barcode = reader.decode(image_path)
+    end_time = time.time()
+    
+    return barcode.raw if barcode else None, end_time - start_time
+
+def compare_qr_readers(image_path):
+    """Farklı QR okuma yöntemlerini karşılaştırır"""
+    print(f"\n🔍 QR Kod Okuma Karşılaştırması - {image_path}")
+
+    opencv_result, opencv_time = read_qr_opencv(image_path)
+    print(f"OpenCV: {opencv_result} | Süre: {opencv_time:.6f} saniye")
+
+    pyzbar_result, pyzbar_time = read_qr_pyzbar(image_path)
+    print(f"pyzbar: {pyzbar_result} | Süre: {pyzbar_time:.6f} saniye")
+
+    zxing_result, zxing_time = read_qr_zxing(image_path)
+    print(f"Zxing: {zxing_result} | Süre: {zxing_time:.6f} saniye")
+
+# 📌 Test için bir QR kod içeren resim seçin
+image_path = r"C:\Users\muham\Documents\GitHub\KOD\Python\images\imagemulti9.png"  # QR kod içeren bir PNG/JPG dosyanız olmalı
+image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+image = cv2.equalizeHist(image)
+# cv2.imwrite("equalized_qr.png", image)
+# cv2.imshow("image",image)
+# cv2.waitKey(0)
+
+image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+# Kontrastı ve parlaklığı ayarla
+alpha = 1  # Kontrast faktörü (1.0-3.0 arasında deneyebilirsin)
+beta = 100    # Parlaklık artırma faktörü
+contrast_adjusted = cv2.convertScaleAbs(image, alpha=alpha, beta=beta)
+# cv2.imwrite("contrast_adjusted_qr.png", contrast_adjusted)
+# cv2.imshow("image",contrast_adjusted)
+# cv2.waitKey(0)
+
+image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+kernel = np.ones((5,5), np.uint8)
+opened = cv2.morphologyEx(image, cv2.MORPH_OPEN, kernel)
+# cv2.imwrite("opened_qr.png", opened)
+# cv2.imshow("image",opened)
+# cv2.waitKey(0)
+
+image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+enhanced = clahe.apply(opened)
+# cv2.imwrite("clahe_qr.png", enhanced)
+# cv2.imshow("image",enhanced)
+# cv2.waitKey(0)
+
+
+# Görüntüyü gri tonlamaya çevirerek oku
+image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+# Eşikleme işlemi (sadece siyaha çok yakın yerleri siyah yap)
+#_, binary = cv2.threshold(image, 90, 255, cv2.THRESH_BINARY)
+binary = cv2.adaptiveThreshold(image, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
+
+# Sonucu kaydet veya göster
+# cv2.imwrite("cleaned_qr.png", binary)
+# cv2.imshow("Filtered QR Code", binary)
+# cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+
+
+compare_qr_readers(image_path)

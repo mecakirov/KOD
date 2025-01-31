@@ -1,0 +1,441 @@
+2025-01-30 15:32:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263387_c7506f.mov.
+2025-01-30 15:32:39 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263401_59b557.mov.
+2025-01-30 15:32:39 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263403_789d15.mov.
+2025-01-30 15:32:43 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263412_b17a3c.mov.
+2025-01-30 15:32:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263416_3ef043.mov.
+2025-01-30 15:32:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263418_ca88d7.mov.
+2025-01-30 15:32:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263419_8d6eac.mov.
+2025-01-30 15:32:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263420_70c145.mov.
+2025-01-30 15:32:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263421_9487c4.mov.
+2025-01-30 15:32:49 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263423_d32411.mov.
+2025-01-30 15:32:53 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263428_e6217e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263428_e6217e.mov'
+2025-01-30 15:32:53 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263428_e6217e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263428_e6217e.mov'
+2025-01-30 15:32:54 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263428_e6217e.mov.
+2025-01-30 15:32:57 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263431_9d44b5.mov.
+2025-01-30 15:33:00 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263433_7a4dfe.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263433_7a4dfe.mov'
+2025-01-30 15:33:00 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:00 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263433_7a4dfe.mov.
+2025-01-30 15:33:03 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263435_f9ae6d.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263435_f9ae6d.mov'
+2025-01-30 15:33:03 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:03 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263435_f9ae6d.mov.
+2025-01-30 15:33:04 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263436_ca0e2e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263436_ca0e2e.mov'
+2025-01-30 15:33:04 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:04 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263436_ca0e2e.mov.
+2025-01-30 15:33:04 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263437_50822a.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263437_50822a.mov'
+2025-01-30 15:33:04 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:04 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263437_50822a.mov.
+2025-01-30 15:33:05 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263438_d2652f.mov.
+2025-01-30 15:33:06 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263439_471b42.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263439_471b42.mov'
+2025-01-30 15:33:06 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263439_471b42.mov.
+2025-01-30 15:33:07 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263440_c31193.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263440_c31193.mov'
+2025-01-30 15:33:07 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:07 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263440_c31193.mov.
+2025-01-30 15:33:11 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:11 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263442_d83597.mov.
+2025-01-30 15:33:11 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263443_4f20b3.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263443_4f20b3.mov'
+2025-01-30 15:33:11 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:11 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263443_4f20b3.mov.
+2025-01-30 15:33:12 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263444_5b28ee.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263444_5b28ee.mov'
+2025-01-30 15:33:13 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263444_5b28ee.mov.
+2025-01-30 15:33:14 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263446_943c26.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263446_943c26.mov'
+2025-01-30 15:33:14 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263446_943c26.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263446_943c26.mov'
+2025-01-30 15:33:17 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263447_a6d993.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13159_263447_a6d993.mov'
+2025-01-30 15:33:17 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:17 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263447_a6d993.mov.
+2025-01-30 15:33:17 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13271_282447_4c50c4.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13271_282447_4c50c4.mov'
+2025-01-30 15:33:18 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282447_4c50c4.mov.
+2025-01-30 15:33:27 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13271_282452_40c1e8.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13271_282452_40c1e8.mov'
+2025-01-30 15:33:27 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282452_40c1e8.mov.
+2025-01-30 15:33:30 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282458_0d878a.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282458_0d878a.mov'
+2025-01-30 15:33:30 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282458_0d878a.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282458_0d878a.mov'
+2025-01-30 15:33:32 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:32 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282460_f053c0.mov.
+2025-01-30 15:33:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282461_bf558e.mov.
+2025-01-30 15:33:35 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282462_5cbf88.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282462_5cbf88.mov'
+2025-01-30 15:33:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282462_5cbf88.mov.
+2025-01-30 15:33:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282464_b853ed.mov.
+2025-01-30 15:33:37 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282467_89d1f2.mov.
+2025-01-30 15:33:40 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282469_675b19.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282469_675b19.mov'
+2025-01-30 15:33:40 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282469_675b19.mov.
+2025-01-30 15:33:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282471_0394fb.mov.
+2025-01-30 15:33:42 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282472_7ab92e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282472_7ab92e.mov'
+2025-01-30 15:33:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282472_7ab92e.mov.
+2025-01-30 15:33:43 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282479_5ac8e3.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282479_5ac8e3.mov'
+2025-01-30 15:33:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282479_5ac8e3.mov.
+2025-01-30 15:33:47 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282482_06f0f1.mov.
+2025-01-30 15:33:48 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282483_347264.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282483_347264.mov'
+2025-01-30 15:33:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282483_347264.mov.
+2025-01-30 15:33:53 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:54 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282486_ff28ad.mov.
+2025-01-30 15:33:54 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282487_65cca7.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282487_65cca7.mov'
+2025-01-30 15:33:55 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:33:55 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282487_65cca7.mov.
+2025-01-30 15:33:56 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282488_73cccf.mov.
+2025-01-30 15:34:03 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:34:03 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282492_29a473.mov.
+2025-01-30 15:34:06 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282494_e99dd8.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282494_e99dd8.mov'
+2025-01-30 15:34:06 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282494_e99dd8.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282494_e99dd8.mov'
+2025-01-30 15:34:07 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282494_e99dd8.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282494_e99dd8.mov'
+2025-01-30 15:34:07 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:34:07 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282494_e99dd8.mov.
+2025-01-30 15:34:08 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282495_d94bbc.mov.
+2025-01-30 15:34:09 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282496_0ef45b.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282496_0ef45b.mov'
+2025-01-30 15:34:09 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282496_0ef45b.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282496_0ef45b.mov'
+2025-01-30 15:34:10 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13281_285905_968587.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13281_285905_968587.mov'
+2025-01-30 15:34:10 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:34:10 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13281_285905_968587.mov.
+2025-01-30 15:34:10 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13299_287195_0e68c2.mov.
+2025-01-30 15:37:24 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263387_c7506f.mov.
+2025-01-30 15:37:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263401_59b557.mov.
+2025-01-30 15:37:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263403_789d15.mov.
+2025-01-30 15:37:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263412_b17a3c.mov.
+2025-01-30 15:37:30 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263416_3ef043.mov.
+2025-01-30 15:37:30 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263418_ca88d7.mov.
+2025-01-30 15:37:30 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263419_8d6eac.mov.
+2025-01-30 15:37:30 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263420_70c145.mov.
+2025-01-30 15:37:30 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263421_9487c4.mov.
+2025-01-30 15:37:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263423_d32411.mov.
+2025-01-30 15:37:32 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263428_e6217e.mov.
+2025-01-30 15:37:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263431_9d44b5.mov.
+2025-01-30 15:37:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263433_7a4dfe.mov.
+2025-01-30 15:37:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263435_f9ae6d.mov.
+2025-01-30 15:37:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263437_50822a.mov.
+2025-01-30 15:37:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263438_d2652f.mov.
+2025-01-30 15:37:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263436_ca0e2e.mov.
+2025-01-30 15:37:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263439_471b42.mov.
+2025-01-30 15:37:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263440_c31193.mov.
+2025-01-30 15:37:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263442_d83597.mov.
+2025-01-30 15:37:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263444_5b28ee.mov.
+2025-01-30 15:37:37 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282447_4c50c4.mov.
+2025-01-30 15:37:37 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263443_4f20b3.mov.
+2025-01-30 15:37:37 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263446_943c26.mov.
+2025-01-30 15:37:37 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263447_a6d993.mov.
+2025-01-30 15:37:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282452_40c1e8.mov.
+2025-01-30 15:37:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282462_5cbf88.mov.
+2025-01-30 15:37:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282458_0d878a.mov.
+2025-01-30 15:37:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282464_b853ed.mov.
+2025-01-30 15:37:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282460_f053c0.mov.
+2025-01-30 15:37:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282461_bf558e.mov.
+2025-01-30 15:37:43 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282472_7ab92e.mov.
+2025-01-30 15:37:43 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282469_675b19.mov.
+2025-01-30 15:37:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282471_0394fb.mov.
+2025-01-30 15:37:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282479_5ac8e3.mov.
+2025-01-30 15:37:45 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282483_347264.mov.
+2025-01-30 15:37:45 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282482_06f0f1.mov.
+2025-01-30 15:37:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282486_ff28ad.mov.
+2025-01-30 15:37:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282487_65cca7.mov.
+2025-01-30 15:37:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282488_73cccf.mov.
+2025-01-30 15:37:50 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282492_29a473.mov.
+2025-01-30 15:37:50 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282494_e99dd8.mov.
+2025-01-30 15:37:50 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282495_d94bbc.mov.
+2025-01-30 15:37:51 - Error renaming file: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282496_0ef45b.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\changed\\13272_282496_0ef45b.mov'
+2025-01-30 15:37:52 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13281_285905_968587.mov.
+2025-01-30 15:37:52 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13299_287195_0e68c2.mov.
+2025-01-30 15:39:28 - Error moving file to repeated folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor
+2025-01-30 15:39:28 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263351_6dc1c8.mov.
+2025-01-30 15:39:28 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263387_c7506f.mov.
+2025-01-30 15:39:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263401_59b557.mov.
+2025-01-30 15:39:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263403_789d15.mov.
+2025-01-30 15:39:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263412_b17a3c.mov.
+2025-01-30 15:39:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263416_3ef043.mov.
+2025-01-30 15:39:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263418_ca88d7.mov.
+2025-01-30 15:39:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263419_8d6eac.mov.
+2025-01-30 15:39:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263420_70c145.mov.
+2025-01-30 15:39:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263421_9487c4.mov.
+2025-01-30 15:39:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263428_e6217e.mov.
+2025-01-30 15:39:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263423_d32411.mov.
+2025-01-30 15:39:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263424_f7af09.mov.
+2025-01-30 15:39:37 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263431_9d44b5.mov.
+2025-01-30 15:39:38 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263433_7a4dfe.mov.
+2025-01-30 15:39:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263435_f9ae6d.mov.
+2025-01-30 15:39:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263436_ca0e2e.mov.
+2025-01-30 15:39:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263437_50822a.mov.
+2025-01-30 15:39:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263439_471b42.mov.
+2025-01-30 15:39:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263438_d2652f.mov.
+2025-01-30 15:39:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263440_c31193.mov.
+2025-01-30 15:39:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263442_d83597.mov.
+2025-01-30 15:39:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263443_4f20b3.mov.
+2025-01-30 15:39:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263444_5b28ee.mov.
+2025-01-30 15:39:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263446_943c26.mov.
+2025-01-30 15:39:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282447_4c50c4.mov.
+2025-01-30 15:39:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263447_a6d993.mov.
+2025-01-30 15:39:45 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282452_40c1e8.mov.
+2025-01-30 15:39:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282462_5cbf88.mov.
+2025-01-30 15:39:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282458_0d878a.mov.
+2025-01-30 15:39:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282467_89d1f2.mov.
+2025-01-30 15:39:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282460_f053c0.mov.
+2025-01-30 15:39:46 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282461_bf558e.mov.
+2025-01-30 15:39:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282472_7ab92e.mov.
+2025-01-30 15:39:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282469_675b19.mov.
+2025-01-30 15:39:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282471_0394fb.mov.
+2025-01-30 15:39:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282479_5ac8e3.mov.
+2025-01-30 15:39:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282483_347264.mov.
+2025-01-30 15:39:49 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282482_06f0f1.mov.
+2025-01-30 15:39:51 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282486_ff28ad.mov.
+2025-01-30 15:39:51 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282487_65cca7.mov.
+2025-01-30 15:39:51 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282488_73cccf.mov.
+2025-01-30 15:39:53 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282492_29a473.mov.
+2025-01-30 15:39:53 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282494_e99dd8.mov.
+2025-01-30 15:39:53 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282495_d94bbc.mov.
+2025-01-30 15:39:54 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282496_0ef45b.mov.
+2025-01-30 15:39:54 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13281_285905_968587.mov.
+2025-01-30 15:39:54 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13299_287195_0e68c2.mov.
+2025-01-30 15:41:22 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263351_6dc1c8.mov.
+2025-01-30 15:41:22 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263387_c7506f.mov.
+2025-01-30 15:41:25 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263401_59b557.mov.
+2025-01-30 15:41:25 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263403_789d15.mov.
+2025-01-30 15:41:28 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263412_b17a3c.mov.
+2025-01-30 15:41:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263416_3ef043.mov.
+2025-01-30 15:41:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263418_ca88d7.mov.
+2025-01-30 15:41:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263419_8d6eac.mov.
+2025-01-30 15:41:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263420_70c145.mov.
+2025-01-30 15:41:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263421_9487c4.mov.
+2025-01-30 15:41:30 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263428_e6217e.mov.
+2025-01-30 15:41:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263423_d32411.mov.
+2025-01-30 15:41:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263424_f7af09.mov.
+2025-01-30 15:41:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263431_9d44b5.mov.
+2025-01-30 15:41:32 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263432_9f68ff.mov.
+2025-01-30 15:41:32 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263433_7a4dfe.mov.
+2025-01-30 15:41:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263435_f9ae6d.mov.
+2025-01-30 15:41:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263437_50822a.mov.
+2025-01-30 15:41:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263438_d2652f.mov.
+2025-01-30 15:41:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263436_ca0e2e.mov.
+2025-01-30 15:41:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263439_471b42.mov.
+2025-01-30 15:41:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263440_c31193.mov.
+2025-01-30 15:41:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263442_d83597.mov.
+2025-01-30 15:41:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263444_5b28ee.mov.
+2025-01-30 15:41:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282447_4c50c4.mov.
+2025-01-30 15:41:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263443_4f20b3.mov.
+2025-01-30 15:41:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263446_943c26.mov.
+2025-01-30 15:41:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263447_a6d993.mov.
+2025-01-30 15:41:39 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282462_5cbf88.mov.
+2025-01-30 15:41:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282464_b853ed.mov.
+2025-01-30 15:41:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282452_40c1e8.mov.
+2025-01-30 15:41:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282467_89d1f2.mov.
+2025-01-30 15:41:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282454_b506f9.mov.
+2025-01-30 15:41:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282458_0d878a.mov.
+2025-01-30 15:41:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282460_f053c0.mov.
+2025-01-30 15:41:40 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282461_bf558e.mov.
+2025-01-30 15:41:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282472_7ab92e.mov.
+2025-01-30 15:41:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282469_675b19.mov.
+2025-01-30 15:41:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282471_0394fb.mov.
+2025-01-30 15:41:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282479_5ac8e3.mov.
+2025-01-30 15:41:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282483_347264.mov.
+2025-01-30 15:41:43 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282482_06f0f1.mov.
+2025-01-30 15:41:43 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282484_968bc0.mov.
+2025-01-30 15:41:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282485_6725de.mov.
+2025-01-30 15:41:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282486_ff28ad.mov.
+2025-01-30 15:41:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282487_65cca7.mov.
+2025-01-30 15:41:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282488_73cccf.mov.
+2025-01-30 15:41:47 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282492_29a473.mov.
+2025-01-30 15:41:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282493_f277de.mov.
+2025-01-30 15:41:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13281_285905_968587.mov.
+2025-01-30 15:41:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13299_287195_0e68c2.mov.
+2025-01-30 15:41:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282496_0ef45b.mov.
+2025-01-30 15:43:25 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263351_6dc1c8.mov.
+2025-01-30 15:43:25 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13158_263387_c7506f.mov.
+2025-01-30 15:43:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263391_11b7ee.mov.
+2025-01-30 15:43:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263395_e3c6e0.mov.
+2025-01-30 15:43:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263401_59b557.mov.
+2025-01-30 15:43:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263403_789d15.mov.
+2025-01-30 15:43:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263404_0e5603.mov.
+2025-01-30 15:43:26 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263407_e532d5.mov.
+2025-01-30 15:43:27 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263412_b17a3c.mov.
+2025-01-30 15:43:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263416_3ef043.mov.
+2025-01-30 15:43:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263418_ca88d7.mov.
+2025-01-30 15:43:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263419_8d6eac.mov.
+2025-01-30 15:43:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263420_70c145.mov.
+2025-01-30 15:43:29 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263421_9487c4.mov.
+2025-01-30 15:43:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263428_e6217e.mov.
+2025-01-30 15:43:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263423_d32411.mov.
+2025-01-30 15:43:31 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263424_f7af09.mov.
+2025-01-30 15:43:33 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263431_9d44b5.mov.
+2025-01-30 15:43:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263432_9f68ff.mov.
+2025-01-30 15:43:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263433_7a4dfe.mov.
+2025-01-30 15:43:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263435_f9ae6d.mov.
+2025-01-30 15:43:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263437_50822a.mov.
+2025-01-30 15:43:35 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263438_d2652f.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263442_d83597.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263444_5b28ee.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282447_4c50c4.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263436_ca0e2e.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263439_471b42.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263440_c31193.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263441_a8d3bd.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263443_4f20b3.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263446_943c26.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13159_263447_a6d993.mov.
+2025-01-30 15:43:36 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282448_6d3522.mov.
+2025-01-30 15:43:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282462_5cbf88.mov.
+2025-01-30 15:43:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282464_b853ed.mov.
+2025-01-30 15:43:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282467_89d1f2.mov.
+2025-01-30 15:43:41 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13271_282452_40c1e8.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282454_b506f9.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282458_0d878a.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282460_f053c0.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282472_7ab92e.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282461_bf558e.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282468_49f4e4.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282469_675b19.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282471_0394fb.mov.
+2025-01-30 15:43:42 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282479_5ac8e3.mov.
+2025-01-30 15:43:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282483_347264.mov.
+2025-01-30 15:43:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282482_06f0f1.mov.
+2025-01-30 15:43:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282484_968bc0.mov.
+2025-01-30 15:43:44 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282485_6725de.mov.
+2025-01-30 15:43:45 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282486_ff28ad.mov.
+2025-01-30 15:43:45 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282487_65cca7.mov.
+2025-01-30 15:43:45 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282488_73cccf.mov.
+2025-01-30 15:43:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282494_e99dd8.mov.
+2025-01-30 15:43:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282495_d94bbc.mov.
+2025-01-30 15:43:48 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282496_0ef45b.mov.
+2025-01-30 15:43:49 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282492_29a473.mov.
+2025-01-30 15:43:49 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13272_282493_f277de.mov.
+2025-01-30 15:43:49 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13281_285905_968587.mov.
+2025-01-30 15:43:49 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\13299_287195_0e68c2.mov.
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263428_e6217e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263428_e6217e.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263431_9d44b5.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263431_9d44b5.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263435_f9ae6d.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263435_f9ae6d.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263437_50822a.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263437_50822a.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263438_d2652f.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263438_d2652f.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263442_d83597.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263442_d83597.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263444_5b28ee.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263444_5b28ee.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13271_282447_4c50c4.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13271_282447_4c50c4.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282462_5cbf88.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282462_5cbf88.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282464_b853ed.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282464_b853ed.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282467_89d1f2.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282467_89d1f2.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282472_7ab92e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282472_7ab92e.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282483_347264.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282483_347264.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282494_e99dd8.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282494_e99dd8.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282495_d94bbc.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282495_d94bbc.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282496_0ef45b.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282496_0ef45b.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282459.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282459.mov'
+2025-01-30 15:46:34 - Cannot open video file C:/Users/muham/Desktop/Kurban - Kopya\282481.mov.
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\100905.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\100905.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13158_263351_6dc1c8.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13158_263351_6dc1c8.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13158_263387_c7506f.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13158_263387_c7506f.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263391_11b7ee.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263391_11b7ee.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263395_e3c6e0.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263395_e3c6e0.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263401_59b557.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263401_59b557.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263403_789d15.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263403_789d15.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263404_0e5603.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263404_0e5603.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263407_e532d5.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263407_e532d5.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263412_b17a3c.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263412_b17a3c.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263414_bb799e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263414_bb799e.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263416_3ef043.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263416_3ef043.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263418_ca88d7.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263418_ca88d7.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263419_8d6eac.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263419_8d6eac.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263420_70c145.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263420_70c145.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263421_9487c4.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263421_9487c4.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263422_de366d.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263422_de366d.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263423_d32411.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263423_d32411.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263424_f7af09.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263424_f7af09.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263429_3c1597.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263429_3c1597.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263432_9f68ff.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263432_9f68ff.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263433_7a4dfe.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263433_7a4dfe.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263434_9f08c3.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263434_9f08c3.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263436_ca0e2e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263436_ca0e2e.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263439_471b42.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263439_471b42.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263440_c31193.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263440_c31193.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263441_a8d3bd.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263441_a8d3bd.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263443_4f20b3.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263443_4f20b3.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263446_943c26.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263446_943c26.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13159_263447_a6d993.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13159_263447_a6d993.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13271_282448_6d3522.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13271_282448_6d3522.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13271_282449_6210b7.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13271_282449_6210b7.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13271_282451_c09189.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13271_282451_c09189.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13271_282452_40c1e8.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13271_282452_40c1e8.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282454_b506f9.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282454_b506f9.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282458_0d878a.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282458_0d878a.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282460_f053c0.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282460_f053c0.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282461_bf558e.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282461_bf558e.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282468_49f4e4.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282468_49f4e4.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282469_675b19.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282469_675b19.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282471_0394fb.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282471_0394fb.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282479_5ac8e3.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282479_5ac8e3.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282480_91478d.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282480_91478d.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282482_06f0f1.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282482_06f0f1.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282484_968bc0.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282484_968bc0.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282485_6725de.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282485_6725de.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282486_ff28ad.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282486_ff28ad.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282487_65cca7.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282487_65cca7.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282488_73cccf.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282488_73cccf.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282489_85759a.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282489_85759a.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282491_830920.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282491_830920.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282492_29a473.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282492_29a473.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13272_282493_f277de.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13272_282493_f277de.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13281_285905_968587.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13281_285905_968587.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\13299_287195_0e68c2.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\13299_287195_0e68c2.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\15525966.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\15525966.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\246186.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\246186.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\262798.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\262798.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\262799.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\262799.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\262802.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\262802.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263356.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263356.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263357.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263357.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263358.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263358.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263360.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263360.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263361.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263361.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263363.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263363.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263365.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263365.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263366.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263366.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263367.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263367.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263368.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263368.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263369.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263369.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263370.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263370.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263371.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263371.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263372.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263372.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263373.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263373.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263374.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263374.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263375.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263375.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263376.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263376.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263377.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263377.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263379.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263379.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263380.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263380.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263381.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263381.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263382.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263382.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263383.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263383.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263388.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263388.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263389.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263389.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263390.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263390.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263393.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263393.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263394.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263394.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263396.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263396.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263397.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263397.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263398.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263398.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263399.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263399.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263400.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263400.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263402.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263402.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263405.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263405.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263406.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263406.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263408.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263408.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263409.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263409.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263410.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263410.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263411.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263411.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263413.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263413.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263415.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263415.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263417.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263417.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263425.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263425.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263426.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263426.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263427.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263427.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263430.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263430.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\263445.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\263445.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282450.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282450.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282453.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282453.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282455.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282455.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282456.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282456.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282457.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282457.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 32] Dosya başka bir işlem tarafından kullanıldığından bu işlem dosyaya erişemiyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282459.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282459.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282463.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282463.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282465.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282465.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282466.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282466.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282470.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282470.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282473.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282473.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282474.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282474.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282475.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282475.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282476.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282476.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282477.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282477.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282478.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282478.mov'
+2025-01-30 15:46:34 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban - Kopya\\282481.mov' -> 'C:/Users/muham/Desktop/Kurban - Kopya\\error\\282481.mov'
