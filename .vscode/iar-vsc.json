@@ -1,0 +1,18 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\akgos_app_v110\\science_app_firmware.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\akgos_app_v110\\science_app_firmware.eww": {
+      "configs": {
+        "${workspaceFolder}\\akgos_app_v110\\science_app_firmware.ewp": "Debug"
+      },
+      "selected": {
+        "path": "${workspaceFolder}\\akgos_app_v110\\science_app_firmware.ewp"
+      }
+    }
+  },
+  "workbench": {
+    "path": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.1"
+  }
+}

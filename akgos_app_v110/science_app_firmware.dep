@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>2543504669</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\gsm_driver\gsm_modul_tasks.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\gsm_driver\gsm_modul_tasks.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Exe\science_app_firmware.ulp</file>
+            <file>$PROJ_DIR$\Debug\Obj\water_driver\adc_tasks.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_tasks.r43</file>
+            <file>$PROJ_DIR$\Debug\List\science_app_firmware.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\water_driver\rtc_tasks.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\parameters_init.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\hardware_configs.r43</file>
+            <file>$PROJ_DIR$\Debug\Exe\science_app_firmware.txt</file>
+            <file>$PROJ_DIR$\gsm_driver\queue.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\gsm_driver\queue.r43</file>
+            <file>$PROJ_DIR$\flash_tasks.c</file>
+            <file>$PROJ_DIR$\lnk430g2955.xcl</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\hardware_configs.c</file>
+            <file>$PROJ_DIR$\water_driver\adc_tasks.c</file>
+            <file>$PROJ_DIR$\parameters_init.c</file>
+            <file>$PROJ_DIR$\water_driver\rtc_tasks.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 7 11</file>
+                </tool>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\gsm_driver\gsm_modul_tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\science_app_firmware.txt</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 15 4 6 1 10 2 9 13 8 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\gsm_driver\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\flash_tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 2</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\hardware_configs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\water_driver\adc_tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\parameters_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\water_driver\rtc_tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

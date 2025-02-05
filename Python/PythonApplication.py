@@ -98,7 +98,7 @@ def process_videos_in_folder(folder_path):
     start_time = time.time()
 
     changed_folder = os.path.join(folder_path, "changed")
-    error_folder = os.path.join(folder_path, "error")
+    error_folder = os.path.join(folder_path, "non_detected")
     repeated_folder = os.path.join(folder_path, "repeated")  
 
     os.makedirs(changed_folder, exist_ok=True)
@@ -115,8 +115,8 @@ def process_videos_in_folder(folder_path):
          {"start_time": 0.5*1000, "end_time": 5 * 1000, "step": 1000} ,
          {"start_time": 5.5*1000, "end_time": 10 * 1000, "step": 1000},  # mükrerrer frame atlanacak 
          {"start_time": 0.25*1000, "end_time": 5 * 1000, "step": 500},
-         {"start_time": 5.25*1000, "end_time": 10 * 1000, "step": 500} # mükrerrer frame atlanacak 
-          # mükrerrer frame atlanacak 
+         {"start_time": 5.25*1000, "end_time": 10 * 1000, "step": 500} 
+          
     ]
 
     for step_index, step in enumerate(steps, start=1):

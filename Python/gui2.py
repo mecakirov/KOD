@@ -5,6 +5,10 @@
 
 #cpu_count() ayarlı yapılabilebilir.
 
+# sayaçlar textboxlara yazılacak
+
+# kalan süre sayacı eklenecek
+
 import cv2
 import os
 from pyzbar.pyzbar import decode, ZBarSymbol
@@ -12,16 +16,32 @@ import re
 import time
 import shutil
 import tkinter as tk
-from tkinter import filedialog
+from tkinter import filedialog, ttk
 import threading
 import sys
 from multiprocessing import Pool, cpu_count, freeze_support
 
 ## Gui ##
 
+class RedirectText:
+    """Terminal output redirection to a text widget"""
+    def __init__(self, text_widget, show_detail):
+        self.output = text_widget
+        self.show_detail = show_detail
 
+    def write(self, string):
+        if self.show_detail.get():
+            self.output.insert(tk.END, string)
+            self.output.see(tk.END)  # Otomatik kaydırma
 
-## Program ##
+    def flush(self):
+        pass  # Boş bırakılabilir, gereksiz hata almamak için
+
+def process_videos():
+    folder = folder_path.get()
+    if folder:
+        process_videos_in_folder(folder_path=folder)
+
 def log_error(message):
     """Logs errors to a file."""
     with open("error_log.txt", "a", encoding="utf-8") as f:
@@ -50,7 +70,9 @@ def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_fol
             print(f"File already exists: {new_video_name}. Moving to 'repeated' folder.")
             repeated_video_path = os.path.join(repeated_folder, os.path.basename(video_file_path))
             try:
-                shutil.move(video_file_path, repeated_video_path)
+                new_video_name = os.path.join(os.path.splitext(new_video_name) + "repeat" )
+                os.rename(video_file_path, repeated_video_path)
+                # shutil.move(video_file_path, repeated_video_path)
                 print(f"Moved to 'repeated' folder: {repeated_video_path}")
             except Exception as e:
                 log_error(f"Error moving file to repeated folder: {e}")
@@ -108,7 +130,7 @@ def process_video_for_qr_code(video_path, changed_folder, repeated_folder, step_
         # step değerini ekleyerek bir sonraki frame'e geç
         timestamp_ms += step_info["step"]
 
-    return False  
+    return False
 
 def process_video_step(video_path, step, changed_folder, repeated_folder, error_folder, step_index, total_steps, video_index, total_videos, remaining_videos):
     """Processes a single video with a given step."""
@@ -124,7 +146,22 @@ def process_video_step(video_path, step, changed_folder, repeated_folder, error_
     print(f"Processing video: {os.path.basename(video_path)} step {step_index}/{total_steps} {video_index}/{total_videos}, Changed: {changed_count}, non-detected: {error_count}, Repeated: {repeated_count}, Remaining: {remaining_videos}")
     if process_video_for_qr_code(video_path, changed_folder, repeated_folder, step):
         return video_path
-    return None
+    elif step == step_index:  # Eğer son adımdaysa ve QR kod hala bulunamadıysa
+        error_video_path = os.path.join(error_folder, os.path.basename(video_path))
+        try:
+            os.rename(video_path, error_video_path)
+           # shutil.move(video_path, error_video_path)
+            print(f"Video moved to 'error' folder: {error_video_path}")
+        except Exception as e:
+            log_error(f"Error moving file to error folder: {e}")
+        return error_video_path  # Dosya taşındıysa yolunu döndür
+    else:
+        return None  # Henüz son adım değilse, tekrar deneyebilmek için None döndür
+
+
+    
+
+
 
 def process_videos_in_folder(folder_path):
     start_time = time.time()
@@ -143,11 +180,11 @@ def process_videos_in_folder(folder_path):
 
     steps = [
         {"start_time": 0 * 1000, "end_time": 5 * 1000, "step": 1000},  
-        {"start_time": 6 * 1000, "end_time": 15 * 1000, "step": 1000},
-        {"start_time": 0.5 * 1000, "end_time": 5 * 1000, "step": 1000},
-        {"start_time": 5.5 * 1000, "end_time": 10 * 1000, "step": 1000},  # mükrerrer frame atlanacak 
-        {"start_time": 0.25 * 1000, "end_time": 5 * 1000, "step": 500},
-        {"start_time": 5.25 * 1000, "end_time": 10 * 1000, "step": 500}  # mükrerrer frame atlanacak    
+        # {"start_time": 6 * 1000, "end_time": 15 * 1000, "step": 1000},
+        # {"start_time": 0.5 * 1000, "end_time": 5 * 1000, "step": 1000},
+        # {"start_time": 5.5 * 1000, "end_time": 10 * 1000, "step": 1000},  # mükrerrer frame atlanacak 
+        # {"start_time": 0.25 * 1000, "end_time": 5 * 1000, "step": 500},
+        # {"start_time": 5.25 * 1000, "end_time": 10 * 1000, "step": 500}  # mükrerrer frame atlanacak    
     ]
 
     # Her adım için paralel işleme
@@ -192,17 +229,100 @@ def process_videos_in_folder(folder_path):
     #Expect press any key
     input("Press any key to exit...")
 
-def select_folder():
-    """Opens a file dialog for the user to select a folder."""
-    root = tk.Tk()
-    root.withdraw()
-    folder_path = filedialog.askdirectory(title="Select folder containing videos")
-    root.destroy()  # Pencereyi kapat
-    return folder_path if folder_path else None
+def start_process():
+    """Start button click event"""
+    if not folder_path.get():
+        print("Please select a folder first!")
+        return
 
-# Run the script
+    print(f"Selected folder: {folder_path.get()}")
+    btnStart.config(state=tk.DISABLED)  # Start butonunu pasif yap
+    btnStop.config(state=tk.NORMAL)  # Stop butonunu aktif yap
+    thread = threading.Thread(target=process_videos, daemon=True)
+    thread.start()
+
+def stop_process():
+    """Stop button click event"""
+    print("Process stopped by user.")
+    btnStart.config(state=tk.NORMAL)  # Start butonunu aktif yap
+    btnStop.config(state=tk.DISABLED)  # Stop butonunu pasif yap
+
+def select_folder():
+    """Klasör seçme işlemi"""
+    path = filedialog.askdirectory(title="Select folder containing videos")
+    if path:
+        folder_path.set(path)
+        return path
+
 if __name__ == "__main__":
     freeze_support()  # Windows'ta multiprocessing için gerekli
-    folder = select_folder()
-    if folder:
-        process_videos_in_folder(folder_path=folder)
+
+    # Ana pencere
+    root = tk.Tk()
+    root.title("Video QR Scanner")  # Pencere başlığı
+    root.geometry("600x500")
+
+    # Program ismi
+    labelTitle = tk.Label(root, text="Video QR Scanner", font=("Arial", 16, "bold"))
+    labelTitle.pack(pady=10)
+
+    # Klasör seçme butonu
+    folder_path = tk.StringVar()
+    btnSelect = tk.Button(root, text="Folder Select", command=select_folder)
+    btnSelect.pack()
+
+    # Seçilen klasörü gösteren alan
+    textFolder = tk.Entry(root, textvariable=folder_path, width=50, state="readonly")
+    textFolder.pack(pady=5)
+
+    # TextBox ve Label'lar
+    frame_info = ttk.Frame(root)
+    frame_info.pack(pady=5)
+
+    ttk.Label(frame_info, text="Video Index:").grid(row=0, column=0, padx=5, pady=5)
+    textVideoIndex = ttk.Entry(frame_info, width=10, state="readonly")
+    textVideoIndex.grid(row=0, column=1, padx=5, pady=5)
+
+    ttk.Label(frame_info, text="Total Videos:").grid(row=0, column=2, padx=5, pady=5)
+    textTotalVideos = ttk.Entry(frame_info, width=10, state="readonly")
+    textTotalVideos.grid(row=0, column=3, padx=5, pady=5)
+
+    ttk.Label(frame_info, text="Changed:").grid(row=1, column=0, padx=5, pady=5)
+    textChanged = ttk.Entry(frame_info, width=10, state="readonly")
+    textChanged.grid(row=1, column=1, padx=5, pady=5)
+
+    ttk.Label(frame_info, text="Non-Detected:").grid(row=1, column=2, padx=5, pady=5)
+    textNonDetected = ttk.Entry(frame_info, width=10, state="readonly")
+    textNonDetected.grid(row=1, column=3, padx=5, pady=5)
+
+    ttk.Label(frame_info, text="Repeated:").grid(row=2, column=0, padx=5, pady=5)
+    textRepeated = ttk.Entry(frame_info, width=10, state="readonly")
+    textRepeated.grid(row=2, column=1, padx=5, pady=5)
+
+    ttk.Label(frame_info, text="Remaining:").grid(row=2, column=2, padx=5, pady=5)
+    textRemaining = ttk.Entry(frame_info, width=10, state="readonly")
+    textRemaining.grid(row=2, column=3, padx=5, pady=5)
+
+    # Show Detail Checkbox
+    show_detail = tk.BooleanVar()
+    chkShowDetail = ttk.Checkbutton(root, text="Show Detail", variable=show_detail)
+    chkShowDetail.pack(pady=5)
+
+    # Çıktı alanı
+    textMultiOut = tk.Text(root, height=10, width=60, state="disabled")
+    textMultiOut.pack(pady=5)
+
+    # Çıktıları yönlendirmek için stdout'u değiştir
+    sys.stdout = RedirectText(textMultiOut, show_detail)
+
+    # Butonlar
+    frame_buttons = ttk.Frame(root)
+    frame_buttons.pack(pady=10)
+
+    btnStart = ttk.Button(frame_buttons, text="Start", command=start_process)
+    btnStart.grid(row=0, column=0, padx=5)
+
+    btnStop = ttk.Button(frame_buttons, text="Stop", command=stop_process, state=tk.DISABLED)
+    btnStop.grid(row=0, column=1, padx=5)
+
+    root.mainloop()

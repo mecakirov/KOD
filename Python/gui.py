@@ -1,10 +1,3 @@
-# cd python
-# pyinstaller --onefile --console --add-data "libiconv.dll;." --add-data "libzbar-64.dll;." asenkron.py
-
-# Son step direk error klasörüne atabilir.
-
-#cpu_count() ayarlı yapılabilebilir.
-
 import cv2
 import os
 from pyzbar.pyzbar import decode, ZBarSymbol
@@ -19,9 +12,23 @@ from multiprocessing import Pool, cpu_count, freeze_support
 
 ## Gui ##
 
+class RedirectText:
+    """Terminal output redirection to a text widget"""
+    def __init__(self, text_widget):
+        self.output = text_widget
 
+    def write(self, string):
+        self.output.insert(tk.END, string)
+        self.output.see(tk.END)  # Otomatik kaydırma
 
-## Program ##
+    def flush(self):
+        pass  # Boş bırakılabilir, gereksiz hata almamak için
+
+def process_videos():
+    folder = folder_path.get()
+    if folder:
+        process_videos_in_folder(folder_path=folder)
+
 def log_error(message):
     """Logs errors to a file."""
     with open("error_log.txt", "a", encoding="utf-8") as f:
@@ -108,7 +115,7 @@ def process_video_for_qr_code(video_path, changed_folder, repeated_folder, step_
         # step değerini ekleyerek bir sonraki frame'e geç
         timestamp_ms += step_info["step"]
 
-    return False  
+    return False
 
 def process_video_step(video_path, step, changed_folder, repeated_folder, error_folder, step_index, total_steps, video_index, total_videos, remaining_videos):
     """Processes a single video with a given step."""
@@ -192,17 +199,53 @@ def process_videos_in_folder(folder_path):
     #Expect press any key
     input("Press any key to exit...")
 
-def select_folder():
-    """Opens a file dialog for the user to select a folder."""
-    root = tk.Tk()
-    root.withdraw()
-    folder_path = filedialog.askdirectory(title="Select folder containing videos")
-    root.destroy()  # Pencereyi kapat
-    return folder_path if folder_path else None
+def start_process():
+    """Start button click event"""
+    if not folder_path.get():
+        print("Please select a folder first!")
+        return
 
-# Run the script
+    print(f"Selected folder: {folder_path.get()}")
+    thread = threading.Thread(target=process_videos, daemon=True)
+    thread.start()
+
+def select_folder():
+    """Klasör seçme işlemi"""
+    path = filedialog.askdirectory(title="Select folder containing videos")
+    if path:
+        folder_path.set(path)
+        return path
+
 if __name__ == "__main__":
     freeze_support()  # Windows'ta multiprocessing için gerekli
-    folder = select_folder()
-    if folder:
-        process_videos_in_folder(folder_path=folder)
+
+    # Ana pencere
+    root = tk.Tk()
+    root.title("Video QR Scanner")  # Pencere başlığı
+    root.geometry("500x400")
+
+    # Program ismi
+    labelTitle = tk.Label(root, text="Video QR Scanner", font=("Arial", 16, "bold"))
+    labelTitle.pack(pady=10)
+
+    # Klasör seçme butonu
+    folder_path = tk.StringVar()
+    btnSelect = tk.Button(root, text="Folder Select", command=select_folder)
+    btnSelect.pack()
+
+    # Seçilen klasörü gösteren alan
+    textFolder = tk.Entry(root, textvariable=folder_path, width=50, state="readonly")
+    textFolder.pack(pady=5)
+
+    # Çıktı alanı
+    textMultiOut = tk.Text(root, height=10, width=60)
+    textMultiOut.pack(pady=5)
+
+    # Çıktıları yönlendirmek için stdout'u değiştir
+    sys.stdout = RedirectText(textMultiOut)
+
+    # Start butonu
+    btnStart = tk.Button(root, text="Start", command=start_process, bg="green", fg="white")
+    btnStart.pack(pady=10)
+
+    root.mainloop()

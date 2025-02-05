@@ -1,0 +1,2354 @@
+###############################################################################
+#
+# IAR UBROF Linker V10.15.2.1487                          06/Dec/2024  16:42:49
+# Copyright 1987-2023 IAR Systems AB.
+#
+#    Target Cpu    =  MSP430
+#    Map file      =
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\List\science_app_firmware.map
+#    Output file 1 =
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Exe\science_app_firmware.txt
+#                  =  Format: msp430_txt
+#    Command line  =
+#        -f
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Exe\science_app_firmware.txt.rsp
+#        (C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\water_driver\adc_tasks.r43
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\flash_tasks.r43
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\gsm_driver\gsm_modul_tasks.r43
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\hardware_configs.r43
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\main.r43
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\parameters_init.r43
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\gsm_driver\queue.r43
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\water_driver\rtc_tasks.r43
+#        --output
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\Exe\science_app_firmware.txt
+#        -Fmsp430_txt -l
+#        C:\Users\muham\Desktop\akgos_app_v110\Debug\List\science_app_firmware.map
+#        -xams "-IC:\Program Files\IAR Systems\Embedded Workbench
+#        9.1\430\LIB\\" --f
+#        C:\Users\muham\Desktop\akgos_app_v110\lnk430g2955.xcl (-cmsp430
+#        -U1100-18FF=0200-09FF -QCODE_I=CODE_ID -QTLS16_I=TLS16_ID
+#        "-Z(CONST)INFO=1000-10FF" "-Z(CONST)INFOA=10C0-10FF"
+#        "-Z(CONST)INFOB=1080-10BF" "-Z(CONST)INFOC=1040-107F"
+#        "-Z(CONST)INFOD=1000-103F"
+#        "-Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I=1100-20FF"
+#        "-Z(DATA)DATA16_HEAP+_DATA16_HEAP_SIZE" "-Z(DATA)CODE_I"
+#        "-Z(DATA)CSTACK+_STACK_SIZE#"
+#        "-Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHECKSUM=8A00-91FF"
+#        "-Z(CODE)CSTART,ISR_CODE,CODE_ID=FE00-FFDD" "-P(CODE)CODE=2E00-89FF"
+#        "-Z(CONST)SIGNATURE=FFDE-FFDF" "-Z(CODE)INTVEC=FFE0-FFFF"
+#        "-Z(CODE)RESET=FFFE-FFFF") -D_STACK_SIZE=50 "C:\Program Files\IAR
+#        Systems\Embedded Workbench 9.1\430\lib\dlib\dl430fn.r43"
+#        -e_PrintfLarge=_Printf -e_ScanfLarge=_Scanf -D_DATA16_HEAP_SIZE=50
+#        --entry __program_start -D_DATA20_HEAP_SIZE=50 --text_out locale)
+#
+###############################################################################
+
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *            PROGRAM ENTRY             *
+                *                                      *
+                ****************************************
+
+  ADDRESS  SPACE  TYPE         MODULE
+  -------  -----  ----         ------
+   0xFE00         Relocatable  ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  ATTRIBUTE                   VALUE
+  ---------                   -----
+  __Heap_Handler              Basic
+  __SystemLibrary             DLib
+  __core                      430
+  __dlib_file_descriptor      0
+  __dlib_full_locale_support  0
+  __double_size               32
+  __pic                       no
+  __reg_r4                    free
+  __reg_r5                    free
+  __rt_version                3
+
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+                   There are no automatic symbol redirections.
+
+
+
+                ****************************************
+                *                                      *
+                *              ENTRY LIST              *
+                *                                      *
+                ****************************************
+
+ENTRY                           SPACE  ADDRESS  KIND  TYPE  MODULE
+-----                           -----  -------  ----  ----  ------
+IE2                                     0x0001  Pub   Data  hardware_configs
+IFG2                                    0x0003  Pub   Data  hardware_configs
+P3OUT                                   0x0019  Pub   Data  gsm_modul_tasks
+P3DIR                                   0x001A  Pub   Data  hardware_configs
+P3SEL                                   0x001B  Pub   Data  hardware_configs
+P4OUT                                   0x001D  Pub   Data  hardware_configs
+P1OUT                                   0x0021  Pub   Data  gsm_modul_tasks
+P1DIR                                   0x0022  Pub   Data  hardware_configs
+P1IFG                                   0x0023  Pub   Data  hardware_configs
+P1IES                                   0x0024  Pub   Data  hardware_configs
+P1IE                                    0x0025  Pub   Data  hardware_configs
+P1REN                                   0x0027  Pub   Data  hardware_configs
+P2IN                                    0x0028  Pub   Data  hardware_configs
+P2OUT                                   0x0029  Pub   Data  gsm_modul_tasks
+P2DIR                                   0x002A  Pub   Data  hardware_configs
+P2SEL                                   0x002E  Pub   Data  hardware_configs
+P2REN                                   0x002F  Pub   Data  hardware_configs
+_DATA20_HEAP_SIZE                       0x0050  Pub         ?ABS_ENTRY_MOD [0]
+_DATA16_HEAP_SIZE                       0x0050  Pub         ?ABS_ENTRY_MOD [0]
+_STACK_SIZE                             0x0050  Pub         ?ABS_ENTRY_MOD [0]
+BCSCTL3                                 0x0053  Pub   Data  hardware_configs
+DCOCTL                                  0x0056  Pub   Data  hardware_configs
+BCSCTL1                                 0x0057  Pub   Data  hardware_configs
+BCSCTL2                                 0x0058  Pub   Data  hardware_configs
+UCA0CTL1                                0x0061  Pub   Data  hardware_configs
+UCA0BR0                                 0x0062  Pub   Data  hardware_configs
+UCA0BR1                                 0x0063  Pub   Data  hardware_configs
+UCA0MCTL                                0x0064  Pub   Data  hardware_configs
+UCA0RXBUF                               0x0066  Pub   Data  hardware_configs
+UCA0TXBUF                               0x0067  Pub   Data  hardware_configs
+WDTCTL                                  0x0120  Pub   Data  main
+FCTL1                                   0x0128  Pub   Data  flash_tasks
+FCTL2                                   0x012A  Pub   Data  flash_tasks
+FCTL3                                   0x012C  Pub   Data  flash_tasks
+TA0CTL                                  0x0160  Pub   Data  hardware_configs
+TA0CCTL0                                0x0162  Pub   Data  hardware_configs
+TA0CCR0                                 0x0172  Pub   Data  hardware_configs
+ADC10CTL0                               0x01B0  Pub   Data  hardware_configs
+ADC10CTL1                               0x01B2  Pub   Data  hardware_configs
+ADC10MEM                                0x01B4  Pub   Data  hardware_configs
+CALDCO_1MHZ                             0x10FE  Pub   Data  hardware_configs
+CALBC1_1MHZ                             0x10FF  Pub   Data  hardware_configs
+gsm_modul_active_object{1}{2}::last
+                                        0x1100  Loc   Data  gsm_modul_tasks
+gsm_mailbox                             0x1102  Loc   Data  main
+command_buffer_lengthxxx                0x1104  Loc   Data  gsm_modul_tasks
+super                                   0x1106  Loc   Data  gsm_modul_tasks
+fw_update                               0x1228  Loc   Data  gsm_modul_tasks
+t_timer                                 0x1246  Pub   Data  hardware_configs
+g_timer                                 0x124A  Pub   Data  hardware_configs
+g_timerSn                               0x124E  Pub   Data  hardware_configs
+gps_open                                0x1252  Pub   Data  hardware_configs
+telemetri                               0x1254  Pub   Data  main
+__iar_Errno                             0x1350  Pub   Data  ?errno [1]
+command_bufferxxx                       0x1352  Loc   Data  gsm_modul_tasks
+send_buffer                             0x14E2  Loc   Data  gsm_modul_tasks
+telemetri_data                          0x1578  Loc   Data  gsm_modul_tasks
+check_mailbox::MEMORY                   0x160E  Loc   Data  gsm_modul_tasks
+gsm_modul_active_object                 0x2E00  Pub   Code  gsm_modul_tasks
+LoadInt                                 0x3616  Loc   Code  ?xprintflarge [1]
+_GenldLarge                             0x36A4  Loc   Code  ?xprintflarge [1]
+scale                                   0x3932  Loc   Code  ?xprintflarge [1]
+_LdtobLarge                             0x3984  Loc   Code  ?xprintflarge [1]
+_LitobLarge                             0x3BD6  Loc   Code  ?xprintflarge [1]
+_PrintfLarge                            0x3DA2  Pub   Code  ?xprintflarge [1]
+receive_command_check                   0x4232  Loc   Code  gsm_modul_tasks
+_Stoflt                                 0x4522  Pub   Code  ?xstoflt [1]
+__iar_Stoulx                            0x474C  Pub   Code  ?xstoul [1]
+_Sub32f                                 0x48DE  Pub         _Add32f [1]
+_Add32f                                 0x48E2  Pub         _Add32f [1]
+rmc_parse                               0x4A42  Pub   Code  gsm_modul_tasks
+__iar_Dtentox                           0x4B7E  Pub   Code  ?xdtento [1]
+update_response_parse                   0x4CB4  Pub   Code  gsm_modul_tasks
+_Div32f                                 0x4DE6  Pub         _Div32f [1]
+fw_packet_backup_record                 0x4F16  Loc   Code  gsm_modul_tasks
+_Mul32f                                 0x5042  Pub         _Mul32f [1]
+_Stopfx                                 0x5152  Pub   Code  ?xstopfx [1]
+fw_packet_record_decision               0x525A  Loc   Code  gsm_modul_tasks
+command_manager                         0x534C  Loc   Code  gsm_modul_tasks
+telemetry_set                           0x5434  Pub   Code  parameters_init
+__iar_Stodx                             0x5516  Pub   Code  ?xstod [1]
+adc_water_adder                         0x55EA  Pub   Code  adc_tasks
+response_parse                          0x56B0  Pub   Code  gsm_modul_tasks
+main                                    0x5768  Pub   Code  main
+_Div64u                                 0x581E  Pub   Code  ?div64i [1]
+fw_packet_decision_adress               0x58CE  Loc   Code  gsm_modul_tasks
+__iar_Dscale                            0x5974  Pub   Code  ?xdscale [1]
+_Cast32sto32f                           0x5A08  Pub         ?Cast32f32i [1]
+_Cast32uto32f                           0x5A1C  Pub         ?Cast32f32i [1]
+incrementDays                           0x5A9A  Pub   Code  rtc_tasks
+receive_data_check                      0x5B2A  Loc   Code  gsm_modul_tasks
+string_hex_array_to_uchar               0x5B8E  Loc   Code  gsm_modul_tasks
+http_packet_read                        0x5BF0  Loc   Code  gsm_modul_tasks
+?FLT_GE                                 0x5C4E  Pub         ?FLT_GE [1]
+?FLT_LT                                 0x5CA4  Pub         ?FLT_LT [1]
+init_gpio                               0x5CF6  Pub   Code  hardware_configs
+?FLT_Extract                            0x5D44  Pub         ?FLT_Extract [1]
+snprintf                                0x5D90  Pub   Code  ?snprintf [1]
+__iar_Dunscale                          0x5DDA  Pub   Code  ?xdunscal [1]
+gsm_modul_init                          0x5E22  Pub   Code  gsm_modul_tasks
+telemetry_update                        0x5E6A  Pub   Code  adc_tasks
+flash_write_adress                      0x5EB0  Pub   Code  flash_tasks
+dmul                                    0x5EF6  Loc   Code  ?xdtento [1]
+USCI0RX_ISR                             0x5F3C  Pub   Code  hardware_configs
+?Subroutine1                            0x5F52  Loc         hardware_configs
+Timer_A                                 0x5F5C  Pub   Code  hardware_configs
+Port_1                                  0x5F6E  Pub   Code  hardware_configs
+?DivMod32s                              0x5F80  Pub         ?DivMod32s [1]
+check_mailbox                           0x5FFE  Loc   Code  gsm_modul_tasks
+initADC_bat                             0x603A  Pub   Code  hardware_configs
+?Subroutine0                            0x6044  Loc         hardware_configs
+adc_read_batery                         0x604C  Pub   Code  hardware_configs
+?Subroutine2                            0x605E  Loc         hardware_configs
+rtc_timer_sampler                       0x6076  Pub   Code  rtc_tasks
+?DivMod32u                              0x60B0  Pub         ?DivMod32u [1]
+sprintf                                 0x60E8  Pub   Code  ?sprintf [1]
+pad                                     0x611E  Loc   Code  ?xprintflarge [1]
+__iar_Strstr                            0x6154  Pub   Code  ?strstr [1]
+fw_l_queue_clear                        0x6188  Pub   Code  queue
+?Mul8                                   0x61BA  Pub         ?Mul816 [1]
+?Mul16                                  0x61BE  Pub         ?Mul816 [1]
+?Mul16to32u                             0x61BE  Pub         ?Mul816 [1]
+?Mul32                                  0x61EC  Pub         ?Mul32 [1]
+?DivMod16s                              0x621C  Pub         ?DivMod816s [1]
+?FLT_EQ                                 0x624C  Pub         ?FLT_EQ [1]
+fw_update_clear                         0x627C  Loc   Code  gsm_modul_tasks
+_PutcharsLarge                          0x62AA  Loc   Code  ?xprintflarge [1]
+give_boot_message                       0x62D6  Pub   Code  hardware_configs
+adc_read_temp                           0x6302  Pub   Code  hardware_configs
+flash_clear_sector                      0x632E  Pub   Code  flash_tasks
+?Subroutine2                            0x6342  Loc         flash_tasks
+fw_l_queue_data_read                    0x6358  Pub   Code  queue
+init_uart                               0x6380  Pub   Code  hardware_configs
+clear_all_backup                        0x63A6  Pub   Code  hardware_configs
+_PutcharLarge                           0x63CC  Loc   Code  ?xprintflarge [1]
+?Subroutine4                            0x63F0  Loc         hardware_configs
+init_clock                              0x6412  Pub   Code  hardware_configs
+?Subroutine0                            0x6454  Loc         gsm_modul_tasks
+?ShiftLeft32                            0x6472  Pub         ?ShiftLeft32 [1]
+_SNProut                                0x648E  Pub   Code  ?xsnprout [1]
+?Subroutine6                            0x64A8  Loc         gsm_modul_tasks
+gsm_modul_reset                         0x64C2  Pub   Code  gsm_modul_tasks
+?Mul16to32s                             0x64DC  Pub         ?Mul16to32s [1]
+?Subroutine1                            0x6510  Loc         flash_tasks
+?ShiftRight16u_7                        0x652A  Pub         ?ShiftRight16u_n [1]
+?ShiftRight16u_6                        0x652E  Pub         ?ShiftRight16u_n [1]
+?ShiftRight16u_5                        0x6532  Pub         ?ShiftRight16u_n [1]
+?ShiftRight16u_4                        0x6536  Pub         ?ShiftRight16u_n [1]
+?ShiftRight16u_3                        0x653A  Pub         ?ShiftRight16u_n [1]
+incrementMonths                         0x6544  Pub   Code  rtc_tasks
+_array_clear                            0x655C  Loc   Code  gsm_modul_tasks
+?DivMod16u                              0x6574  Pub         ?DivMod816u [1]
+incrementMinutes                        0x658C  Pub   Code  rtc_tasks
+div                                     0x65A2  Pub   Code  ?div [1]
+incrementSeconds                        0x65B8  Pub   Code  rtc_tasks
+?Subroutine1                            0x65CE  Loc         gsm_modul_tasks
+incrementHours                          0x65E4  Pub   Code  rtc_tasks
+?Subroutine12                           0x65FA  Loc         gsm_modul_tasks
+__iar_Memchr                            0x6610  Pub   Code  ?memchr [1]
+_array_length                           0x6624  Pub   Code  gsm_modul_tasks
+gsm_modul_uart_send                     0x6638  Pub   Code  hardware_configs
+?Subroutine0                            0x664C  Loc         adc_tasks
+timer_init                              0x6660  Pub   Code  hardware_configs
+?Subroutine0                            0x6674  Loc         flash_tasks
+?Subroutine9                            0x669C  Loc         gsm_modul_tasks
+memcpy                                  0x66D2  Pub   Code  ?memcpy [1]
+?Epilogue8                              0x66E4  Pub         ?Epilogue [1]
+?Epilogue7                              0x66E6  Pub         ?Epilogue [1]
+?Epilogue6                              0x66E8  Pub         ?Epilogue [1]
+?Epilogue5                              0x66EA  Pub         ?Epilogue [1]
+?Epilogue4                              0x66EC  Pub         ?Epilogue [1]
+?Epilogue3                              0x66EE  Pub         ?Epilogue [1]
+?Subroutine4                            0x66F6  Loc         gsm_modul_tasks
+?Subroutine8                            0x6708  Loc         gsm_modul_tasks
+fw_l_queue_data_write                   0x671A  Pub   Code  queue
+strlen                                  0x672C  Pub   Code  ?strlen [1]
+strcpy                                  0x673E  Pub   Code  ?strcpy [1]
+hardware_config_init                    0x674E  Pub   Code  hardware_configs
+?Subroutine3                            0x675E  Loc         hardware_configs
+?Subroutine14                           0x676E  Loc         gsm_modul_tasks
+gsm_modul_receive_data                  0x677E  Pub   Code  gsm_modul_tasks
+?ShiftLeft16_7                          0x678E  Pub         ?ShiftLeft16_n [1]
+?ShiftLeft16_6                          0x6790  Pub         ?ShiftLeft16_n [1]
+?ShiftLeft16_5                          0x6792  Pub         ?ShiftLeft16_n [1]
+?ShiftLeft16_4                          0x6794  Pub         ?ShiftLeft16_n [1]
+?ShiftLeft16_3                          0x6796  Pub         ?ShiftLeft16_n [1]
+__data16_memzero                        0x679E  Pub   Code  ?memzero [1]
+?Subroutine11                           0x67CA  Loc         gsm_modul_tasks
+__iar_Strchr                            0x67D8  Pub   Code  ?strchr [1]
+gsm_modul_shutdown_on                   0x67E6  Pub   Code  gsm_modul_tasks
+gsm_modul_shutdown_off                  0x67F4  Pub   Code  gsm_modul_tasks
+fw_l_queue_is_empty                     0x6802  Pub   Code  queue
+gsm_modul_timer_update                  0x6810  Pub   Code  gsm_modul_tasks
+flash_read_adress                       0x681E  Pub   Code  flash_tasks
+check_write_ptr                         0x682C  Loc   Code  queue
+isdigit                                 0x6848  Pub   Code  ?isdigit [1]
+_Cast32fto32u                           0x6864  Pub         _Cast32fto32u [1]
+gsm_modul_get_status                    0x6888  Pub   Code  hardware_configs
+_SProut                                 0x6894  Pub   Code  ?xsprout [1]
+?Subroutine5                            0x68A0  Loc         gsm_modul_tasks
+?Subroutine13                           0x68AC  Loc         gsm_modul_tasks
+?Subroutine7                            0x68B8  Loc         gsm_modul_tasks
+?ShiftLeft32_8                          0x68C4  Pub         ?ShiftLeft32_8n [1]
+__iar_Stod                              0x68D0  Pub   Code  ?xstod [1]
+?Subroutine1                            0x68F8  Loc         adc_tasks
+flash_read_id_adress                    0x6902  Pub   Code  flash_tasks
+?Subroutine0                            0x690A  Loc         rtc_tasks
+flash_read_id_adress_char               0x6912  Pub   Code  flash_tasks
+?Subroutine2                            0x6922  Loc         gsm_modul_tasks
+?Subroutine3                            0x692A  Loc         gsm_modul_tasks
+?Subroutine10                           0x6932  Loc         gsm_modul_tasks
+__iar_Stoul                             0x693A  Pub   Code  ?xstoul [1]
+__data16_memcpy                         0x6940  Pub   Code  ?memzero [1]
+exit                                    0x6944  Pub   Code  ?exit [1]
+_exit                                   0x6948  Pub   Code  ?_exit [1]
+fw_l_queue_create                       0x694C  Pub   Code  queue
+__exit                                  0x6950  Pub   Code  ?__exit [1]
+__program_start                         0xFE00  Pub         ?cstart [1]
+?cstart_begin                           0xFE00  Pub         ?cstart [1]
+?cstart_init_zero                       0xFE04  Pub         ?cstart [1]
+?cstart_init_copy                       0xFE10  Pub         ?cstart [1]
+?cstart_call_main                       0xFE20  Pub         ?cstart [1]
+?cstart_end                             0xFE28  Pub         ?cstart [1]
+Port_1::??INTVEC 4                      0xFFE4  Pub         hardware_configs
+USCI0RX_ISR::??INTVEC 14                0xFFEE  Pub         hardware_configs
+Timer_A::??INTVEC 18                    0xFFF2  Pub         hardware_configs
+?reset_vector                           0xFFFE  Pub         ?reset_vector [1]
+
+[0] = Command line (linker generated)
+[1] = C:\Program Files\IAR Systems\Embedded Workbench 9.1\430\lib\dlib\dl430fn.r43
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+Linker generated:
+  Module: ?FILLER_BYTES
+**************************************************************
+Linker generated:
+  Module: ?ABS_ENTRY_MOD
+
+      Absolute module symbols:
+        _DATA20_HEAP_SIZE  0x0050  Pub
+        _DATA16_HEAP_SIZE  0x0050  Pub
+        _STACK_SIZE        0x0050  Pub
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\water_driver\adc_tasks.r43
+  Module: adc_tasks
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x55EA Size: 0xC6 Align: 2(1)
+      adc_water_adder      0x55EA  Pub  Ref by:   Port_1 (hardware_configs)
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x68F8 Size: 0xA Align: 2(1)
+       Ref by:   adc_water_adder
+      ?Subroutine1         0x68F8  Loc
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x664C Size: 0x8 Align: 2(1)
+       Ref by:   adc_water_adder
+      ?Subroutine0         0x664C  Loc
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x6654 Size: 0xC Align: 2(1)
+       Ref by:   ?Subroutine0
+                 adc_water_adder
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x5E6A Size: 0x46 Align: 2(1)
+      telemetry_update     0x5E6A  Pub  Ref by:   main (main)
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\flash_tasks.r43
+  Module: flash_tasks
+       Segment part 1, DATA16_AN [root]
+       Address:  0x0128 Size: 0x2 Align: 1(0)
+       Ref by:   flash_clear_sector
+                 flash_write_adress
+                 flash_read_id_adress_char
+                 flash_read_id_adress
+                 flash_read_adress
+      FCTL1                0x0128  Pub
+    --------------------------------------------------
+       Segment part 2, DATA16_AN [root]
+       Address:  0x012A Size: 0x2 Align: 1(0)
+       Ref by:   flash_clear_sector
+                 flash_write_adress
+                 flash_read_id_adress_char
+                 flash_read_id_adress
+                 flash_read_adress
+      FCTL2                0x012A  Pub
+    --------------------------------------------------
+       Segment part 3, DATA16_AN [root]
+       Address:  0x012C Size: 0x2 Align: 1(0)
+       Ref by:   flash_clear_sector
+                 flash_write_adress
+                 flash_read_id_adress_char
+                 flash_read_id_adress
+                 flash_read_adress
+      FCTL3                0x012C  Pub
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x681E Size: 0xE Align: 2(1)
+      flash_read_adress    0x681E  Pub  Ref by:   fw_packet_backup_record (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 7, <CODE> 1
+                      (was CODE)
+       Address:  0x6674 Size: 0x14 Align: 2(1)
+       Ref by:   flash_read_id_adress_char
+                 flash_read_id_adress
+                 flash_read_adress
+      ?Subroutine0         0x6674  Loc
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x6902 Size: 0x8 Align: 2(1)
+      flash_read_id_adress  0x6902  Pub  Ref by:   telemetry_set (parameters_init)
+                                                   main (main)
+    --------------------------------------------------
+       Segment part 8, <CODE> 1
+                      (was CODE)
+       Address:  0x6912 Size: 0x8 Align: 2(1)
+      flash_read_id_adress_char  0x6912  Pub  Ref by:   main (main)
+    --------------------------------------------------
+       Segment part 9, <CODE> 1
+                      (was CODE)
+       Address:  0x5EB0 Size: 0x46 Align: 2(1)
+      flash_write_adress   0x5EB0  Pub  Ref by:   give_boot_message (hardware_configs)
+                                                  fw_packet_backup_record (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 10, <CODE> 1
+                      (was CODE)
+       Address:  0x632E Size: 0x14 Align: 2(1)
+      flash_clear_sector   0x632E  Pub  Ref by:   clear_all_backup (hardware_configs)
+    --------------------------------------------------
+       Segment part 11, <CODE> 1
+                      (was CODE)
+       Address:  0x6342 Size: 0x16 Align: 2(1)
+       Ref by:   flash_clear_sector
+                 flash_write_adress
+      ?Subroutine2         0x6342  Loc
+    --------------------------------------------------
+       Segment part 12, <CODE> 1
+                      (was CODE)
+       Address:  0x6510 Size: 0x1A Align: 2(1)
+       Ref by:   flash_clear_sector
+                 flash_write_adress
+      ?Subroutine1         0x6510  Loc
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\gsm_driver\gsm_modul_tasks.r43
+  Module: gsm_modul_tasks
+       Segment part 1, DATA16_AN [root]
+       Address:  0x0021 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio (hardware_configs)
+                 gsm_modul_active_object
+      P1OUT                0x0021  Pub
+    --------------------------------------------------
+       Segment part 2, DATA16_AN [root]
+       Address:  0x0029 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio (hardware_configs)
+                 gsm_modul_shutdown_off
+                 gsm_modul_shutdown_on
+      P2OUT                0x0029  Pub
+    --------------------------------------------------
+       Segment part 3, DATA16_AN [root]
+       Address:  0x0019 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio (hardware_configs)
+                 gsm_modul_reset
+      P3OUT                0x0019  Pub
+    --------------------------------------------------
+       Segment part 80, DATA16_Z
+       Address:  0x1352 Size: 0x190 Align: 1(0)
+       Ref by:   http_packet_read
+      command_bufferxxx    0x1352  Loc
+    --------------------------------------------------
+       Segment part 81, DATA16_Z
+       Address:  0x1104 Size: 0x2 Align: 2(1)
+       Ref by:   http_packet_read
+      command_buffer_lengthxxx  0x1104  Loc
+    --------------------------------------------------
+       Segment part 82, DATA16_Z
+       Address:  0x1106 Size: 0x122 Align: 2(1)
+       Ref by:   gsm_modul_active_object
+                 response_parse
+                 gsm_modul_receive_data
+                 receive_command_check
+                 receive_data_check
+                 command_manager
+                 gsm_modul_reset
+                 gsm_modul_init
+                 gsm_modul_timer_update
+                 Segment part 119
+                 ?Subroutine8
+                 check_mailbox
+                 ?Subroutine6
+      super                0x1106  Loc
+    --------------------------------------------------
+       Segment part 83, DATA16_Z
+       Address:  0x1228 Size: 0x1E Align: 2(1)
+       Ref by:   fw_packet_record_decision
+                 ?Subroutine12
+                 ?Subroutine13
+                 fw_packet_decision_adress
+                 http_packet_read
+                 update_response_parse
+                 gsm_modul_active_object
+                 ?Subroutine9
+                 gsm_modul_init
+                 fw_update_clear
+                 receive_command_check
+      fw_update            0x1228  Loc
+    --------------------------------------------------
+       Segment part 84, DATA16_Z
+       Address:  0x14E2 Size: 0x96 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+      send_buffer          0x14E2  Loc
+    --------------------------------------------------
+       Segment part 85, DATA16_Z
+       Address:  0x1578 Size: 0x96 Align: 1(0)
+       Ref by:   ?Subroutine1
+                 gsm_modul_active_object
+      telemetri_data       0x1578  Loc
+    --------------------------------------------------
+       Segment part 90, <CODE> 1
+                      (was CODE)
+       Address:  0x4CB4 Size: 0x132 Align: 2(1)
+       Ref by:   response_parse
+      update_response_parse  0x4CB4  Pub
+    --------------------------------------------------
+       Segment part 114, <CODE> 1
+                      (was CODE)
+       Address:  0x66F6 Size: 0x12 Align: 2(1)
+       Ref by:   receive_command_check
+                 update_response_parse
+      ?Subroutine4         0x66F6  Loc
+    --------------------------------------------------
+       Segment part 120, <CODE> 1
+                      (was CODE)
+       Address:  0x692A Size: 0x8 Align: 2(1)
+       Ref by:   fw_packet_record_decision
+                 command_manager
+                 response_parse
+                 update_response_parse
+      ?Subroutine3         0x692A  Loc
+    --------------------------------------------------
+       Segment part 91, <CODE> 1
+                      (was CODE)
+       Address:  0x56B0 Size: 0xB8 Align: 2(1)
+       Ref by:   receive_command_check
+      response_parse       0x56B0  Pub
+    --------------------------------------------------
+       Segment part 92, <CODE> 1
+                      (was CODE)
+       Address:  0x4A42 Size: 0x13C Align: 2(1)
+       Ref by:   receive_command_check
+      rmc_parse            0x4A42  Pub
+    --------------------------------------------------
+       Segment part 113, <CODE> 1
+                      (was CODE)
+       Address:  0x68A0 Size: 0xC Align: 2(1)
+       Ref by:   receive_command_check
+                 rmc_parse
+      ?Subroutine5         0x68A0  Loc
+    --------------------------------------------------
+       Segment part 101, <CODE> 1
+                      (was CODE)
+       Address:  0x2E00 Size: 0x816 Align: 2(1)
+      gsm_modul_active_object  0x2E00  Pub  Ref by:   main (main)
+    --------------------------------------------------
+       Segment part 102, <CODE> 1
+                      (was CODE)
+       Address:  0x67CA Size: 0xE Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      ?Subroutine11        0x67CA  Loc
+    --------------------------------------------------
+       Segment part 103, <CODE> 1
+                      (was CODE)
+       Address:  0x676E Size: 0x10 Align: 2(1)
+       Ref by:   ?Subroutine11
+                 gsm_modul_active_object
+      ?Subroutine14        0x676E  Loc
+    --------------------------------------------------
+       Segment part 104, <CODE> 1
+                      (was CODE)
+       Address:  0x669C Size: 0x12 Align: 2(1)
+       Ref by:   gsm_modul_init
+                 gsm_modul_active_object
+      ?Subroutine9         0x669C  Loc
+    --------------------------------------------------
+       Segment part 105, <CODE> 1
+                      (was CODE)
+       Address:  0x68B8 Size: 0x4 Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      ?Subroutine7         0x68B8  Loc
+    --------------------------------------------------
+       Segment part 106, <CODE> 1
+                      (was CODE)
+       Address:  0x68BC Size: 0x8 Align: 2(1)
+       Ref by:   ?Subroutine7
+                 gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 107, <CODE> 1
+                      (was CODE)
+       Address:  0x6922 Size: 0x8 Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      ?Subroutine2         0x6922  Loc
+    --------------------------------------------------
+       Segment part 108, <CODE> 1
+                      (was CODE)
+       Address:  0x65CE Size: 0x16 Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      ?Subroutine1         0x65CE  Loc
+    --------------------------------------------------
+       Segment part 86, DATA16_I
+       Address:  0x1100 Size: 0x2 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+      gsm_modul_active_object{1}{2}::last  0x1100  Loc
+    --------------------------------------------------
+       Segment part 118, <CODE> 1
+                      (was CODE)
+       Address:  0x6708 Size: 0x4 Align: 2(1)
+       Ref by:   command_manager
+                 gsm_modul_init
+      ?Subroutine8         0x6708  Loc
+    --------------------------------------------------
+       Segment part 119, <CODE> 1
+                      (was CODE)
+       Address:  0x670C Size: 0xE Align: 2(1)
+       Ref by:   command_manager
+                 ?Subroutine8
+                 gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 109, <CODE> 1
+                      (was CODE)
+       Address:  0x6810 Size: 0xE Align: 2(1)
+      gsm_modul_timer_update  0x6810  Pub  Ref by:   Timer_A (hardware_configs)
+    --------------------------------------------------
+       Segment part 99, <CODE> 1
+                      (was CODE)
+       Address:  0x5E22 Size: 0x48 Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      gsm_modul_init       0x5E22  Pub
+    --------------------------------------------------
+       Segment part 93, <CODE> 1
+                      (was CODE)
+       Address:  0x627C Size: 0x2E Align: 2(1)
+       Ref by:   ?Subroutine9
+                 gsm_modul_active_object
+      fw_update_clear      0x627C  Loc
+    --------------------------------------------------
+       Segment part 110, <CODE> 1
+                      (was CODE)
+       Address:  0x677E Size: 0x10 Align: 2(1)
+      gsm_modul_receive_data  0x677E  Pub  Ref by:   USCI0RX_ISR (hardware_configs)
+    --------------------------------------------------
+       Segment part 100, <CODE> 1
+                      (was CODE)
+       Address:  0x5FFE Size: 0x3C Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      check_mailbox        0x5FFE  Loc
+    --------------------------------------------------
+       Segment part 88, DATA16_Z
+       Address:  0x160E Size: 0x1 Align: 1(0)
+       Ref by:   check_mailbox
+      check_mailbox::MEMORY  0x160E  Loc
+    --------------------------------------------------
+       Segment part 111, <CODE> 1
+                      (was CODE)
+       Address:  0x4232 Size: 0x2F0 Align: 2(1)
+       Ref by:   command_manager
+      receive_command_check  0x4232  Loc
+    --------------------------------------------------
+       Segment part 112, <CODE> 1
+                      (was CODE)
+       Address:  0x6932 Size: 0x8 Align: 2(1)
+       Ref by:   receive_command_check
+      ?Subroutine10        0x6932  Loc
+    --------------------------------------------------
+       Segment part 115, <CODE> 1
+                      (was CODE)
+       Address:  0x5B2A Size: 0x64 Align: 2(1)
+       Ref by:   http_packet_read
+      receive_data_check   0x5B2A  Loc
+    --------------------------------------------------
+       Segment part 116, <CODE> 1
+                      (was CODE)
+       Address:  0x5BF0 Size: 0x5E Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      http_packet_read     0x5BF0  Loc
+    --------------------------------------------------
+       Segment part 117, <CODE> 1
+                      (was CODE)
+       Address:  0x534C Size: 0xE8 Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      command_manager      0x534C  Loc
+    --------------------------------------------------
+       Segment part 121, <CODE> 1
+                      (was CODE)
+       Address:  0x5B8E Size: 0x62 Align: 2(1)
+       Ref by:   fw_packet_backup_record
+      string_hex_array_to_uchar  0x5B8E  Loc
+    --------------------------------------------------
+       Segment part 122, <CODE> 1
+                      (was CODE)
+       Address:  0x4F16 Size: 0x12C Align: 2(1)
+       Ref by:   fw_packet_decision_adress
+      fw_packet_backup_record  0x4F16  Loc
+    --------------------------------------------------
+       Segment part 123, <CODE> 1
+                      (was CODE)
+       Address:  0x6454 Size: 0x1E Align: 2(1)
+       Ref by:   fw_packet_backup_record
+      ?Subroutine0         0x6454  Loc
+    --------------------------------------------------
+       Segment part 124, <CODE> 1
+                      (was CODE)
+       Address:  0x58CE Size: 0xA6 Align: 2(1)
+       Ref by:   fw_packet_record_decision
+      fw_packet_decision_adress  0x58CE  Loc
+    --------------------------------------------------
+       Segment part 125, <CODE> 1
+                      (was CODE)
+       Address:  0x68AC Size: 0xC Align: 2(1)
+       Ref by:   fw_packet_decision_adress
+      ?Subroutine13        0x68AC  Loc
+    --------------------------------------------------
+       Segment part 126, <CODE> 1
+                      (was CODE)
+       Address:  0x65FA Size: 0x16 Align: 2(1)
+       Ref by:   fw_packet_decision_adress
+      ?Subroutine12        0x65FA  Loc
+    --------------------------------------------------
+       Segment part 127, <CODE> 1
+                      (was CODE)
+       Address:  0x525A Size: 0xF2 Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      fw_packet_record_decision  0x525A  Loc
+    --------------------------------------------------
+       Segment part 89, <CODE> 1
+                      (was CODE)
+       Address:  0x655C Size: 0x18 Align: 2(1)
+       Ref by:   fw_packet_record_decision
+                 update_response_parse
+                 response_parse
+                 rmc_parse
+                 ?Subroutine2
+                 ?Subroutine1
+                 receive_command_check
+      _array_clear         0x655C  Loc
+    --------------------------------------------------
+       Segment part 94, <CODE> 1
+                      (was CODE)
+       Address:  0x6624 Size: 0x14 Align: 2(1)
+       Ref by:   fw_packet_record_decision
+                 receive_data_check
+                 gsm_modul_active_object
+      _array_length        0x6624  Pub
+    --------------------------------------------------
+       Segment part 97, <CODE> 1
+                      (was CODE)
+       Address:  0x67E6 Size: 0xE Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      gsm_modul_shutdown_on  0x67E6  Pub
+    --------------------------------------------------
+       Segment part 98, <CODE> 1
+                      (was CODE)
+       Address:  0x64A8 Size: 0x1A Align: 2(1)
+       Ref by:   gsm_modul_shutdown_off
+                 gsm_modul_shutdown_on
+      ?Subroutine6         0x64A8  Loc
+    --------------------------------------------------
+       Segment part 96, <CODE> 1
+                      (was CODE)
+       Address:  0x67F4 Size: 0xE Align: 2(1)
+       Ref by:   ?Subroutine11
+      gsm_modul_shutdown_off  0x67F4  Pub
+    --------------------------------------------------
+       Segment part 95, <CODE> 1
+                      (was CODE)
+       Address:  0x64C2 Size: 0x1A Align: 2(1)
+       Ref by:   gsm_modul_active_object
+      gsm_modul_reset      0x64C2  Pub
+    --------------------------------------------------
+       Segment part 87, DATA16_ID
+       Address:  0x8EFA Size: 0x2 Align: 1(0)
+       Ref by:   gsm_modul_active_object{1}{2}::last
+    --------------------------------------------------
+       Segment part 5, DATA16_C
+       Address:  0x8A20 Size: 0x3 Align: 1(0)
+       Ref by:   update_response_parse
+    --------------------------------------------------
+       Segment part 6, DATA16_C
+       Address:  0x8A23 Size: 0x3 Align: 1(0)
+       Ref by:   update_response_parse
+    --------------------------------------------------
+       Segment part 7, DATA16_C
+       Address:  0x8A26 Size: 0x3 Align: 1(0)
+       Ref by:   update_response_parse
+    --------------------------------------------------
+       Segment part 8, DATA16_C
+       Address:  0x8A29 Size: 0x7 Align: 1(0)
+       Ref by:   response_parse
+    --------------------------------------------------
+       Segment part 9, DATA16_C
+       Address:  0x8A30 Size: 0x7 Align: 1(0)
+       Ref by:   response_parse
+    --------------------------------------------------
+       Segment part 10, DATA16_C
+       Address:  0x8A37 Size: 0xB Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 11, DATA16_C
+       Address:  0x8A42 Size: 0x4 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 12, DATA16_C
+       Address:  0x8A46 Size: 0x4 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 13, DATA16_C
+       Address:  0x8A4A Size: 0x3 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 14, DATA16_C
+       Address:  0x8A4D Size: 0xA Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 15, DATA16_C
+       Address:  0x8A57 Size: 0xD Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 16, DATA16_C
+       Address:  0x8A64 Size: 0x19 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 17, DATA16_C
+       Address:  0x8A7D Size: 0xA Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 18, DATA16_C
+       Address:  0x8A87 Size: 0xB Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 19, DATA16_C
+       Address:  0x8A92 Size: 0xC Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 20, DATA16_C
+       Address:  0x8A9E Size: 0xC Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 21, DATA16_C
+       Address:  0x8AAA Size: 0x8 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 22, DATA16_C
+       Address:  0x8AB2 Size: 0xC Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 23, DATA16_C
+       Address:  0x8ABE Size: 0xB Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 24, DATA16_C
+       Address:  0x8AC9 Size: 0xF Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 25, DATA16_C
+       Address:  0x8AD8 Size: 0xD Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 26, DATA16_C
+       Address:  0x8AE5 Size: 0xB Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 27, DATA16_C
+       Address:  0x8AF0 Size: 0x1B Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 28, DATA16_C
+       Address:  0x8B0B Size: 0x22 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 29, DATA16_C
+       Address:  0x8B2D Size: 0xC Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 30, DATA16_C
+       Address:  0x8B39 Size: 0x18 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 31, DATA16_C
+       Address:  0x8B51 Size: 0x2 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 32, DATA16_C
+       Address:  0x8B53 Size: 0x57 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 33, DATA16_C
+       Address:  0x8BAA Size: 0x10 Align: 1(0)
+       Ref by:   ?Subroutine7
+    --------------------------------------------------
+       Segment part 34, DATA16_C
+       Address:  0x8BBA Size: 0x8 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 35, DATA16_C
+       Address:  0x8BC2 Size: 0x50 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 36, DATA16_C
+       Address:  0x8C12 Size: 0x11 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 37, DATA16_C
+       Address:  0x8C23 Size: 0x12 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 38, DATA16_C
+       Address:  0x8C35 Size: 0x11 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 39, DATA16_C
+       Address:  0x8C46 Size: 0xE Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 40, DATA16_C
+       Address:  0x8C54 Size: 0xE Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 41, DATA16_C
+       Address:  0x8C62 Size: 0x10 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 42, DATA16_C
+       Address:  0x8C72 Size: 0x11 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 43, DATA16_C
+       Address:  0x8C83 Size: 0xE Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 44, DATA16_C
+       Address:  0x8C91 Size: 0x21 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 45, DATA16_C
+       Address:  0x8CB2 Size: 0x12 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 46, DATA16_C
+       Address:  0x8CC4 Size: 0xB Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 47, DATA16_C
+       Address:  0x8CCF Size: 0x19 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 48, DATA16_C
+       Address:  0x8CE8 Size: 0x18 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 49, DATA16_C
+       Address:  0x8D00 Size: 0xB Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 50, DATA16_C
+       Address:  0x8D0B Size: 0x13 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 51, DATA16_C
+       Address:  0x8D1E Size: 0x11 Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 52, DATA16_C
+       Address:  0x8D2F Size: 0xB Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 53, DATA16_C
+       Address:  0x8D3A Size: 0xE Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 54, DATA16_C
+       Address:  0x8D48 Size: 0xC Align: 1(0)
+       Ref by:   gsm_modul_active_object
+    --------------------------------------------------
+       Segment part 55, DATA16_C
+       Address:  0x8D54 Size: 0xF Align: 1(0)
+       Ref by:   gsm_modul_init
+    --------------------------------------------------
+       Segment part 56, DATA16_C
+       Address:  0x8D63 Size: 0x5 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 57, DATA16_C
+       Address:  0x8D68 Size: 0xA Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 58, DATA16_C
+       Address:  0x8D72 Size: 0xB Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 59, DATA16_C
+       Address:  0x8D7D Size: 0xA Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 60, DATA16_C
+       Address:  0x8D87 Size: 0x7 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 61, DATA16_C
+       Address:  0x8D8E Size: 0x7 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 62, DATA16_C
+       Address:  0x8D95 Size: 0x6 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 63, DATA16_C
+       Address:  0x8D9B Size: 0x8 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 64, DATA16_C
+       Address:  0x8DA3 Size: 0x8 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 65, DATA16_C
+       Address:  0x8DAB Size: 0x8 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 66, DATA16_C
+       Address:  0x8DB3 Size: 0x8 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 67, DATA16_C
+       Address:  0x8DBB Size: 0xA Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 68, DATA16_C
+       Address:  0x8DC5 Size: 0x7 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 69, DATA16_C
+       Address:  0x8DCC Size: 0x7 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 70, DATA16_C
+       Address:  0x8DD3 Size: 0x9 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 71, DATA16_C
+       Address:  0x8DDC Size: 0xA Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 72, DATA16_C
+       Address:  0x8DE6 Size: 0x5 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 73, DATA16_C
+       Address:  0x8DEB Size: 0x8 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 74, DATA16_C
+       Address:  0x8DF3 Size: 0x8 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 75, DATA16_C
+       Address:  0x8DFB Size: 0x12 Align: 1(0)
+       Ref by:   receive_command_check
+    --------------------------------------------------
+       Segment part 76, DATA16_C
+       Address:  0x8E0D Size: 0x15 Align: 1(0)
+       Ref by:   fw_packet_backup_record
+    --------------------------------------------------
+       Segment part 77, DATA16_C
+       Address:  0x8A00 Size: 0x8 Align: 2(1)
+       Ref by:   fw_packet_decision_adress
+    --------------------------------------------------
+       Segment part 78, DATA16_C
+       Address:  0x8E22 Size: 0x9 Align: 1(0)
+       Ref by:   fw_packet_record_decision
+    --------------------------------------------------
+       Segment part 79, DATA16_C
+       Address:  0x8E2B Size: 0x2 Align: 1(0)
+       Ref by:   fw_packet_record_decision
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\hardware_configs.r43
+  Module: hardware_configs
+       Segment part 1, DATA16_AN [root]
+       Address:  0x0001 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      IE2                  0x0001  Pub
+    --------------------------------------------------
+       Segment part 2, DATA16_AN [root]
+       Address:  0x0003 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+                 USCI0RX_ISR
+                 gsm_modul_uart_send
+      IFG2                 0x0003  Pub
+    --------------------------------------------------
+       Segment part 3, DATA16_AN [root]
+       Address:  0x01B0 Size: 0x2 Align: 1(0)
+       Ref by:   adc_read_temp
+                 adc_read_batery
+                 initADC_bat
+      ADC10CTL0            0x01B0  Pub
+    --------------------------------------------------
+       Segment part 4, DATA16_AN [root]
+       Address:  0x01B2 Size: 0x2 Align: 1(0)
+       Ref by:   adc_read_temp
+                 initADC_bat
+      ADC10CTL1            0x01B2  Pub
+    --------------------------------------------------
+       Segment part 5, DATA16_AN [root]
+       Address:  0x01B4 Size: 0x2 Align: 1(0)
+       Ref by:   adc_read_temp
+                 adc_read_batery
+      ADC10MEM             0x01B4  Pub
+    --------------------------------------------------
+       Segment part 6, DATA16_AN [root]
+       Address:  0x0056 Size: 0x1 Align: 1(0)
+       Ref by:   init_clock
+      DCOCTL               0x0056  Pub
+    --------------------------------------------------
+       Segment part 7, DATA16_AN [root]
+       Address:  0x0057 Size: 0x1 Align: 1(0)
+       Ref by:   init_clock
+      BCSCTL1              0x0057  Pub
+    --------------------------------------------------
+       Segment part 8, DATA16_AN [root]
+       Address:  0x0058 Size: 0x1 Align: 1(0)
+       Ref by:   init_clock
+      BCSCTL2              0x0058  Pub
+    --------------------------------------------------
+       Segment part 9, DATA16_AN [root]
+       Address:  0x0053 Size: 0x1 Align: 1(0)
+       Ref by:   init_clock
+      BCSCTL3              0x0053  Pub
+    --------------------------------------------------
+       Segment part 11, DATA16_AN [root]
+       Address:  0x0022 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P1DIR                0x0022  Pub
+    --------------------------------------------------
+       Segment part 12, DATA16_AN [root]
+       Address:  0x0023 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+                 Port_1
+      P1IFG                0x0023  Pub
+    --------------------------------------------------
+       Segment part 13, DATA16_AN [root]
+       Address:  0x0024 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P1IES                0x0024  Pub
+    --------------------------------------------------
+       Segment part 14, DATA16_AN [root]
+       Address:  0x0025 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P1IE                 0x0025  Pub
+    --------------------------------------------------
+       Segment part 15, DATA16_AN [root]
+       Address:  0x0027 Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P1REN                0x0027  Pub
+    --------------------------------------------------
+       Segment part 16, DATA16_AN [root]
+       Address:  0x0028 Size: 0x1 Align: 1(0)
+       Ref by:   gsm_modul_get_status
+      P2IN                 0x0028  Pub
+    --------------------------------------------------
+       Segment part 18, DATA16_AN [root]
+       Address:  0x002A Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P2DIR                0x002A  Pub
+    --------------------------------------------------
+       Segment part 19, DATA16_AN [root]
+       Address:  0x002E Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P2SEL                0x002E  Pub
+    --------------------------------------------------
+       Segment part 20, DATA16_AN [root]
+       Address:  0x002F Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P2REN                0x002F  Pub
+    --------------------------------------------------
+       Segment part 22, DATA16_AN [root]
+       Address:  0x001A Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P3DIR                0x001A  Pub
+    --------------------------------------------------
+       Segment part 23, DATA16_AN [root]
+       Address:  0x001B Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P3SEL                0x001B  Pub
+    --------------------------------------------------
+       Segment part 24, DATA16_AN [root]
+       Address:  0x001D Size: 0x1 Align: 1(0)
+       Ref by:   init_gpio
+      P4OUT                0x001D  Pub
+    --------------------------------------------------
+       Segment part 25, DATA16_AN [root]
+       Address:  0x0160 Size: 0x2 Align: 1(0)
+       Ref by:   timer_init
+      TA0CTL               0x0160  Pub
+    --------------------------------------------------
+       Segment part 26, DATA16_AN [root]
+       Address:  0x0162 Size: 0x2 Align: 1(0)
+       Ref by:   timer_init
+      TA0CCTL0             0x0162  Pub
+    --------------------------------------------------
+       Segment part 27, DATA16_AN [root]
+       Address:  0x0172 Size: 0x2 Align: 1(0)
+       Ref by:   timer_init
+      TA0CCR0              0x0172  Pub
+    --------------------------------------------------
+       Segment part 28, DATA16_AN [root]
+       Address:  0x0061 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      UCA0CTL1             0x0061  Pub
+    --------------------------------------------------
+       Segment part 29, DATA16_AN [root]
+       Address:  0x0062 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      UCA0BR0              0x0062  Pub
+    --------------------------------------------------
+       Segment part 30, DATA16_AN [root]
+       Address:  0x0063 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      UCA0BR1              0x0063  Pub
+    --------------------------------------------------
+       Segment part 31, DATA16_AN [root]
+       Address:  0x0064 Size: 0x1 Align: 1(0)
+       Ref by:   init_uart
+      UCA0MCTL             0x0064  Pub
+    --------------------------------------------------
+       Segment part 32, DATA16_AN [root]
+       Address:  0x0066 Size: 0x1 Align: 1(0)
+       Ref by:   USCI0RX_ISR
+      UCA0RXBUF            0x0066  Pub
+    --------------------------------------------------
+       Segment part 33, DATA16_AN [root]
+       Address:  0x0067 Size: 0x1 Align: 1(0)
+       Ref by:   gsm_modul_uart_send
+      UCA0TXBUF            0x0067  Pub
+    --------------------------------------------------
+       Segment part 34, DATA16_AN [root]
+       Address:  0x10FE Size: 0x1 Align: 1(0)
+       Ref by:   init_clock
+      CALDCO_1MHZ          0x10FE  Pub
+    --------------------------------------------------
+       Segment part 35, DATA16_AN [root]
+       Address:  0x10FF Size: 0x1 Align: 1(0)
+       Ref by:   init_clock
+      CALBC1_1MHZ          0x10FF  Pub
+    --------------------------------------------------
+       Segment part 40, DATA16_Z
+       Address:  0x1246 Size: 0x4 Align: 2(1)
+      t_timer              0x1246  Pub  Ref by:   rtc_timer_sampler (rtc_tasks)
+                                                  main (main)
+                                                  adc_water_adder (adc_tasks)
+    --------------------------------------------------
+       Segment part 41, DATA16_Z
+       Address:  0x124A Size: 0x4 Align: 2(1)
+      g_timer              0x124A  Pub  Ref by:   rtc_timer_sampler (rtc_tasks)
+                                                  main (main)
+    --------------------------------------------------
+       Segment part 42, DATA16_Z
+       Address:  0x124E Size: 0x4 Align: 2(1)
+      g_timerSn            0x124E  Pub  Ref by:   rtc_timer_sampler (rtc_tasks)
+    --------------------------------------------------
+       Segment part 43, DATA16_Z
+       Address:  0x1252 Size: 0x2 Align: 2(1)
+      gps_open             0x1252  Pub  Ref by:   main (main)
+                                                  receive_command_check (gsm_modul_tasks)
+                                                  gsm_modul_active_object (gsm_modul_tasks)
+                                                  rmc_parse (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 48, <CODE> 1
+                      (was CODE)
+       Address:  0x674E Size: 0x10 Align: 2(1)
+      hardware_config_init  0x674E  Pub  Ref by:   main (main)
+    --------------------------------------------------
+       Segment part 49, <CODE> 1
+                      (was CODE)
+       Address:  0x62D6 Size: 0x2C Align: 2(1)
+      give_boot_message    0x62D6  Pub  Ref by:   fw_packet_backup_record (gsm_modul_tasks)
+                                                  gsm_modul_active_object (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 61, <CODE> 1
+                      (was CODE)
+       Address:  0x675E Size: 0x10 Align: 2(1)
+       Ref by:   give_boot_message
+      ?Subroutine3         0x675E  Loc
+    --------------------------------------------------
+       Segment part 50, <CODE> 1
+                      (was CODE)
+       Address:  0x6638 Size: 0x14 Align: 2(1)
+      gsm_modul_uart_send  0x6638  Pub  Ref by:   main (main)
+                                                  fw_packet_backup_record (gsm_modul_tasks)
+                                                  command_manager (gsm_modul_tasks)
+                                                  gsm_modul_init (gsm_modul_tasks)
+                                                  gsm_modul_active_object (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 51, <CODE> 1
+                      (was CODE)
+       Address:  0x6888 Size: 0xC Align: 2(1)
+      gsm_modul_get_status  0x6888  Pub  Ref by:   gsm_modul_shutdown_off (gsm_modul_tasks)
+                                                   gsm_modul_shutdown_on (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 52, <CODE> 1
+                      (was CODE)
+       Address:  0x5F3C Size: 0x16 Align: 2(1)
+       Ref by:   USCI0RX_ISR::??INTVEC 14
+      USCI0RX_ISR          0x5F3C  Pub
+    --------------------------------------------------
+       Segment part 53, <CODE> 1
+                      (was CODE)
+       Address:  0x5F52 Size: 0xA Align: 2(1)
+       Ref by:   Port_1
+                 Timer_A
+                 USCI0RX_ISR
+      ?Subroutine1         0x5F52  Loc
+    --------------------------------------------------
+       Segment part 54, <CODE> 1
+                      (was CODE)
+       Address:  0x5F5C Size: 0x12 Align: 2(1)
+       Ref by:   Timer_A::??INTVEC 18
+      Timer_A              0x5F5C  Pub
+    --------------------------------------------------
+       Segment part 55, <CODE> 1
+                      (was CODE)
+       Address:  0x5F6E Size: 0x12 Align: 2(1)
+       Ref by:   Port_1::??INTVEC 4
+      Port_1               0x5F6E  Pub
+    --------------------------------------------------
+       Segment part 56, <CODE> 1
+                      (was CODE)
+       Address:  0x63A6 Size: 0x26 Align: 2(1)
+      clear_all_backup     0x63A6  Pub  Ref by:   gsm_modul_active_object (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 46, <CODE> 1
+                      (was CODE)
+       Address:  0x6412 Size: 0x22 Align: 2(1)
+       Ref by:   hardware_config_init
+      init_clock           0x6412  Pub
+    --------------------------------------------------
+       Segment part 45, <CODE> 1
+                      (was CODE)
+       Address:  0x6660 Size: 0x14 Align: 2(1)
+       Ref by:   hardware_config_init
+      timer_init           0x6660  Pub
+    --------------------------------------------------
+       Segment part 44, <CODE> 1
+                      (was CODE)
+       Address:  0x6380 Size: 0x26 Align: 2(1)
+       Ref by:   hardware_config_init
+      init_uart            0x6380  Pub
+    --------------------------------------------------
+       Segment part 47, <CODE> 1
+                      (was CODE)
+       Address:  0x5CF6 Size: 0x4E Align: 2(1)
+       Ref by:   hardware_config_init
+      init_gpio            0x5CF6  Pub
+    --------------------------------------------------
+       Segment part 57, <CODE> 1
+                      (was CODE)
+       Address:  0x603A Size: 0xA Align: 2(1)
+       Ref by:   adc_read_batery
+      initADC_bat          0x603A  Pub
+    --------------------------------------------------
+       Segment part 58, <CODE> 1
+                      (was CODE)
+       Address:  0x6044 Size: 0x8 Align: 2(1)
+       Ref by:   initADC_bat
+      ?Subroutine0         0x6044  Loc
+    --------------------------------------------------
+       Segment part 59, <CODE> 1
+                      (was CODE)
+       Address:  0x604C Size: 0x12 Align: 2(1)
+      adc_read_batery      0x604C  Pub  Ref by:   telemetry_set (parameters_init)
+                                                  ?Subroutine1 (gsm_modul_tasks)
+                                                  telemetry_update (adc_tasks)
+    --------------------------------------------------
+       Segment part 63, <CODE> 1
+                      (was CODE)
+       Address:  0x605E Size: 0x18 Align: 2(1)
+       Ref by:   adc_read_batery
+      ?Subroutine2         0x605E  Loc
+    --------------------------------------------------
+       Segment part 65, <CODE> 1
+                      (was CODE)
+       Address:  0x63F0 Size: 0x22 Align: 2(1)
+       Ref by:   adc_read_temp
+                 ?Subroutine2
+      ?Subroutine4         0x63F0  Loc
+    --------------------------------------------------
+       Segment part 64, <CODE> 1
+                      (was CODE)
+       Address:  0x6302 Size: 0x2C Align: 2(1)
+      adc_read_temp        0x6302  Pub  Ref by:   telemetry_set (parameters_init)
+                                                  telemetry_update (adc_tasks)
+    --------------------------------------------------
+       Segment part 36, INTVEC [root]
+       Address:  0xFFE0 Size: 0x6 Align: 2(1)
+      Port_1::??INTVEC 4   0xFFE4  Pub
+    --------------------------------------------------
+       Segment part 37, INTVEC [root]
+       Address:  0xFFE0 Size: 0x10 Align: 2(1)
+      USCI0RX_ISR::??INTVEC 14  0xFFEE  Pub
+    --------------------------------------------------
+       Segment part 38, INTVEC [root]
+       Address:  0xFFE0 Size: 0x14 Align: 2(1)
+      Timer_A::??INTVEC 18  0xFFF2  Pub
+
+      Absolute module symbols:
+        log  0x0000             Pub
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\main.r43
+  Module: main
+       Segment part 1, DATA16_AN [root]
+       Address:  0x0120 Size: 0x2 Align: 1(0)
+       Ref by:   main
+      WDTCTL               0x0120  Pub
+    --------------------------------------------------
+       Segment part 4, DATA16_Z
+       Address:  0x1254 Size: 0xFC Align: 2(1)
+       Ref by:   main
+      telemetri            0x1254  Pub  Ref by:   incrementMonths (rtc_tasks)
+                                                  incrementHours (rtc_tasks)
+                                                  gsm_modul_active_object (gsm_modul_tasks)
+                                                  rmc_parse (gsm_modul_tasks)
+                                                  update_response_parse (gsm_modul_tasks)
+                                                  telemetry_update (adc_tasks)
+                                                  adc_water_adder (adc_tasks)
+                                                  ?Subroutine1 (gsm_modul_tasks)
+                                                  receive_command_check (gsm_modul_tasks)
+                                                  rtc_timer_sampler (rtc_tasks)
+                                                  ?Subroutine0 (rtc_tasks)
+                                                  incrementDays (rtc_tasks)
+                                                  ?Subroutine4 (gsm_modul_tasks)
+                                                  telemetry_set (parameters_init)
+                                                  incrementSeconds (rtc_tasks)
+                                                  incrementMinutes (rtc_tasks)
+    --------------------------------------------------
+       Segment part 5, DATA16_I
+       Address:  0x1102 Size: 0x1 Align: 1(0)
+       Ref by:   main
+      gsm_mailbox          0x1102  Loc
+    --------------------------------------------------
+       Segment part 8, <CODE> 1
+                      (was CODE)
+       Address:  0x5768 Size: 0xB6 Align: 2(1)
+      main                 0x5768  Pub  Ref by:   Segment part 19 (?cstart)
+    --------------------------------------------------
+       Segment part 6, DATA16_ID
+       Address:  0x8EFC Size: 0x1 Align: 1(0)
+       Ref by:   gsm_mailbox
+    --------------------------------------------------
+       Segment part 3, DATA16_C
+       Address:  0x8E2D Size: 0xF Align: 1(0)
+       Ref by:   main
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\parameters_init.r43
+  Module: parameters_init
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x5434 Size: 0xE2 Align: 2(1)
+      telemetry_set        0x5434  Pub  Ref by:   main (main)
+    --------------------------------------------------
+       Segment part 2, DATA16_C
+       Address:  0x8E3C Size: 0x3 Align: 1(0)
+       Ref by:   telemetry_set
+    --------------------------------------------------
+       Segment part 3, DATA16_C
+       Address:  0x8E3F Size: 0x31 Align: 1(0)
+       Ref by:   telemetry_set
+    --------------------------------------------------
+       Segment part 4, DATA16_C
+       Address:  0x8E70 Size: 0x27 Align: 1(0)
+       Ref by:   telemetry_set
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\gsm_driver\queue.r43
+  Module: queue
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x682C Size: 0xE Align: 2(1)
+       Ref by:   fw_l_queue_data_write
+                 fw_l_queue_clear
+      check_write_ptr      0x682C  Loc
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x694C Size: 0x4 Align: 2(1)
+      fw_l_queue_create    0x694C  Pub  Ref by:   gsm_modul_init (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x6188 Size: 0x32 Align: 2(1)
+       Ref by:   fw_l_queue_create
+      fw_l_queue_clear     0x6188  Pub  Ref by:   command_manager (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x6802 Size: 0xE Align: 2(1)
+       Ref by:   fw_l_queue_data_read
+      fw_l_queue_is_empty  0x6802  Pub  Ref by:   command_manager (gsm_modul_tasks)
+                                                  receive_command_check (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x671A Size: 0x12 Align: 2(1)
+      fw_l_queue_data_write  0x671A  Pub  Ref by:   gsm_modul_receive_data (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 10, <CODE> 1
+                      (was CODE)
+       Address:  0x6358 Size: 0x28 Align: 2(1)
+      fw_l_queue_data_read  0x6358  Pub  Ref by:   receive_command_check (gsm_modul_tasks)
+**************************************************************
+File: C:\Users\muham\Desktop\akgos_app_v110\Debug\Obj\water_driver\rtc_tasks.r43
+  Module: rtc_tasks
+       Segment part 8, <CODE> 1
+                      (was CODE)
+       Address:  0x6076 Size: 0x3A Align: 2(1)
+      rtc_timer_sampler    0x6076  Pub  Ref by:   Timer_A (hardware_configs)
+    --------------------------------------------------
+       Segment part 7, <CODE> 1
+                      (was CODE)
+       Address:  0x65B8 Size: 0x16 Align: 2(1)
+       Ref by:   rtc_timer_sampler
+      incrementSeconds     0x65B8  Pub
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x658C Size: 0x16 Align: 2(1)
+       Ref by:   incrementSeconds
+      incrementMinutes     0x658C  Pub
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x65E4 Size: 0x16 Align: 2(1)
+       Ref by:   incrementMinutes
+      incrementHours       0x65E4  Pub
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x5A9A Size: 0x90 Align: 2(1)
+       Ref by:   incrementHours
+      incrementDays        0x5A9A  Pub
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x690A Size: 0x8 Align: 2(1)
+       Ref by:   incrementDays
+      ?Subroutine0         0x690A  Loc
+    --------------------------------------------------
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6544 Size: 0x18 Align: 2(1)
+       Ref by:   ?Subroutine0
+      incrementMonths      0x6544  Pub
+**************************************************************
+File: C:\Program Files\IAR Systems\Embedded Workbench 9.1\430\lib\dlib\dl430fn.r43
+  Module: ?abort
+  ============================================================
+  Module: ?_exit
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x6948 Size: 0x0 Align: 2(1)
+      _exit                0x6948  Pub  Ref by:   exit (?exit)
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x6948 Size: 0x4 Align: 2(1)
+       Ref by:   _exit
+  ============================================================
+  Module: ?cppinit
+  ============================================================
+  Module: ?cstart
+       Segment part 1, CSTACK
+       Address:  0x20B0 Size: 0x0 Align: 2(1)
+    --------------------------------------------------
+       Segment part 2, DATA16_Z
+       Address:  0x1350 Size: 0x0 Align: 2(1)
+    --------------------------------------------------
+       Segment part 3, DATA16_I
+       Address:  0x1100 Size: 0x0 Align: 2(1)
+    --------------------------------------------------
+       Segment part 4, DATA16_ID
+       Address:  0x8EFA Size: 0x0 Align: 2(1)
+    --------------------------------------------------
+       Segment part 9, CSTART
+       Address:  0xFE00 Size: 0x4 Align: 2(1)
+      __program_start      0xFE00  Pub  Ref by:   ?reset_vector (?reset_vector)
+                                                  Absolute parts (?ABS_ENTRY_MOD)
+      ?cstart_begin        0xFE00  Pub
+    --------------------------------------------------
+       Segment part 14, CSTART
+       Address:  0xFE04 Size: 0xC Align: 2(1)
+      ?cstart_init_zero    0xFE04  Pub  Ref by:   telemetri_data (gsm_modul_tasks)
+                                                  send_buffer (gsm_modul_tasks)
+                                                  fw_update (gsm_modul_tasks)
+                                                  super (gsm_modul_tasks)
+                                                  check_mailbox::MEMORY (gsm_modul_tasks)
+                                                  t_timer (hardware_configs)
+                                                  g_timerSn (hardware_configs)
+                                                  gps_open (hardware_configs)
+                                                  __iar_Errno (?errno)
+                                                  command_buffer_lengthxxx (gsm_modul_tasks)
+                                                  command_bufferxxx (gsm_modul_tasks)
+                                                  g_timer (hardware_configs)
+                                                  telemetri (main)
+    --------------------------------------------------
+       Segment part 15, CSTART
+       Address:  0xFE10 Size: 0x10 Align: 2(1)
+      ?cstart_init_copy    0xFE10  Pub  Ref by:   gsm_mailbox (main)
+                                                  gsm_modul_active_object{1}{2}::last (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 19, CSTART
+       Address:  0xFE20 Size: 0x8 Align: 2(1)
+       Ref by:   Segment part 9
+      ?cstart_call_main    0xFE20  Pub
+      ?cstart_end          0xFE28  Pub
+  ============================================================
+  Module: lowinit
+  ============================================================
+  Module: ?reset_vector
+       Segment part 0, RESET
+       Address:  0xFFFE Size: 0x2 Align: 2(1)
+      ?reset_vector        0xFFFE  Pub  Ref by:   Segment part 9 (?cstart)
+  ============================================================
+  Module: ?div64i
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x581E Size: 0xB0 Align: 2(1)
+      _Div64u              0x581E  Pub  Ref by:   _LitobLarge (?xprintflarge)
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x64F6 Size: 0x1A Align: 2(1)
+       Ref by:   _Div64u
+  ============================================================
+  Module: ?div
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x65A2 Size: 0x16 Align: 2(1)
+      div                  0x65A2  Pub  Ref by:   _GenldLarge (?xprintflarge)
+  ============================================================
+  Module: ?Epilogue
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x66E4 Size: 0x2 Align: 2(1)
+      ?Epilogue8           0x66E4  Pub  Ref by:   fw_packet_backup_record (gsm_modul_tasks)
+                                                  gsm_modul_active_object (gsm_modul_tasks)
+                                                  response_parse (gsm_modul_tasks)
+                                                  update_response_parse (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x66E6 Size: 0x2 Align: 2(1)
+       Ref by:   ?Epilogue8
+      ?Epilogue7           0x66E6  Pub
+    --------------------------------------------------
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x66E8 Size: 0x2 Align: 2(1)
+       Ref by:   ?Epilogue7
+      ?Epilogue6           0x66E8  Pub  Ref by:   __iar_Stoulx (?xstoul)
+                                                  _Stoflt (?xstoflt)
+                                                  __iar_Stodx (?xstod)
+                                                  _LitobLarge (?xprintflarge)
+                                                  adc_water_adder (adc_tasks)
+                                                  rmc_parse (gsm_modul_tasks)
+                                                  fw_packet_record_decision (gsm_modul_tasks)
+                                                  _PrintfLarge (?xprintflarge)
+                                                  _GenldLarge (?xprintflarge)
+                                                  _LdtobLarge (?xprintflarge)
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x66EA Size: 0x2 Align: 2(1)
+       Ref by:   ?Epilogue6
+      ?Epilogue5           0x66EA  Pub  Ref by:   command_manager (gsm_modul_tasks)
+                                                  receive_data_check (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x66EC Size: 0x2 Align: 2(1)
+       Ref by:   ?Epilogue5
+      ?Epilogue4           0x66EC  Pub  Ref by:   _Stopfx (?xstopfx)
+                                                  _PutcharsLarge (?xprintflarge)
+                                                  pad (?xprintflarge)
+                                                  receive_command_check (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x66EE Size: 0x8 Align: 2(1)
+       Ref by:   ?Epilogue4
+      ?Epilogue3           0x66EE  Pub  Ref by:   __iar_Dtentox (?xdtento)
+                                                  http_packet_read (gsm_modul_tasks)
+                                                  flash_write_adress (flash_tasks)
+  ============================================================
+  Module: ?errno
+       Segment part 2, DATA16_Z
+       Address:  0x1350 Size: 0x2 Align: 2(1)
+      __iar_Errno          0x1350  Pub  Ref by:   __iar_Stoulx (?xstoul)
+                                                  __iar_Dtentox (?xdtento)
+  ============================================================
+  Module: ?exit
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6944 Size: 0x4 Align: 2(1)
+      exit                 0x6944  Pub  Ref by:   Segment part 19 (?cstart)
+  ============================================================
+  Module: ?FrwpInit
+  ============================================================
+  Module: ?Cast32f32i
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x5A08 Size: 0x14 Align: 2(1)
+      _Cast32sto32f        0x5A08  Pub  Ref by:   __iar_Stodx (?xstod)
+                                                  telemetry_set (parameters_init)
+                                                  telemetry_update (adc_tasks)
+    --------------------------------------------------
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x5A1C Size: 0x7E Align: 2(1)
+       Ref by:   _Cast32sto32f
+      _Cast32uto32f        0x5A1C  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+                                                  ?Subroutine2 (hardware_configs)
+  ============================================================
+  Module: _Cast32fto32u
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x6864 Size: 0xC Align: 2(1)
+      _Cast32fto32u        0x6864  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+  ============================================================
+  Module: ?FLT_Extract
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x5D44 Size: 0x4C Align: 2(1)
+      ?FLT_Extract         0x5D44  Pub  Ref by:   _Cast32fto32u (_Cast32fto32u)
+  ============================================================
+  Module: ?FLT_EQ
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x624C Size: 0x30 Align: 2(1)
+      ?FLT_EQ              0x624C  Pub  Ref by:   __iar_Dtentox (?xdtento)
+  ============================================================
+  Module: ?FLT_GE
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x5C4E Size: 0x56 Align: 2(1)
+      ?FLT_GE              0x5C4E  Pub  Ref by:   rmc_parse (gsm_modul_tasks)
+  ============================================================
+  Module: ?FLT_LT
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x5CA4 Size: 0x52 Align: 2(1)
+      ?FLT_LT              0x5CA4  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+                                                  rmc_parse (gsm_modul_tasks)
+  ============================================================
+  Module: _Mul32f
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x5042 Size: 0x110 Align: 2(1)
+      _Mul32f              0x5042  Pub  Ref by:   __iar_Stodx (?xstod)
+                                                  adc_read_batery (hardware_configs)
+                                                  ?Subroutine2 (hardware_configs)
+                                                  dmul (?xdtento)
+                                                  Segment part 6 (?xdtento)
+                                                  scale (?xprintflarge)
+                                                  _LdtobLarge (?xprintflarge)
+  ============================================================
+  Module: _Div32f
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x4DE6 Size: 0x130 Align: 2(1)
+      _Div32f              0x4DE6  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+                                                  __iar_Dtentox (?xdtento)
+  ============================================================
+  Module: _Add32f
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x48DE Size: 0x4 Align: 2(1)
+      _Sub32f              0x48DE  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+    --------------------------------------------------
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x48E2 Size: 0x160 Align: 2(1)
+       Ref by:   _Sub32f
+      _Add32f              0x48E2  Pub  Ref by:   __iar_Stodx (?xstod)
+  ============================================================
+  Module: ?isdigit
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6848 Size: 0xE Align: 2(1)
+      isdigit              0x6848  Pub  Ref by:   Segment part 5 (?xstoflt)
+  ============================================================
+  Module: ?malloc
+  ============================================================
+  Module: ?Mul816
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x61BA Size: 0x4 Align: 2(1)
+      ?Mul8                0x61BA  Pub  Ref by:   _LitobLarge (?xprintflarge)
+    --------------------------------------------------
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x61BE Size: 0x2E Align: 2(1)
+       Ref by:   ?Mul8
+      ?Mul16               0x61BE  Pub  Ref by:   telemetry_set (parameters_init)
+                                                  main (main)
+                                                  gsm_modul_active_object (gsm_modul_tasks)
+      ?Mul16to32u          0x61BE  Pub  Ref by:   ?Mul16to32s (?Mul16to32s)
+                                                  adc_read_temp (hardware_configs)
+                                                  ?Subroutine4 (gsm_modul_tasks)
+  ============================================================
+  Module: ?Mul16to32s
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x64DC Size: 0x1A Align: 2(1)
+      ?Mul16to32s          0x64DC  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+  ============================================================
+  Module: ?Mul32
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x61EC Size: 0x30 Align: 2(1)
+      ?Mul32               0x61EC  Pub  Ref by:   __iar_Stoulx (?xstoul)
+                                                  Segment part 3 (?xstoflt)
+  ============================================================
+  Module: ?DivMod816u
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x6574 Size: 0x18 Align: 2(1)
+      ?DivMod16u           0x6574  Pub  Ref by:   ?DivMod16s (?DivMod816s)
+  ============================================================
+  Module: ?DivMod816s
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x621C Size: 0x30 Align: 2(1)
+      ?DivMod16s           0x621C  Pub  Ref by:   Segment part 4 (?xstoflt)
+                                                  div (?div)
+  ============================================================
+  Module: ?DivMod32u
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x60B0 Size: 0x38 Align: 2(1)
+      ?DivMod32u           0x60B0  Pub  Ref by:   __iar_Stoulx (?xstoul)
+                                                  _LdtobLarge (?xprintflarge)
+                                                  ?DivMod32s (?DivMod32s)
+                                                  Segment part 5 (adc_tasks)
+  ============================================================
+  Module: ?DivMod32s
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x5F80 Size: 0x40 Align: 2(1)
+      ?DivMod32s           0x5F80  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+  ============================================================
+  Module: ?ShiftLeft16_n
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x678E Size: 0x2 Align: 2(1)
+      ?ShiftLeft16_7       0x678E  Pub  Ref by:   __iar_Dscale (?xdscale)
+    --------------------------------------------------
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x6790 Size: 0x2 Align: 2(1)
+       Ref by:   ?ShiftLeft16_7
+      ?ShiftLeft16_6       0x6790  Pub
+    --------------------------------------------------
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6792 Size: 0x2 Align: 2(1)
+       Ref by:   ?ShiftLeft16_6
+      ?ShiftLeft16_5       0x6792  Pub
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x6794 Size: 0x2 Align: 2(1)
+       Ref by:   ?ShiftLeft16_5
+      ?ShiftLeft16_4       0x6794  Pub  Ref by:   string_hex_array_to_uchar (gsm_modul_tasks)
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x6796 Size: 0x8 Align: 2(1)
+       Ref by:   ?ShiftLeft16_4
+      ?ShiftLeft16_3       0x6796  Pub  Ref by:   _Stoflt (?xstoflt)
+                                                  ?Subroutine0 (gsm_modul_tasks)
+  ============================================================
+  Module: ?ShiftLeft32
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x6472 Size: 0x1C Align: 2(1)
+      ?ShiftLeft32         0x6472  Pub  Ref by:   ?Subroutine0 (gsm_modul_tasks)
+  ============================================================
+  Module: ?ShiftLeft32_n
+  ============================================================
+  Module: ?ShiftLeft32_8n
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x68C4 Size: 0xC Align: 2(1)
+      ?ShiftLeft32_8       0x68C4  Pub  Ref by:   fw_packet_backup_record (gsm_modul_tasks)
+  ============================================================
+  Module: ?ShiftRight16u_n
+       Segment part 0, <CODE> 1
+                      (was CODE)
+       Address:  0x652A Size: 0x4 Align: 2(1)
+      ?ShiftRight16u_7     0x652A  Pub  Ref by:   __iar_Dunscale (?xdunscal)
+                                                  __iar_Dscale (?xdscale)
+    --------------------------------------------------
+       Segment part 1, <CODE> 1
+                      (was CODE)
+       Address:  0x652E Size: 0x4 Align: 2(1)
+       Ref by:   ?ShiftRight16u_7
+      ?ShiftRight16u_6     0x652E  Pub
+    --------------------------------------------------
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6532 Size: 0x4 Align: 2(1)
+       Ref by:   ?ShiftRight16u_6
+      ?ShiftRight16u_5     0x6532  Pub
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x6536 Size: 0x4 Align: 2(1)
+       Ref by:   ?ShiftRight16u_5
+      ?ShiftRight16u_4     0x6536  Pub
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x653A Size: 0xA Align: 2(1)
+       Ref by:   ?ShiftRight16u_4
+      ?ShiftRight16u_3     0x653A  Pub
+  ============================================================
+  Module: ?memchr
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6610 Size: 0x14 Align: 2(1)
+      __iar_Memchr         0x6610  Pub  Ref by:   __iar_Stoulx (?xstoul)
+                                                  _PrintfLarge (?xprintflarge)
+  ============================================================
+  Module: ?memcpy
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x66D2 Size: 0x12 Align: 2(1)
+      memcpy               0x66D2  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+                                                  Segment part 11 (?xprintflarge)
+                                                  _GenldLarge (?xprintflarge)
+                                                  __data16_memcpy (?memzero)
+  ============================================================
+  Module: ?memmove
+  ============================================================
+  Module: ?memzero
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x679E Size: 0x10 Align: 2(1)
+      __data16_memzero     0x679E  Pub  Ref by:   ?cstart_init_zero (?cstart)
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x6940 Size: 0x4 Align: 2(1)
+      __data16_memcpy      0x6940  Pub  Ref by:   ?cstart_init_copy (?cstart)
+  ============================================================
+  Module: ?MpuInit
+  ============================================================
+  Module: ?setjmp
+  ============================================================
+  Module: ?longjmp
+  ============================================================
+  Module: ?snprintf
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x5D90 Size: 0x4A Align: 2(1)
+      snprintf             0x5D90  Pub  Ref by:   telemetry_set (parameters_init)
+                                                  Segment part 106 (gsm_modul_tasks)
+  ============================================================
+  Module: ?sprintf
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x60E8 Size: 0x36 Align: 2(1)
+      sprintf              0x60E8  Pub  Ref by:   main (main)
+                                                  gsm_modul_active_object (gsm_modul_tasks)
+  ============================================================
+  Module: ?strchr
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x67D8 Size: 0xE Align: 2(1)
+      __iar_Strchr         0x67D8  Pub  Ref by:   _PrintfLarge (?xprintflarge)
+  ============================================================
+  Module: ?strcpy
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x673E Size: 0x10 Align: 2(1)
+      strcpy               0x673E  Pub  Ref by:   receive_command_check (gsm_modul_tasks)
+  ============================================================
+  Module: ?strlen
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x672C Size: 0x12 Align: 2(1)
+      strlen               0x672C  Pub  Ref by:   _PrintfLarge (?xprintflarge)
+  ============================================================
+  Module: ?strstr
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6154 Size: 0x34 Align: 2(1)
+      __iar_Strstr         0x6154  Pub  Ref by:   receive_command_check (gsm_modul_tasks)
+                                                  ?Subroutine3 (gsm_modul_tasks)
+  ============================================================
+  Module: ?SwitchKey8
+  ============================================================
+  Module: ?SwitchKey16
+  ============================================================
+  Module: ?xcloseall
+  ============================================================
+  Module: ?xdscale
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x5974 Size: 0x94 Align: 2(1)
+      __iar_Dscale         0x5974  Pub  Ref by:   __iar_Dtentox (?xdtento)
+                                                  dmul (?xdtento)
+  ============================================================
+  Module: ?xdtento
+       Segment part 2, DATA16_C
+       Address:  0x8A08 Size: 0x18 Align: 2(1)
+       Ref by:   Segment part 6
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x5EF6 Size: 0x46 Align: 2(1)
+       Ref by:   Segment part 5
+      dmul                 0x5EF6  Loc
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x4B7E Size: 0x136 Align: 2(1)
+      __iar_Dtentox        0x4B7E  Pub  Ref by:   __iar_Stodx (?xstod)
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x683A Size: 0xE Align: 2(1)
+       Ref by:   __iar_Dtentox
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x6434 Size: 0x20 Align: 2(1)
+       Ref by:   __iar_Dtentox
+  ============================================================
+  Module: ?xdunscal
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x5DDA Size: 0x48 Align: 2(1)
+      __iar_Dunscale       0x5DDA  Pub  Ref by:   _LdtobLarge (?xprintflarge)
+                                                  __iar_Dtentox (?xdtento)
+                                                  dmul (?xdtento)
+  ============================================================
+  Module: ?xgetmemchunk
+  ============================================================
+  Module: ?xlog
+  ============================================================
+  Module: ?xprintflarge
+       Segment part 18, <CODE> 1
+                      (was CODE)
+       Address:  0x3DA2 Size: 0x490 Align: 2(1)
+      _PrintfLarge         0x3DA2  Pub  Ref by:   sprintf (?sprintf)
+                                                  snprintf (?snprintf)
+    --------------------------------------------------
+       Segment part 20, <CODE> 1
+                      (was CODE)
+       Address:  0x6870 Size: 0xC Align: 2(1)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 22, <CODE> 1
+                      (was CODE)
+       Address:  0x687C Size: 0xC Align: 2(1)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 25, <CODE> 1
+                      (was CODE)
+       Address:  0x6688 Size: 0x14 Align: 2(1)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 8, <CODE> 1
+                      (was CODE)
+       Address:  0x3616 Size: 0x80 Align: 2(1)
+       Ref by:   _PrintfLarge
+      LoadInt              0x3616  Loc
+    --------------------------------------------------
+       Segment part 9, <CODE> 1
+                      (was CODE)
+       Address:  0x3696 Size: 0xE Align: 2(1)
+       Ref by:   LoadInt
+    --------------------------------------------------
+       Segment part 10, <CODE> 1
+                      (was CODE)
+       Address:  0x36A4 Size: 0x260 Align: 2(1)
+       Ref by:   _LdtobLarge
+      _GenldLarge          0x36A4  Loc
+    --------------------------------------------------
+       Segment part 11, <CODE> 1
+                      (was CODE)
+       Address:  0x3904 Size: 0x10 Align: 2(1)
+       Ref by:   _GenldLarge
+    --------------------------------------------------
+       Segment part 12, <CODE> 1
+                      (was CODE)
+       Address:  0x3914 Size: 0x1E Align: 2(1)
+       Ref by:   _GenldLarge
+    --------------------------------------------------
+       Segment part 13, <CODE> 1
+                      (was CODE)
+       Address:  0x3932 Size: 0x52 Align: 2(1)
+       Ref by:   _LdtobLarge
+      scale                0x3932  Loc
+    --------------------------------------------------
+       Segment part 14, <CODE> 1
+                      (was CODE)
+       Address:  0x3984 Size: 0x252 Align: 2(1)
+       Ref by:   _PrintfLarge
+      _LdtobLarge          0x3984  Loc
+    --------------------------------------------------
+       Segment part 15, <CODE> 1
+                      (was CODE)
+       Address:  0x3BD6 Size: 0x1B0 Align: 2(1)
+       Ref by:   _PrintfLarge
+      _LitobLarge          0x3BD6  Loc
+    --------------------------------------------------
+       Segment part 16, <CODE> 1
+                      (was CODE)
+       Address:  0x3D86 Size: 0x12 Align: 2(1)
+       Ref by:   _LitobLarge
+    --------------------------------------------------
+       Segment part 17, <CODE> 1
+                      (was CODE)
+       Address:  0x3D98 Size: 0xA Align: 2(1)
+       Ref by:   _LitobLarge
+                 LoadInt
+                 _PrintfLarge
+    --------------------------------------------------
+       Segment part 26, <CODE> 1
+                      (was CODE)
+       Address:  0x611E Size: 0x36 Align: 2(1)
+       Ref by:   Segment part 22
+      pad                  0x611E  Loc
+    --------------------------------------------------
+       Segment part 27, <CODE> 1
+                      (was CODE)
+       Address:  0x63CC Size: 0x24 Align: 2(1)
+       Ref by:   _PutcharsLarge
+                 _PrintfLarge
+      _PutcharLarge        0x63CC  Loc
+    --------------------------------------------------
+       Segment part 28, <CODE> 1
+                      (was CODE)
+       Address:  0x62AA Size: 0x2C Align: 2(1)
+       Ref by:   pad
+                 Segment part 20
+      _PutcharsLarge       0x62AA  Loc
+    --------------------------------------------------
+       Segment part 19, <CODE> 1
+                      (was CODE)
+       Address:  0x67AE Size: 0xE Align: 2(1)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 21, <CODE> 1
+                      (was CODE)
+       Address:  0x67BC Size: 0xE Align: 2(1)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 23, <CODE> 1
+                      (was CODE)
+       Address:  0x66AE Size: 0x12 Align: 2(1)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 24, <CODE> 1
+                      (was CODE)
+       Address:  0x5FC0 Size: 0x3E Align: 2(1)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 2, DATA16_C
+       Address:  0x8E97 Size: 0x7 Align: 1(0)
+       Ref by:   _PrintfLarge
+    --------------------------------------------------
+       Segment part 3, DATA16_C
+       Address:  0x8E9E Size: 0x4 Align: 1(0)
+       Ref by:   _LdtobLarge
+    --------------------------------------------------
+       Segment part 4, DATA16_C
+       Address:  0x8EA2 Size: 0x4 Align: 1(0)
+       Ref by:   _LdtobLarge
+    --------------------------------------------------
+       Segment part 5, DATA16_C
+       Address:  0x8EA6 Size: 0x4 Align: 1(0)
+       Ref by:   _LdtobLarge
+    --------------------------------------------------
+       Segment part 6, DATA16_C
+       Address:  0x8EAA Size: 0x4 Align: 1(0)
+       Ref by:   _LdtobLarge
+    --------------------------------------------------
+       Segment part 7, DATA16_C
+       Address:  0x8EAE Size: 0x2 Align: 1(0)
+       Ref by:   _GenldLarge
+  ============================================================
+  Module: ?xsnprout
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x648E Size: 0x1A Align: 2(1)
+      _SNProut             0x648E  Pub  Ref by:   snprintf (?snprintf)
+  ============================================================
+  Module: ?xsprout
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6894 Size: 0xC Align: 2(1)
+      _SProut              0x6894  Pub  Ref by:   sprintf (?sprintf)
+  ============================================================
+  Module: ?xstod
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x5516 Size: 0xD4 Align: 2(1)
+       Ref by:   __iar_Stod
+      __iar_Stodx          0x5516  Pub
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x68D0 Size: 0xA Align: 2(1)
+      __iar_Stod           0x68D0  Pub  Ref by:   rmc_parse (gsm_modul_tasks)
+  ============================================================
+  Module: ?xstoflt
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x4522 Size: 0x22A Align: 2(1)
+      _Stoflt              0x4522  Pub  Ref by:   __iar_Stodx (?xstod)
+    --------------------------------------------------
+       Segment part 3, <CODE> 1
+                      (was CODE)
+       Address:  0x68E4 Size: 0xA Align: 2(1)
+       Ref by:   _Stoflt
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x691A Size: 0x8 Align: 2(1)
+       Ref by:   _Stoflt
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x68DA Size: 0xA Align: 2(1)
+       Ref by:   _Stoflt
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x68EE Size: 0xA Align: 2(1)
+       Ref by:   _Stoflt
+    --------------------------------------------------
+       Segment part 7, <CODE> 1
+                      (was CODE)
+       Address:  0x66C0 Size: 0x12 Align: 2(1)
+       Ref by:   _Stoflt
+  ============================================================
+  Module: ?xstopfx
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x5152 Size: 0x108 Align: 2(1)
+      _Stopfx              0x5152  Pub  Ref by:   __iar_Stodx (?xstod)
+  ============================================================
+  Module: ?xstoul
+       Segment part 2, DATA16_C
+       Address:  0x8EB0 Size: 0x25 Align: 1(0)
+       Ref by:   __iar_Stoulx
+    --------------------------------------------------
+       Segment part 3, DATA16_C
+       Address:  0x8ED5 Size: 0x25 Align: 1(0)
+       Ref by:   __iar_Stoulx
+    --------------------------------------------------
+       Segment part 4, <CODE> 1
+                      (was CODE)
+       Address:  0x474C Size: 0x192 Align: 2(1)
+       Ref by:   __iar_Stoul
+      __iar_Stoulx         0x474C  Pub
+    --------------------------------------------------
+       Segment part 5, <CODE> 1
+                      (was CODE)
+       Address:  0x6856 Size: 0xE Align: 2(1)
+       Ref by:   __iar_Stoulx
+    --------------------------------------------------
+       Segment part 6, <CODE> 1
+                      (was CODE)
+       Address:  0x693A Size: 0x6 Align: 2(1)
+      __iar_Stoul          0x693A  Pub  Ref by:   receive_command_check (gsm_modul_tasks)
+                                                  response_parse (gsm_modul_tasks)
+                                                  update_response_parse (gsm_modul_tasks)
+  ============================================================
+  Module: ?__exit
+       Segment part 2, <CODE> 1
+                      (was CODE)
+       Address:  0x6950 Size: 0x2 Align: 2(1)
+      __exit               0x6950  Pub  Ref by:   Segment part 6 (?_exit)
+                                                  _exit (?_exit)
+  ============================================================
+  Module: ?xxmemxfree
+  ============================================================
+  Module: ?xxmemxmalloc
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+SEGMENT    SPACE    START/END ADDRESS      SIZE  TYPE  ALIGN
+-------    -----  ---------------------    ----  ----  -----
+DATA16_I             0x1100 - 0x1102        0x3   rel   2(1)
+DATA16_Z             0x1104 - 0x160E      0x50B   rel   2(1)
+CSTACK               0x20B0 - 0x20FF       0x50   rel   2(1)
+<CODE> 1             0x2E00 - 0x6951     0x3B52   rel   2(1)
+DATA16_C             0x8A00 - 0x8EF9      0x4FA   rel   2(1)
+DATA16_ID            0x8EFA - 0x8EFC        0x3   rel   2(1)
+CSTART               0xFE00 - 0xFE27       0x28   rel   2(1)
+INTVEC               0xFFE0 - 0xFFF3       0x14   com   2(1)
+RESET                0xFFFE - 0xFFFF        0x2   rel   2(1)
+DATA16_AN            0x0001 - 0x0001        0x1   abs   1(0)
+                     0x0003 - 0x0003        0x1
+                     0x0019 - 0x001B        0x3
+                     0x001D - 0x001D        0x1
+                     0x0021 - 0x0025        0x5
+                     0x0027 - 0x002A        0x4
+                     0x002E - 0x002F        0x2
+                     0x0053 - 0x0053        0x1
+                     0x0056 - 0x0058        0x3
+                     0x0061 - 0x0064        0x4
+                     0x0066 - 0x0067        0x2
+                     0x0120 - 0x0121        0x2
+                     0x0128 - 0x012D        0x6
+                     0x0160 - 0x0163        0x4
+                     0x0172 - 0x0173        0x2
+                     0x01B0 - 0x01B5        0x6
+                     0x10FE - 0x10FF        0x2
+
+ 15'248 bytes of CODE  memory
+  1'374 bytes of DATA  memory (+ 49 absolute )
+  1'277 bytes of CONST memory
+
+Errors: none
+Warnings: none

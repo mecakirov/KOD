@@ -1,0 +1,120 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\XclFileGenerator.exe" $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\SourceIndexer.exe" $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out
+
+rule MAKEBROWSE
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\makeBrowseData.exe" $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out
+
+rule PDBLINK
+  command = "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\PbdLink.exe" $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out
+
+
+
+#Build steps
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\gsm_modul_tasks.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\gsm_modul_tasks.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\gsm_driver" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\queue.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\queue.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\gsm_driver" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\adc_tasks.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\adc_tasks.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\water_driver" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\rtc_tasks.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\rtc_tasks.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\water_driver" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\flash_tasks.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\flash_tasks.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\\" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\hardware_configs.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\hardware_configs.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\\" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\main.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\main.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\\" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.xcl : COMPILER_XCL 
+  xclcommand = -source_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\parameters_init.c" -xcl_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.xcl" -macro_file "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\bin\icc430.exe" -u8_wrapper "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\common\bin\iarconvert.exe"
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\parameters_init.c" -o "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\Obj\\" --debug -D__MSP430G2955__ -e --double=32 --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.1\430\lib\dlib\dl430fn.h" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\settings\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\\" -I "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\\" -Ohz --predef_macros "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.tmp"
+  rspfile_name = C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.xcl.rsp
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\gsm_modul_tasks.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\gsm_driver\queue.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\adc_tasks.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\water_driver\rtc_tasks.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\flash_tasks.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\hardware_configs.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\main.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.pbi : INDEXER C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.xcl |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\parameters_init.c
+  flags = "-out=C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.pbi" -f "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.xcl"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware.pbw : MAKEBROWSE C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware.pbd
+  flags = "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware.pbd" -output "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware.pbw"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part0.pbi : PDBLINK C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.pbi |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.pbi $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.pbi
+  flags = -M "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part0.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\gsm_modul_tasks.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\gsm_driver\queue.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\adc_tasks.pbi"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part1.pbi : PDBLINK C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.pbi |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.pbi $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.pbi
+  flags = -M "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part1.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\water_driver\rtc_tasks.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\flash_tasks.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\hardware_configs.pbi"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part2.pbi : PDBLINK C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.pbi |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.pbi
+  flags = -M "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part2.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\main.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\parameters_init.pbi"
+
+build C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware.pbd : PDBLINK C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part0.pbi |  $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part1.pbi $
+C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part2.pbi
+  flags = -M "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware.pbd" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part0.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part1.pbi" "C$:\Users\muham\Desktop\İş$ genel\akgos_app_v110\Debug\BrowseInfo\science_app_firmware_part2.pbi"
+

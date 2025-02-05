@@ -1,0 +1,37 @@
+#Generating source browse information for project science_app_firmware
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.5\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build gsm_modul_tasks.pbi : index gsm_modul_tasks.xcl
+build queue.pbi : index queue.xcl
+build adc_tasks.pbi : index adc_tasks.xcl
+build rtc_tasks.pbi : index rtc_tasks.xcl
+build flash_tasks.pbi : index flash_tasks.xcl
+build hardware_configs.pbi : index hardware_configs.xcl
+build main.pbi : index main.xcl
+build parameters_init.pbi : index parameters_init.xcl
+build science_app_firmware_part0.pbi : link gsm_modul_tasks.pbi queue.pbi adc_tasks.pbi
+build science_app_firmware_part1.pbi : link rtc_tasks.pbi flash_tasks.pbi hardware_configs.pbi
+build science_app_firmware_part2.pbi : link main.pbi parameters_init.pbi
+build science_app_firmware.pbd : link science_app_firmware_part0.pbi science_app_firmware_part1.pbi science_app_firmware_part2.pbi
+build science_app_firmware.pbw : browsedata science_app_firmware.pbd
+
+
