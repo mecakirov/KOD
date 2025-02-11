@@ -229,3 +229,73 @@ v.
 2025-02-05 17:59:51 - Error moving file to repeated folder: can only concatenate tuple (not "str") to tuple
 2025-02-05 17:59:51 - Error moving file to repeated folder: can only concatenate tuple (not "str") to tuple
 2025-02-05 17:59:51 - Error moving file to repeated folder: can only concatenate tuple (not "str") to tuple
+2025-02-06 10:02:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263344_8c5e3f.mov.
+2025-02-06 10:02:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263349_7d4067.mov.
+2025-02-06 10:02:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263346_7da3cf.mov.
+2025-02-06 10:02:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263345_64ae4d - Kopya.mov.
+2025-02-06 10:02:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263345_64ae4d - Kopya.mov.
+2025-02-06 10:02:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263348_1415ee - Kopya.mov.
+2025-02-06 10:02:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263346_7da3cf.mov.
+2025-02-06 10:02:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263349_7d4067.mov.
+2025-02-06 10:02:29 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263344_8c5e3f.mov.
+2025-02-06 10:02:29 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263350_f1c5e6.mov.
+2025-02-06 10:02:29 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263347_971d03.mov.
+2025-02-06 10:02:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263344_8c5e3f.mov.
+2025-02-06 10:02:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263346_7da3cf.mov.
+2025-02-06 10:02:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263350_f1c5e6.mov.
+2025-02-06 10:02:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263348_1415ee - Kopya.mov.
+2025-02-06 10:02:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263345_64ae4d - Kopya.mov.
+2025-02-06 10:02:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263347_971d03.mov.
+2025-02-06 10:02:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263349_7d4067.mov.
+2025-02-06 10:02:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263351_6dc1c8 - Kopya.mov.
+2025-02-06 10:02:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263344_8c5e3f.mov.
+2025-02-06 10:02:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263350_f1c5e6.mov.
+2025-02-06 10:02:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263346_7da3cf.mov.
+2025-02-06 10:02:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263348_1415ee - Kopya.mov.
+2025-02-06 10:02:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263345_64ae4d - Kopya.mov.
+2025-02-06 10:02:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263351_6dc1c8 - Kopya.mov.
+2025-02-06 10:02:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263347_971d03.mov.
+2025-02-06 10:02:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263349_7d4067.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263350_f1c5e6.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263346_7da3cf.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263348_1415ee - Kopya.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263344_8c5e3f.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263345_64ae4d - Kopya.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263349_7d4067.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263351_6dc1c8 - Kopya.mov.
+2025-02-06 10:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263347_971d03.mov.
+2025-02-06 10:03:23 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263344_8c5e3f.mov.
+2025-02-06 10:03:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263350_f1c5e6.mov.
+2025-02-06 10:03:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263348_1415ee - Kopya.mov.
+2025-02-06 10:03:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263346_7da3cf.mov.
+2025-02-06 10:03:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263345_64ae4d - Kopya.mov.
+2025-02-06 10:03:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263347_971d03.mov.
+2025-02-06 10:03:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263349_7d4067.mov.
+2025-02-06 10:03:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263351_6dc1c8 - Kopya.mov.
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263344_8c5e3f.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263344_8c5e3f.mov'
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263345_64ae4d - Kopya.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263345_64ae4d - Kopya.mov'
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263346_7da3cf.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263346_7da3cf.mov'
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263347_971d03.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263347_971d03.mov'
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263348_1415ee - Kopya.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263348_1415ee - Kopya.mov'
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263349_7d4067.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263349_7d4067.mov'
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263350_f1c5e6.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263350_f1c5e6.mov'
+2025-02-06 10:03:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\13158_263351_6dc1c8 - Kopya.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\13158_263351_6dc1c8 - Kopya.mov'
+2025-02-06 11:49:56 - Cannot open video file C:/Users/muham/Desktop/v2\IMG_0957.MOV.
+2025-02-06 11:50:29 - Cannot open video file C:/Users/muham/Desktop/v2\IMG_0957.MOV.
+2025-02-06 11:51:17 - Cannot open video file C:/Users/muham/Desktop/v2\IMG_0957.MOV.
+2025-02-06 11:52:04 - Cannot open video file C:/Users/muham/Desktop/v2\IMG_0957.MOV.
+2025-02-06 11:53:29 - Cannot open video file C:/Users/muham/Desktop/v2\IMG_0957.MOV.
+2025-02-06 11:54:34 - Cannot open video file C:/Users/muham/Desktop/v2\IMG_0957.MOV.
+2025-02-06 11:54:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/v2\\IMG_0957.MOV' -> 'C:/Users/muham/Desktop/v2\\non_detected\\IMG_0957.MOV'
+2025-02-06 14:15:34 - Cannot open video file C:/Users/muham/Desktop/v2\IMG_0957.MOV.
+2025-02-06 14:15:38 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/v2\\IMG_0957.MOV' -> 'C:/Users/muham/Desktop/v2\\non_detected\\IMG_0957.MOV'
+2025-02-10 10:16:40 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-02-10 10:17:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/v2\\13170_270603_e23fe3_repeat.MOV' -> 'C:/Users/muham/Desktop/v2\\non_detected\\13170_270603_e23fe3_repeat.MOV'
+2025-02-10 16:55:48 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-02-10 16:56:27 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-02-10 16:57:06 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-02-10 16:58:03 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-02-10 16:58:41 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-02-10 17:00:08 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-02-10 17:01:11 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/v2\\13170_270603_e23fe3_repeat.MOV' -> 'C:/Users/muham/Desktop/v2\\non_detected\\13170_270603_e23fe3_repeat.MOV'
+2025-02-10 17:28:32 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.

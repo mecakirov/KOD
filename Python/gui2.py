@@ -7,7 +7,7 @@
 
 # sayaçlar textboxlara yazılacak
 
-# kalan süre sayacı eklenecek
+
 
 import cv2
 import os
@@ -30,9 +30,9 @@ class RedirectText:
         self.show_detail = show_detail
 
     def write(self, string):
-        if self.show_detail.get():
-            self.output.insert(tk.END, string)
-            self.output.see(tk.END)  # Otomatik kaydırma
+    
+        self.output.insert(tk.END, string)
+        self.output.see(tk.END)  # Otomatik kaydırma
 
     def flush(self):
         pass  # Boş bırakılabilir, gereksiz hata almamak için
@@ -48,8 +48,11 @@ def log_error(message):
         f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
 
 def clean_filename(name):
-    """Cleans invalid characters from a filename."""
-    return re.sub(r'[\\/*?:"<>|]', '_', name)
+    """Cleans invalid characters from a filename and removes prefix before the first underscore."""
+    name = re.sub(r'[\/*?:"<>|]', '_', name)  # Geçersiz karakterleri temizle
+    name = re.sub(r'^[^_]*_', '', name, count=1)  # İlk '_' karakterine kadar olan kısmı sil
+    #name = re.search(r'[^.]_*', name).group()  # Dosya uzantısından sonrasını sil
+    return name
 
 def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_folder):
     """Reads QR code data from a frame and renames the video file accordingly."""
@@ -68,11 +71,9 @@ def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_fol
 
         if os.path.exists(new_video_name):  # Dosya zaten varsa, "repeated" klasörüne taşı
             print(f"File already exists: {new_video_name}. Moving to 'repeated' folder.")
-            repeated_video_path = os.path.join(repeated_folder, os.path.basename(video_file_path))
+            repeated_video_path = os.path.join(repeated_folder, clean_filename(data) + "_repeat" + os.path.splitext(video_file_path)[1])
             try:
-                new_video_name = os.path.join(os.path.splitext(new_video_name) + "repeat" )
-                os.rename(video_file_path, repeated_video_path)
-                # shutil.move(video_file_path, repeated_video_path)
+                shutil.move(video_file_path, repeated_video_path)
                 print(f"Moved to 'repeated' folder: {repeated_video_path}")
             except Exception as e:
                 log_error(f"Error moving file to repeated folder: {e}")
@@ -132,18 +133,22 @@ def process_video_for_qr_code(video_path, changed_folder, repeated_folder, step_
 
     return False
 
-def process_video_step(video_path, step, changed_folder, repeated_folder, error_folder, step_index, total_steps, video_index, total_videos, remaining_videos):
+def process_video_step(video_path, step, changed_folder, repeated_folder, error_folder, step_index, total_steps, video_index, total_videos):
     """Processes a single video with a given step."""
     # Klasörlerdeki video sayılarını hesapla
+    path = os.path.dirname(video_path)
     changed_count = len(os.listdir(changed_folder))
     repeated_count = len(os.listdir(repeated_folder))
     error_count = len(os.listdir(error_folder))
+    remaining_count = remaining_videos_count(path)
     #count .mp4 .avi .mov .mkv files in the folder
-    remaining_videos = len([f for f in os.listdir(os.path.dirname(video_path)) if f.lower().endswith(('.mp4', '.avi', '.mov', '.mkv'))])
+    
+    update_total_videos_entry(remaining_count)
+    #remaining_videos = len([f for f in os.listdir(os.path.dirname(video_path)) if f.lower().endswith(('.mp4', '.avi', '.mov', '.mkv'))])
     # remaining_videos = len(os.listdir(os.path.dirname(video_path)))-3
    # remaining_videos = total_videos - (changed_count + repeated_count + error_count)
     
-    print(f"Processing video: {os.path.basename(video_path)} step {step_index}/{total_steps} {video_index}/{total_videos}, Changed: {changed_count}, non-detected: {error_count}, Repeated: {repeated_count}, Remaining: {remaining_videos}")
+  #  print(f"Processing video: {os.path.basename(video_path)} step {step_index}/{total_steps} {video_index}/{total_videos}, Changed: {changed_count}, non-detected: {error_count}, Repeated: {repeated_count}, Remaining: {remaining_count}")
     if process_video_for_qr_code(video_path, changed_folder, repeated_folder, step):
         return video_path
     elif step == step_index:  # Eğer son adımdaysa ve QR kod hala bulunamadıysa
@@ -158,14 +163,9 @@ def process_video_step(video_path, step, changed_folder, repeated_folder, error_
     else:
         return None  # Henüz son adım değilse, tekrar deneyebilmek için None döndür
 
-
-    
-
-
-
 def process_videos_in_folder(folder_path):
     start_time = time.time()
-
+   
     changed_folder = os.path.join(folder_path, "changed")
     error_folder = os.path.join(folder_path, "non_detected")
     repeated_folder = os.path.join(folder_path, "repeated")  
@@ -180,11 +180,11 @@ def process_videos_in_folder(folder_path):
 
     steps = [
         {"start_time": 0 * 1000, "end_time": 5 * 1000, "step": 1000},  
-        # {"start_time": 6 * 1000, "end_time": 15 * 1000, "step": 1000},
-        # {"start_time": 0.5 * 1000, "end_time": 5 * 1000, "step": 1000},
-        # {"start_time": 5.5 * 1000, "end_time": 10 * 1000, "step": 1000},  # mükrerrer frame atlanacak 
-        # {"start_time": 0.25 * 1000, "end_time": 5 * 1000, "step": 500},
-        # {"start_time": 5.25 * 1000, "end_time": 10 * 1000, "step": 500}  # mükrerrer frame atlanacak    
+        {"start_time": 6 * 1000, "end_time": 15 * 1000, "step": 1000},
+        {"start_time": 0.5 * 1000, "end_time": 5 * 1000, "step": 1000},
+        {"start_time": 5.5 * 1000, "end_time": 10 * 1000, "step": 1000},  # mükrerrer frame atlanacak 
+        {"start_time": 0.25 * 1000, "end_time": 5 * 1000, "step": 500},
+        {"start_time": 5.25 * 1000, "end_time": 10 * 1000, "step": 500}  # mükrerrer frame atlanacak    
     ]
 
     # Her adım için paralel işleme
@@ -205,7 +205,6 @@ def process_videos_in_folder(folder_path):
                         len(steps),
                         video_index + 1,
                         total_videos,
-                        remaining_videos
                     )
                     for video_index, video_path in enumerate(video_files)
                 ]
@@ -236,6 +235,7 @@ def start_process():
         return
 
     print(f"Selected folder: {folder_path.get()}")
+    #update_total_videos_entry(count_videos_in_folder(folder_path.get()))
     btnStart.config(state=tk.DISABLED)  # Start butonunu pasif yap
     btnStop.config(state=tk.NORMAL)  # Stop butonunu aktif yap
     thread = threading.Thread(target=process_videos, daemon=True)
@@ -252,7 +252,27 @@ def select_folder():
     path = filedialog.askdirectory(title="Select folder containing videos")
     if path:
         folder_path.set(path)
+        update_total_videos_entry(path)  # Dizin yolunu doğrudan geçir
         return path
+
+def update_total_videos_entry(folder_path):
+    remaining = remaining_videos_count(folder_path)
+    total = count_videos_in_folder(folder_path)
+    textTotalVideos.config(state="normal")  # Düzenlemeye aç
+    textTotalVideos.delete(0, tk.END)  # Mevcut içeriği sil
+    textTotalVideos.insert(0, f"{remaining}/{total}")  # Yeni değeri ekle (Remaining/Total formatında)
+    textTotalVideos.config(state="readonly")  # Tekrar sadece okunur yap
+
+def remaining_videos_count(folder_path):
+    video_extensions = ('.mp4', '.avi', '.mov', '.mkv')  # Desteklenen video uzantıları
+    remaining_count = sum(1 for f in os.listdir(folder_path) if f.lower().endswith(video_extensions))
+    return remaining_count
+
+def count_videos_in_folder(folder_path):
+    video_extensions = ['.mp4', '.avi', '.mov']  # Desteklenen video uzantıları
+    return sum(1 for file in os.listdir(folder_path)
+               if os.path.splitext(file)[1].lower() in video_extensions)
+
 
 if __name__ == "__main__":
     freeze_support()  # Windows'ta multiprocessing için gerekli
@@ -279,41 +299,21 @@ if __name__ == "__main__":
     frame_info = ttk.Frame(root)
     frame_info.pack(pady=5)
 
-    ttk.Label(frame_info, text="Video Index:").grid(row=0, column=0, padx=5, pady=5)
-    textVideoIndex = ttk.Entry(frame_info, width=10, state="readonly")
-    textVideoIndex.grid(row=0, column=1, padx=5, pady=5)
-
-    ttk.Label(frame_info, text="Total Videos:").grid(row=0, column=2, padx=5, pady=5)
+    ttk.Label(frame_info, text="Remaining/Total Videos:").grid(row=0, column=2, padx=5, pady=5)
     textTotalVideos = ttk.Entry(frame_info, width=10, state="readonly")
     textTotalVideos.grid(row=0, column=3, padx=5, pady=5)
 
-    ttk.Label(frame_info, text="Changed:").grid(row=1, column=0, padx=5, pady=5)
-    textChanged = ttk.Entry(frame_info, width=10, state="readonly")
-    textChanged.grid(row=1, column=1, padx=5, pady=5)
-
-    ttk.Label(frame_info, text="Non-Detected:").grid(row=1, column=2, padx=5, pady=5)
-    textNonDetected = ttk.Entry(frame_info, width=10, state="readonly")
-    textNonDetected.grid(row=1, column=3, padx=5, pady=5)
-
-    ttk.Label(frame_info, text="Repeated:").grid(row=2, column=0, padx=5, pady=5)
-    textRepeated = ttk.Entry(frame_info, width=10, state="readonly")
-    textRepeated.grid(row=2, column=1, padx=5, pady=5)
-
-    ttk.Label(frame_info, text="Remaining:").grid(row=2, column=2, padx=5, pady=5)
-    textRemaining = ttk.Entry(frame_info, width=10, state="readonly")
-    textRemaining.grid(row=2, column=3, padx=5, pady=5)
-
-    # Show Detail Checkbox
-    show_detail = tk.BooleanVar()
-    chkShowDetail = ttk.Checkbutton(root, text="Show Detail", variable=show_detail)
-    chkShowDetail.pack(pady=5)
+    # # Show Detail Checkbox
+    # show_detail = tk.BooleanVar()
+    # chkShowDetail = ttk.Checkbutton(root, text="Show Detail", variable=show_detail)
+    # chkShowDetail.pack(pady=5)
 
     # Çıktı alanı
-    textMultiOut = tk.Text(root, height=10, width=60, state="disabled")
+    textMultiOut = tk.Text(root, height=10, width=60, state="normal")
     textMultiOut.pack(pady=5)
 
     # Çıktıları yönlendirmek için stdout'u değiştir
-    sys.stdout = RedirectText(textMultiOut, show_detail)
+    #sys.stdout = RedirectText(textMultiOut, show_detail)
 
     # Butonlar
     frame_buttons = ttk.Frame(root)

@@ -10,15 +10,23 @@ import threading
 import sys
 from multiprocessing import Pool, cpu_count, freeze_support
 
+
+# Son step direk error klasörüne atabilir.
+#cpu_count() ayarlı yapılabilebilir.
+# sayaçlar textboxlara yazılacak
+# kalan süre sayacı eklenecek
+# cd python
+# pyinstaller --onefile --console --add-data "libiconv.dll;." --add-data "libzbar-64.dll;." asenkron.py
 ## Gui ##
 
 class RedirectText:
     """Terminal output redirection to a text widget"""
     def __init__(self, text_widget):
-        self.output = text_widget
+        self.output = text_widget # Çıktıyı göstereceğimiz widget
 
-    def write(self, string):
-        self.output.insert(tk.END, string)
+    def write(self, string): 
+    
+        self.output.insert(tk.END, string) # Çıktıyı ekle
         self.output.see(tk.END)  # Otomatik kaydırma
 
     def flush(self):
@@ -35,8 +43,11 @@ def log_error(message):
         f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
 
 def clean_filename(name):
-    """Cleans invalid characters from a filename."""
-    return re.sub(r'[\\/*?:"<>|]', '_', name)
+    """Cleans invalid characters from a filename and removes prefix before the first underscore."""
+    name = re.sub(r'[\/*?:"<>|]', '_', name)  # Geçersiz karakterleri temizle
+    name = re.sub(r'^[^_]*_', '', name, count=1)  # İlk '_' karakterine kadar olan kısmı sil
+    #name = re.search(r'[^.]_*', name).group()  # Dosya uzantısından sonrasını sil
+    return name
 
 def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_folder):
     """Reads QR code data from a frame and renames the video file accordingly."""
@@ -63,8 +74,9 @@ def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_fol
                 log_error(f"Error moving file to repeated folder: {e}")
             return None
 
-        try:
-            os.rename(video_file_path, new_video_name)
+        try: # Dosya adını değiştir ve taşı
+            shutil.move(video_file_path, new_video_name)
+           # os.rename(video_file_path, new_video_name)
             print(f"Video renamed: {os.path.basename(video_file_path)} -> {os.path.basename(new_video_name)}")
             return data
         except Exception as e:
@@ -242,7 +254,8 @@ if __name__ == "__main__":
     textMultiOut.pack(pady=5)
 
     # Çıktıları yönlendirmek için stdout'u değiştir
-    sys.stdout = RedirectText(textMultiOut)
+    sys.stdout = RedirectText(textMultiOut) # Çıktıları yönlendir
+   # sys.stderr = RedirectText(textMultiOut) # Hata çıktılarını da yönlendir
 
     # Start butonu
     btnStart = tk.Button(root, text="Start", command=start_process, bg="green", fg="white")

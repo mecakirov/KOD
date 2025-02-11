@@ -6,7 +6,7 @@ from pyzbar.pyzbar import decode
 from pyzbar.pyzbar import ZBarSymbol
 
 import numpy as np
-import skimage.filters as filters
+# import skimage.filters as filters
 
 # Mention the installed location of Tesseract-OCR in your system
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # In case using colab after installing above modules
