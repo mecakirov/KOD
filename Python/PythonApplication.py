@@ -7,9 +7,23 @@ import os
 from pyzbar.pyzbar import decode, ZBarSymbol
 import re
 import time
+import tkinter as tk
 import shutil
 import tkinter as tk
 from tkinter import filedialog
+
+class RedirectText:
+    """Terminal output redirection to a text widget"""
+    def __init__(self, text_widget):
+        self.output = text_widget # Çıktıyı göstereceğimiz widget
+
+    def write(self, string): 
+    
+        self.output.insert(tk.END, string) # Çıktıyı ekle
+        self.output.see(tk.END)  # Otomatik kaydırma
+
+    def flush(self):
+        pass  # Boş bırakılabilir, gereksiz hata almamak için
 
 def log_error(message):
     """Logs errors to a file."""
@@ -17,8 +31,11 @@ def log_error(message):
         f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
 
 def clean_filename(name):
-    """Cleans invalid characters from a filename."""
-    return re.sub(r'[\\/*?:"<>|]', '_', name)
+    """Cleans invalid characters from a filename and removes prefix before the first underscore."""
+    name = re.sub(r'[\/*?:"<>|]', '_', name)  # Geçersiz karakterleri temizle
+    name = re.sub(r'^[^_]*_', '', name, count=1)  # İlk '_' karakterine kadar olan kısmı sil
+    #name = re.search(r'[^.]_*', name).group()  # Dosya uzantısından sonrasını sil
+    return name
 
 def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_folder):
     """Reads QR code data from a frame and renames the video file accordingly."""

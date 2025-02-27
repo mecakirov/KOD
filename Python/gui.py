@@ -123,10 +123,8 @@ def process_video_for_qr_code(video_path, changed_folder, repeated_folder, step_
         qr_code_data = read_qr_code_from_frame(frame, video_path, changed_folder, repeated_folder)
         if qr_code_data:
             return True
-
         # step değerini ekleyerek bir sonraki frame'e geç
         timestamp_ms += step_info["step"]
-
     return False
 
 def process_video_step(video_path, step, changed_folder, repeated_folder, error_folder, step_index, total_steps, video_index, total_videos, remaining_videos):
