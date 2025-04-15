@@ -1,0 +1,67 @@
+import tkinter as tk
+from tkinter import messagebox
+import requests
+
+def login():
+    phone = entry_phone.get()
+    password = entry_password.get()
+
+    if not phone or not password:
+        messagebox.showwarning("Eksik Bilgi", "Lütfen telefon ve şifreyi giriniz.")
+        return
+
+    url = "https://staging.iddef.org/api/v2/user/login"
+    headers = {
+        "Content-Type": "application/json"
+    }
+    data = {
+        "phone_number": phone,
+        "password": password,
+        "country_phone_code": "90",
+        "one_time_password": None
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data, timeout=10)
+        if response.status_code == 200:
+            json_data = response.json()
+            token = json_data["user"]["token"]
+            if token:
+                text_result.delete(1.0, tk.END)
+                text_result.insert(tk.END, f"Giriş başarılı!\nToken:\n{token}")
+            else:
+                text_result.delete(1.0, tk.END)
+                text_result.insert(tk.END, "Giriş başarısız: Token alınamadı.")
+        else:
+            try:
+                error_msg = response.json().get("message", "Giriş başarısız!")
+            except:
+                error_msg = "Giriş başarısız!"
+            text_result.delete(1.0, tk.END)
+            text_result.insert(tk.END, error_msg)
+    except requests.exceptions.RequestException as e:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, f"Bağlantı Hatası:\n{str(e)}")
+
+# Arayüz
+root = tk.Tk()
+root.title("IDDEF Giriş Paneli")
+root.geometry("400x300")
+
+label_phone = tk.Label(root, text="Telefon Numarası:")
+label_phone.pack()
+entry_phone = tk.Entry(root, width=40)
+entry_phone.pack()
+
+label_password = tk.Label(root, text="Şifre:")
+label_password.pack()
+entry_password = tk.Entry(root, show="*", width=40)
+entry_password.pack()
+
+button_login = tk.Button(root, text="Giriş Yap", command=login)
+button_login.pack(pady=10)
+
+text_result = tk.Text(root, height=8, width=45)
+text_result.pack()
+
+root.mainloop()

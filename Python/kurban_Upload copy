@@ -1,0 +1,230 @@
+import tkinter as tk
+from tkinter import filedialog
+import requests
+import mimetypes
+import os
+import shutil
+
+# Global değişkenler
+global_token = None
+selected_file_path = None
+ticket_response = None
+
+def login():
+    global global_token
+
+    phone = entry_phone.get()
+    password = entry_password.get()
+
+    url = "https://staging.iddef.org/api/v2/user/login"
+    data = {
+        "password": password,
+        "phone_number": phone,
+        "country_phone_code": "90",
+        "one_time_password": None
+    }
+
+    try:
+        response = requests.post(url, json=data, timeout=10)
+        if response.status_code == 200:
+            json_data = response.json()
+            token = json_data["user"].get("token")
+            if token:
+                global_token = token
+                text_result.delete(1.0, tk.END)
+                text_result.insert(tk.END, f"Giriş başarılı!\nToken:\n{token}")
+                enable_ticket_fields(True)
+            else:
+                text_result.delete(1.0, tk.END)
+                text_result.insert(tk.END, "Giriş başarısız: Token alınamadı.")
+        else:
+            error_msg = response.json().get("message", "Giriş başarısız!")
+            text_result.delete(1.0, tk.END)
+            text_result.insert(tk.END, error_msg)
+    except requests.exceptions.RequestException as e:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, f"Bağlantı Hatası:\n{str(e)}")
+
+def select_file():
+    global selected_file_path
+    file_path = filedialog.askopenfilename(filetypes=[("Video Files", "*.mp4 *.avi *.mov *.mkv")])
+    if not file_path:
+        return
+    selected_file_path = file_path
+    file_name = os.path.basename(file_path)
+    name_parts = file_name.split(".")
+    if len(name_parts) != 2:
+        return
+
+    name_without_ext, ext = name_parts
+    ext = ext.lower()
+    split_parts = name_without_ext.split("_")
+    if len(split_parts) != 3:
+        return
+
+    qurban_no, qr_no, document_no = split_parts
+    mime_type, _ = mimetypes.guess_type(file_path)
+
+    entry_qurban.delete(0, tk.END)
+    entry_qurban.insert(0, qurban_no)
+    entry_qurban.config(state="readonly")
+
+    entry_document.delete(0, tk.END)
+    entry_document.insert(0, document_no)
+    entry_document.config(state="readonly")
+
+    entry_extension.delete(0, tk.END)
+    entry_extension.insert(0, ext)
+    entry_extension.config(state="readonly")
+
+    entry_mime.delete(0, tk.END)
+    entry_mime.insert(0, mime_type or "video")
+    entry_mime.config(state="readonly")
+
+def generate_ticket():
+    global ticket_response
+    if not global_token:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, "Önce giriş yapmalısınız!")
+        return
+
+    url = "https://staging.iddef.org/api/v3/qurban/video/generate-ticket"
+    headers = {
+        "Authorization": f"Bearer {global_token}"
+    }
+
+    data = {
+        "document_no": entry_document.get(),
+        "qurban_no": entry_qurban.get(),
+        "city_name": entry_city.get() or "empty",
+        "country_name": entry_country.get() or "empty",
+        "extension": entry_extension.get(),
+        "content_type": entry_mime.get()
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data, timeout=10)
+        if response.status_code == 200:
+            ticket_response = response.json()
+            text_result.delete(1.0, tk.END)
+            text_result.insert(tk.END, f"Ticket Oluşturuldu:\n{ticket_response}")
+        else:
+            error_msg = response.json().get("message", "İstek başarısız!")
+            text_result.delete(1.0, tk.END)
+            text_result.insert(tk.END, error_msg)
+    except requests.exceptions.RequestException as e:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, f"Bağlantı Hatası:\n{str(e)}")
+
+def upload_to_s3():
+    if not ticket_response or not selected_file_path:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, "Önce ticket oluşturmalı ve dosya seçmelisiniz!")
+        return
+
+    conditions = ticket_response["conditions"]
+    policy_base64 = ticket_response["policy_base64"]
+    signature = ticket_response["signature"]
+
+    files = {
+        "file": open(selected_file_path, "rb")
+    }
+
+    data = {
+        "key": conditions["key"],
+        "acl": conditions["acl"],
+        "Content-Type": conditions["Content-Type"],
+        "success_action_redirect": conditions["success_action_redirect"],
+        "x-amz-server-side-encryption": conditions["x-amz-server-side-encryption"],
+        "x-amz-credential": conditions["x-amz-credential"],
+        "x-amz-algorithm": conditions["x-amz-algorithm"],
+        "x-amz-date": conditions["x-amz-date"],
+        "policy": policy_base64,
+        "x-amz-signature": signature
+    }
+
+    try:
+        s3_url = "https://iddefstaging.s3.eu-central-1.amazonaws.com/"
+        response = requests.post(s3_url, data=data, files=files)
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, f"S3 Yanıt:\nStatus: {response.status_code}\nİçerik:\n{response.text}")
+
+        if response.status_code in [200, 204, 303]:
+            sent_dir = os.path.join(os.path.dirname(selected_file_path), "sent")
+            os.makedirs(sent_dir, exist_ok=True)
+            shutil.move(selected_file_path, os.path.join(sent_dir, os.path.basename(selected_file_path)))
+            text_result.insert(tk.END, f"\nDosya 'sent' klasörüne taşındı.")
+    except Exception as e:
+        text_result.insert(tk.END, f"\nYükleme Hatası: {str(e)}")
+
+def enable_ticket_fields(state=True):
+    state_option = "normal" if state else "disabled"
+    for widget in ticket_widgets:
+        widget.configure(state=state_option)
+
+# Arayüz
+root = tk.Tk()
+root.title("IDDEF Giriş ve Ticket Oluşturucu")
+
+# Giriş bölümü
+tk.Label(root, text="Telefon Numarası:").grid(row=0, column=0)
+entry_phone = tk.Entry(root)
+entry_phone.grid(row=0, column=1)
+
+tk.Label(root, text="Şifre:").grid(row=1, column=0)
+entry_password = tk.Entry(root, show="*")
+entry_password.grid(row=1, column=1)
+
+tk.Button(root, text="Giriş Yap", command=login).grid(row=2, columnspan=2, pady=5)
+
+# Dosya seçme butonu
+tk.Button(root, text="Dosya Seç", command=select_file).grid(row=3, columnspan=2, pady=5)
+
+# Ticket formu (ilk başta pasif)
+tk.Label(root, text="Document No:").grid(row=4, column=0)
+entry_document = tk.Entry(root)
+entry_document.grid(row=4, column=1)
+
+
+tk.Label(root, text="Qurban No:").grid(row=5, column=0)
+entry_qurban = tk.Entry(root)
+entry_qurban.grid(row=5, column=1)
+
+
+tk.Label(root, text="Şehir:").grid(row=6, column=0)
+entry_city = tk.Entry(root)
+entry_city.grid(row=6, column=1)
+
+
+tk.Label(root, text="Ülke:").grid(row=7, column=0)
+entry_country = tk.Entry(root)
+entry_country.grid(row=7, column=1)
+
+
+tk.Label(root, text="Dosya Uzantısı:").grid(row=8, column=0)
+entry_extension = tk.Entry(root)
+entry_extension.grid(row=8, column=1)
+
+
+tk.Label(root, text="Content Type:").grid(row=9, column=0)
+entry_mime = tk.Entry(root)
+entry_mime.grid(row=9, column=1)
+
+btn_ticket = tk.Button(root, text="Ticket Oluştur", command=generate_ticket)
+btn_ticket.grid(row=10, columnspan=2, pady=5)
+
+btn_upload = tk.Button(root, text="Yükle", command=upload_to_s3)
+btn_upload.grid(row=11, columnspan=2, pady=5)
+
+# Sonuç gösterimi
+text_result = tk.Text(root, height=10, width=60)
+text_result.grid(row=12, columnspan=2)
+
+# Ticket alanları topluca kontrol için liste
+ticket_widgets = [
+    entry_document, entry_qurban, entry_city, entry_country,
+    entry_extension, entry_mime, btn_ticket, btn_upload
+]
+enable_ticket_fields(False)
+
+root.mainloop()

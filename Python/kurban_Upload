@@ -1,0 +1,142 @@
+import tkinter as tk
+from tkinter import ttk
+import requests
+
+# Global değişken olarak token'ı saklayacağız
+global_token = None
+
+def login():
+    global global_token
+
+    phone = entry_phone.get()
+    password = entry_password.get()
+
+    url = "https://staging.iddef.org/api/v2/user/login"
+    data = {
+        "password": password,
+        "phone_number": phone,
+        "country_phone_code": "90",
+        "one_time_password": None
+    }
+
+    try:
+        response = requests.post(url, json=data, timeout=10)
+        if response.status_code == 200:
+            json_data = response.json()
+            token = json_data["user"]["token"]
+            if token:
+                global_token = token
+                text_result.delete(1.0, tk.END)
+                text_result.insert(tk.END, f"Giriş başarılı!\nToken:\n{token}")
+                enable_ticket_fields(True)
+            else:
+                text_result.delete(1.0, tk.END)
+                text_result.insert(tk.END, "Giriş başarısız: Token alınamadı.")
+        else:
+            try:
+                error_msg = response.json().get("message", "Giriş başarısız!")
+            except:
+                error_msg = "Giriş başarısız!"
+            text_result.delete(1.0, tk.END)
+            text_result.insert(tk.END, error_msg)
+    except requests.exceptions.RequestException as e:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, f"Bağlantı Hatası:\n{str(e)}")
+
+def generate_ticket():
+    if not global_token:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, "Önce giriş yapmalısınız!")
+        return
+
+    url = "https://staging.iddef.org/api/v3/qurban/video/generate-ticket"
+    headers = {
+        "Authorization": f"Bearer {global_token}"
+    }
+
+    data = {
+        "document_no": entry_document.get(),
+        "qurban_no": entry_qurban.get(),
+        "city_name": entry_city.get(),
+        "country_name": entry_country.get(),
+        "extension": entry_extension.get(),
+        "content_type": entry_mime.get()
+    }
+
+    try:
+        response = requests.post(url, headers=headers, json=data, timeout=10)
+        if response.status_code == 200:
+            result = response.json()
+            text_result.delete(1.0, tk.END)
+            text_result.insert(tk.END, f"Ticket Oluşturuldu:\n{result}")
+        else:
+            try:
+                error_msg = response.json().get("message", "İstek başarısız!")
+            except:
+                error_msg = "İstek başarısız!"
+            text_result.delete(1.0, tk.END)
+            text_result.insert(tk.END, error_msg)
+    except requests.exceptions.RequestException as e:
+        text_result.delete(1.0, tk.END)
+        text_result.insert(tk.END, f"Bağlantı Hatası:\n{str(e)}")
+
+def enable_ticket_fields(state=True):
+    state_option = "normal" if state else "disabled"
+    for widget in ticket_widgets:
+        widget.configure(state=state_option)
+
+# Arayüz
+root = tk.Tk()
+root.title("IDDEF Giriş ve Ticket Oluşturucu")
+
+# Giriş bölümü
+tk.Label(root, text="Telefon Numarası:").grid(row=0, column=0)
+entry_phone = tk.Entry(root)
+entry_phone.grid(row=0, column=1)
+
+tk.Label(root, text="Şifre:").grid(row=1, column=0)
+entry_password = tk.Entry(root, show="*")
+entry_password.grid(row=1, column=1)
+
+tk.Button(root, text="Giriş Yap", command=login).grid(row=2, columnspan=2, pady=5)
+
+# Ticket formu (ilk başta pasif)
+tk.Label(root, text="Document No:").grid(row=3, column=0)
+entry_document = tk.Entry(root)
+entry_document.grid(row=3, column=1)
+
+tk.Label(root, text="Qurban No:").grid(row=4, column=0)
+entry_qurban = tk.Entry(root)
+entry_qurban.grid(row=4, column=1)
+
+tk.Label(root, text="Şehir:").grid(row=5, column=0)
+entry_city = tk.Entry(root)
+entry_city.grid(row=5, column=1)
+
+tk.Label(root, text="Ülke:").grid(row=6, column=0)
+entry_country = tk.Entry(root)
+entry_country.grid(row=6, column=1)
+
+tk.Label(root, text="Dosya Uzantısı (ör: mp4):").grid(row=7, column=0)
+entry_extension = tk.Entry(root)
+entry_extension.grid(row=7, column=1)
+
+tk.Label(root, text="Content Type (ör: video/mp4):").grid(row=8, column=0)
+entry_mime = tk.Entry(root)
+entry_mime.grid(row=8, column=1)
+
+btn_ticket = tk.Button(root, text="Ticket Oluştur", command=generate_ticket)
+btn_ticket.grid(row=9, columnspan=2, pady=10)
+
+# Sonuç gösterimi
+text_result = tk.Text(root, height=10, width=50)
+text_result.grid(row=10, columnspan=2)
+
+# Ticket alanları topluca kontrol için liste
+ticket_widgets = [
+    entry_document, entry_qurban, entry_city, entry_country,
+    entry_extension, entry_mime, btn_ticket
+]
+enable_ticket_fields(False)  # İlk açıldığında pasif
+
+root.mainloop()
