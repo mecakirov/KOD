@@ -1,4 +1,0 @@
-2025-02-12 15:36:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263346_7da3cf.mov.
-2025-02-12 15:36:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263349_7d4067.mov.
-2025-02-12 15:36:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263344_8c5e3f.mov.
-2025-02-12 15:36:50 - Cannot open video file C:/Users/muham/Desktop/Kurban\13158_263345_64ae4d - Kopya.mov.
