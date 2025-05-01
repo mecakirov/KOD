@@ -36,7 +36,7 @@ def text_to_speech(text):
             break
 
     # Konuşma hızını düşür (varsayılan 200 civarıdır)
-    engine.setProperty('rate', 150)  # Daha yavaş okuma için düşürdük
+    engine.setProperty('rate', 200)  # Daha yavaş okuma için düşürdük
 
     # Metni seslendir
     engine.say(text)
@@ -44,7 +44,7 @@ def text_to_speech(text):
 
 
 if __name__ == "__main__":
-    image_path = r"C:\Users\muham\Desktop\Kod\Python\sample_2.jpeg"  # Buraya kendi görselinizin yolunu yazın
+    image_path = r"C:\Users\muham\Desktop\Kod\Python\sample_3.jpeg"  # Buraya kendi görselinizin yolunu yazın
     extracted_text = extract_text_from_image(image_path)
     
     print("Çıkarılan Metin:")

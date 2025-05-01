@@ -10,14 +10,25 @@ import threading
 import sys
 from multiprocessing import Pool, cpu_count, freeze_support
 
-
 # Son step direk error klasörüne atabilir.
-#cpu_count() ayarlı yapılabilebilir.
+#cpu_count() ayarlı yapılabil
 # sayaçlar textboxlara yazılacak
 # kalan süre sayacı eklenecek
 # cd python
 # pyinstaller --onefile --console --add-data "libiconv.dll;." --add-data "libzbar-64.dll;." asenkron.py
 ## Gui ##
+infoMessage = False
+def welcome_message():
+    global infoMessage
+    if not infoMessage:
+        print("Bu program, kurban videolarını etiketleme işlemini otomatikleştirmek\niçin hazırlanmıştır.")
+        print("\nBaşarı oranı, QR kodunun video başında net bir şekilde görünmesine\nbağlıdır.")
+        print("\nProgram bilgisayarınızın tüm gücünü kullanacaktır. İşlem sırasında\nbilgisayarınız yavaşlayabilir.")
+        print("\nİşlem tamamlandığında, videolar 'Basarili', 'Basarisiz' ve 'Tekrar'\nklasörlerine taşınacaktır.")
+        print("\nBaşlamak için videoların bulunduğu klasörü seçiniz ve 'Başla' butonuna\ntıklayınız.")
+        print("\nLütfen her zaman yedek alarak çalışınız.\n")
+        infoMessage = True
+
 
 class RedirectText:
     """Terminal output redirection to a text widget"""
@@ -42,12 +53,27 @@ def log_error(message):
     with open("error_log.txt", "a", encoding="utf-8") as f:
         f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} - {message}\n")
 
+
 def clean_filename(name):
-    """Cleans invalid characters from a filename and removes prefix before the first underscore."""
-    name = re.sub(r'[\/*?:"<>|]', '_', name)  # Geçersiz karakterleri temizle
-    name = re.sub(r'^[^_]*_', '', name, count=1)  # İlk '_' karakterine kadar olan kısmı sil
-    #name = re.search(r'[^.]_*', name).group()  # Dosya uzantısından sonrasını sil
-    return name
+
+    # Geçersiz karakterleri temizle
+   # name = re.sub(r'[\/*?:"<>|]', '_', name)
+    
+    # Veriyi parçalara ayır
+    parts = name.split('|')
+    
+    # Eğer 3 parça yoksa orijinal ismi döndür (temizlenmiş haliyle)
+    if len(parts) != 3:
+        return name
+    
+    # Parçaları al: [docNo, qurbanNo, qrNo] formatında olduğunu varsayıyoruz
+    docNo = parts[0].strip()
+    qurbanNo = parts[1].strip()
+    qrNo = parts[2].strip()
+    
+    # Yeni formatı oluştur: qurbanNo_docNo_qrNo
+    # return f"{qurbanNo}_{docNo}_{qrNo}"
+    return f"{qurbanNo}"
 
 def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_folder):
     """Reads QR code data from a frame and renames the video file accordingly."""
@@ -65,11 +91,13 @@ def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_fol
         new_video_name = os.path.join(changed_folder, clean_filename(data) + os.path.splitext(video_file_path)[1])
 
         if os.path.exists(new_video_name):  # Dosya zaten varsa, "repeated" klasörüne taşı
-            print(f"File already exists: {new_video_name}. Moving to 'repeated' folder.")
+            print(f"Dosya zaten var: {new_video_name}. 'Tekrar' klasörüne taşınıyor") 
+
             repeated_video_path = os.path.join(repeated_folder, os.path.basename(video_file_path))
             try:
                 shutil.move(video_file_path, repeated_video_path)
-                print(f"Moved to 'repeated' folder: {repeated_video_path}")
+                print(f"'Tekrar' klasörüne taşındı: {repeated_video_path}")
+                #türkçesi 
             except Exception as e:
                 log_error(f"Error moving file to repeated folder: {e}")
             return None
@@ -77,7 +105,7 @@ def read_qr_code_from_frame(frame, video_file_path, changed_folder, repeated_fol
         try: # Dosya adını değiştir ve taşı
             shutil.move(video_file_path, new_video_name)
            # os.rename(video_file_path, new_video_name)
-            print(f"Video renamed: {os.path.basename(video_file_path)} -> {os.path.basename(new_video_name)}")
+            print(f"Video isim değiştiriliyor {os.path.basename(video_file_path)} -> {os.path.basename(new_video_name)}")
             return data
         except Exception as e:
             log_error(f"Error renaming file: {e}")
@@ -138,17 +166,20 @@ def process_video_step(video_path, step, changed_folder, repeated_folder, error_
     # remaining_videos = len(os.listdir(os.path.dirname(video_path)))-3
    # remaining_videos = total_videos - (changed_count + repeated_count + error_count)
     
-    print(f"Processing video: {os.path.basename(video_path)} step {step_index}/{total_steps} {video_index}/{total_videos}, Changed: {changed_count}, non-detected: {error_count}, Repeated: {repeated_count}, Remaining: {remaining_videos}")
+   # print(f"Processing video: {os.path.basename(video_path)} step {step_index}/{total_steps} {video_index}/{total_videos}, Changed: {changed_count}, non-detected: {error_count}, Repeated: {repeated_count}, Remaining: {remaining_videos}")
+   
+    print(f"İşleniyor: {os.path.basename(video_path)} aşama {step_index}/{total_steps} {video_index}/{total_videos}, Başarıyla değiştirilen: {changed_count}, Tespit edilemeyen: {error_count}, Tekrar eden: {repeated_count}, Kalan: {remaining_videos}")
     if process_video_for_qr_code(video_path, changed_folder, repeated_folder, step):
         return video_path
     return None
 
+
 def process_videos_in_folder(folder_path):
     start_time = time.time()
 
-    changed_folder = os.path.join(folder_path, "changed")
-    error_folder = os.path.join(folder_path, "non_detected")
-    repeated_folder = os.path.join(folder_path, "repeated")  
+    changed_folder = os.path.join(folder_path, "Basarili")
+    error_folder = os.path.join(folder_path, "Basarisiz")
+    repeated_folder = os.path.join(folder_path, "Tekrar")  
 
     os.makedirs(changed_folder, exist_ok=True)
     os.makedirs(error_folder, exist_ok=True)
@@ -169,7 +200,7 @@ def process_videos_in_folder(folder_path):
 
     # Her adım için paralel işleme
     for step_index, step in enumerate(steps, start=1):
-        print(f"\n--- Step {step_index}/{len(steps)} ---")
+        print(f"\n--- Aşama {step_index}/{len(steps)} ---")
         with Pool(processes=cpu_count()) as pool:
             # process_video_step fonksiyonuna ek argümanları gönder
             results = pool.starmap(
@@ -200,30 +231,31 @@ def process_videos_in_folder(folder_path):
         error_video_path = os.path.join(error_folder, os.path.basename(video_path))
         try:
             os.rename(video_path, error_video_path)
-            print(f"Video moved to 'error' folder: {error_video_path}")
+            print(f"Video 'Basarisiz' klasörüne taşındı: {error_video_path}")
         except Exception as e:
             log_error(f"Error moving file to error folder: {e}")
 
     elapsed_time = time.time() - start_time
-    print(f"\nProcessing completed in {elapsed_time:.2f} seconds.")
+    print(f"\nVideoların işlenmesi tamamlandı ve {elapsed_time:.2f} sn sürdü.")
     #Expect press any key
-    input("Press any key to exit...")
+    input("Devam etmek için yeni bir klasör seçiniz.\n")
 
 def start_process():
     """Start button click event"""
     if not folder_path.get():
-        print("Please select a folder first!")
+        print("Önce klasör seçiniz.")
         return
 
-    print(f"Selected folder: {folder_path.get()}")
+   # print(f"Seçilen Klasör: {folder_path.get()}")
     thread = threading.Thread(target=process_videos, daemon=True)
     thread.start()
 
 def select_folder():
     """Klasör seçme işlemi"""
-    path = filedialog.askdirectory(title="Select folder containing videos")
+    path = filedialog.askdirectory(title="Klasör Seçin")
     if path:
         folder_path.set(path)
+        print("Klasör Seçildi:", path) 
         return path
 
 if __name__ == "__main__":
@@ -231,16 +263,16 @@ if __name__ == "__main__":
 
     # Ana pencere
     root = tk.Tk()
-    root.title("Video QR Scanner")  # Pencere başlığı
-    root.geometry("500x400")
+    root.title("Kurban Video Etiketleyici")  # Pencere başlığı
+    #root.geometry("600x500")
 
     # Program ismi
-    labelTitle = tk.Label(root, text="Video QR Scanner", font=("Arial", 16, "bold"))
+    labelTitle = tk.Label(root, text="Kurban Video Etiketleyici", font=("Arial", 16, "bold"))
     labelTitle.pack(pady=10)
 
     # Klasör seçme butonu
     folder_path = tk.StringVar()
-    btnSelect = tk.Button(root, text="Folder Select", command=select_folder)
+    btnSelect = tk.Button(root, text="Klasör Seç", command=select_folder)
     btnSelect.pack()
 
     # Seçilen klasörü gösteren alan
@@ -248,7 +280,7 @@ if __name__ == "__main__":
     textFolder.pack(pady=5)
 
     # Çıktı alanı
-    textMultiOut = tk.Text(root, height=10, width=60)
+    textMultiOut = tk.Text(root, height=20, width=70)
     textMultiOut.pack(pady=5)
 
     # Çıktıları yönlendirmek için stdout'u değiştir
@@ -256,7 +288,13 @@ if __name__ == "__main__":
    # sys.stderr = RedirectText(textMultiOut) # Hata çıktılarını da yönlendir
 
     # Start butonu
-    btnStart = tk.Button(root, text="Start", command=start_process, bg="green", fg="white")
-    btnStart.pack(pady=10)
+    btnStart = tk.Button(root, text="Başla", command=start_process, bg="green", fg="white")
+    btnStart.pack(pady=5)
+   # btnStart.config(state="disabled") 
+    
+    noticeLabel = tk.Label(root, text="Uyarı: Her zaman yedekli çalışın", font=("Arial", 8))
+    noticeLabel.pack(pady=5)
 
+    welcome_message()
     root.mainloop()
+    

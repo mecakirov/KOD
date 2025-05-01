@@ -299,3 +299,542 @@ v.
 2025-02-10 17:00:08 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
 2025-02-10 17:01:11 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/v2\\13170_270603_e23fe3_repeat.MOV' -> 'C:/Users/muham/Desktop/v2\\non_detected\\13170_270603_e23fe3_repeat.MOV'
 2025-02-10 17:28:32 - Cannot open video file C:/Users/muham/Desktop/v2\13170_270603_e23fe3_repeat.MOV.
+2025-04-21 09:59:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\261911_1c8bfa.mov.
+2025-04-21 09:59:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 09:59:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\263339_5c3547.mov.
+2025-04-21 09:59:55 - Cannot open video file C:/Users/muham/Desktop/Kurban\262797_f0451d.mov.
+2025-04-21 09:59:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_69fd87 (2).mov.
+2025-04-21 09:59:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\263355_9d8b1a.mov.
+2025-04-21 09:59:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b.mov.
+2025-04-21 09:59:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263338_40f8e2.mov.
+2025-04-21 09:59:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263342_407840.mov.
+2025-04-21 09:59:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_69fd87.mov.
+2025-04-21 09:59:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_c4e5d3.mov.
+2025-04-21 09:59:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\262803_870220.mov.
+2025-04-21 09:59:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\263344_8c5e3f.mov.
+2025-04-21 09:59:59 - Cannot open video file C:/Users/muham/Desktop/Kurban\262804_3973c4 (2).mov.
+2025-04-21 10:00:03 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 10:00:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\263442_d83597.mov.
+2025-04-21 10:00:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe (2).mov.
+2025-04-21 10:00:12 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\261911_1c8bfa.mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\262797_f0451d.mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b.mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_69fd87.mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_c4e5d3.mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\262803_870220.mov.
+2025-04-21 10:00:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\263339_5c3547.mov.
+2025-04-21 10:00:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_69fd87 (2).mov.
+2025-04-21 10:00:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\262804_3973c4 (2).mov.
+2025-04-21 10:00:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\263344_8c5e3f.mov.
+2025-04-21 10:00:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\263355_9d8b1a.mov.
+2025-04-21 10:00:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\263338_40f8e2.mov.
+2025-04-21 10:00:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\26273933_a691ae_133137 - Kopya.mov.
+2025-04-21 10:00:19 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 10:00:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262796_fe502e.mov.
+2025-04-21 15:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_69fd87.mov.
+2025-04-21 15:57:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\262804_3973c4.mov.
+2025-04-21 15:57:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 16:05:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 16:06:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 16:06:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 16:06:12 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 16:06:14 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 16:06:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_a691ae.mov.
+2025-04-21 16:06:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 16:06:27 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 16:06:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 16:06:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 16:06:29 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 16:06:30 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_c31193 (2).mov.
+2025-04-21 16:06:30 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 16:06:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 16:06:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_5b28ee (2).mov.
+2025-04-21 16:06:34 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_40c1e8 (3).mov.
+2025-04-21 16:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 16:06:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 16:06:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_a691ae.mov.
+2025-04-21 16:06:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 16:06:44 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 16:06:44 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 16:06:45 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 16:06:45 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_c31193 (2).mov.
+2025-04-21 16:06:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_40c1e8 (3).mov.
+2025-04-21 16:06:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 16:06:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 16:06:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_5b28ee (2).mov.
+2025-04-21 16:06:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 16:06:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 16:06:51 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 16:06:51 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_a691ae.mov.
+2025-04-21 16:06:52 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 16:06:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_f7af09.mov.
+2025-04-21 16:06:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_c31193 (2).mov.
+2025-04-21 16:06:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 16:06:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 16:06:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 16:06:59 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 16:06:59 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_40c1e8 (3).mov.
+2025-04-21 16:07:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 16:07:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_5b28ee (2).mov.
+2025-04-21 16:07:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 16:07:01 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 16:07:04 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 16:07:04 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_a691ae.mov.
+2025-04-21 16:07:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 16:07:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_f7af09.mov.
+2025-04-21 16:07:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 16:07:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 16:07:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 16:07:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 16:07:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_5b28ee (2).mov.
+2025-04-21 16:07:14 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_c31193 (2).mov.
+2025-04-21 16:07:14 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 16:07:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-21 16:07:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 16:07:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\282454_b506f9.mov.
+2025-04-21 16:07:19 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_40c1e8 (3).mov.
+2025-04-21 16:07:21 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 16:07:23 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_a691ae.mov.
+2025-04-21 16:07:23 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 16:07:24 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 16:07:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_f7af09.mov.
+2025-04-21 16:07:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 16:07:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 16:07:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-21 16:07:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+v.
+2025-04-21 16:07:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 16:07:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_5b28ee (2).mov.
+2025-04-21 16:07:35 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 16:07:38 - Cannot open video file C:/Users/muham/Desktop/Kurban\282454_b506f9.mov.
+2025-04-21 16:07:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 16:07:40 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_40c1e8 (3).mov.
+2025-04-21 16:07:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262791_6e513b_13137.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\262791_6e513b_13137.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\2627956161_a691ae_13137.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\2627956161_a691ae_13137.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262795_a691ae.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\262795_a691ae.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263423_d32411131362.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263423_d32411131362.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263424_f7af09.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263424_f7af09.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263431_9d44b5 131362.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263431_9d44b5 131362.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263431_9d44b5.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263431_9d44b5.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263433_7a4dfe.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263433_7a4dfe.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263435_f9ae6d.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263435_f9ae6d.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263440_c31193 (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263440_c31193 (2).mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263441_a8d3bd.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263441_a8d3bd.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263444_5b28ee (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263444_5b28ee (2).mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263446_943c26.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\263446_943c26.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\282452_40c1e8 (3).mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\282452_40c1e8 (3).mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\282454_b506f9.mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\282454_b506f9.mov'
+2025-04-21 16:07:45 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\287195_0e68c2 (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\non_detected\\287195_0e68c2 (2).mov'
+2025-04-21 19:53:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 19:53:27 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 19:53:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 19:53:45 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 19:53:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 19:53:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 19:53:52 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 19:54:07 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 19:54:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 19:54:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 19:54:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 19:54:12 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 19:54:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 19:54:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 19:54:23 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee.mov.
+2025-04-21 19:54:26 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 19:54:30 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 19:54:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 19:54:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 19:54:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 19:54:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 19:54:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 19:54:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 19:54:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 19:54:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 19:54:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 19:54:40 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 19:54:40 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee.mov.
+2025-04-21 19:54:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 19:54:43 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 19:54:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 19:54:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 19:54:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 19:54:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09.mov.
+2025-04-21 19:54:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 19:54:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 19:54:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 19:54:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 19:54:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 19:54:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee.mov.
+2025-04-21 19:54:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 19:54:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 19:54:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 19:55:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 19:55:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 19:55:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 19:55:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 19:55:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09.mov.
+2025-04-21 19:55:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 19:55:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 19:55:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 19:55:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 19:55:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee.mov.
+2025-04-21 19:55:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 19:55:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 19:55:21 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-21 19:55:23 - Cannot open video file C:/Users/muham/Desktop/Kurban\282454_b506f9.mov.
+2025-04-21 19:55:25 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 19:55:27 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 19:55:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 19:55:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 19:55:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 19:55:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 19:55:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5 131362.mov.
+2025-04-21 19:55:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09.mov.
+2025-04-21 19:55:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 19:55:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-21 19:55:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_f9ae6d.mov.
+2025-04-21 19:55:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 19:55:50 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee.mov.
+2025-04-21 19:55:50 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 19:55:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 19:55:55 - Cannot open video file C:/Users/muham/Desktop/Kurban\282454_b506f9.mov.
+2025-04-21 19:55:59 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_943c26.mov.
+2025-04-21 19:55:59 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 19:56:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262791_6e513b_13137.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\262791_6e513b_13137.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\2627956161_a691ae_13137.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\2627956161_a691ae_13137.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262795_13137_a691ae.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\262795_13137_a691ae.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263423_d32411131362.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263423_d32411131362.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263424_13159_f7af09.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263424_13159_f7af09.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263431_9d44b5 131362.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263431_9d44b5 131362.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263431_9d44b5.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263431_9d44b5.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263433_7a4dfe.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263433_7a4dfe.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263435_f9ae6d.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263435_f9ae6d.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263440_13159_c31193.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263440_13159_c31193.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263441_a8d3bd.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263441_a8d3bd.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263444_13159_5b28ee.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263444_13159_5b28ee.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263446_943c26.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\263446_943c26.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\282452_13271_40c1e8.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\282452_13271_40c1e8.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\282454_b506f9.mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\282454_b506f9.mov'
+2025-04-21 19:56:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\287195_0e68c2 (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\tespit_edilemedi\\287195_0e68c2 (2).mov'
+2025-04-21 20:05:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-21 20:05:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-21 20:05:12 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-21 20:05:12 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 20:05:12 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-21 20:05:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-21 20:05:19 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 20:05:20 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 20:05:26 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 20:05:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-21 20:05:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-21 20:05:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-21 20:05:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 20:05:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-21 20:05:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-21 20:05:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-21 20:05:31 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 20:05:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 20:05:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 20:05:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 20:05:43 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 20:05:45 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 20:05:45 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d.mov.
+2025-04-21 20:05:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 20:05:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26.mov.
+2025-04-21 20:05:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5.mov.
+2025-04-21 20:05:50 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 20:05:51 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-21 20:05:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-21 20:05:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-21 20:05:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-21 20:05:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 20:05:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-21 20:05:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 20:05:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-21 20:05:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-21 20:05:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 20:05:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 20:05:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5.mov.
+2025-04-21 20:05:59 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 20:05:59 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 20:06:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 20:06:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 20:06:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d.mov.
+2025-04-21 20:06:01 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26.mov.
+2025-04-21 20:06:02 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-21 20:06:02 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 20:06:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-21 20:06:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-21 20:06:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-21 20:06:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-21 20:06:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 20:06:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 20:06:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-21 20:06:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 20:06:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-21 20:06:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5.mov.
+2025-04-21 20:06:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 20:06:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09 (2).mov.
+2025-04-21 20:06:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 20:06:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 20:06:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 20:06:12 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 20:06:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d.mov.
+2025-04-21 20:06:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26.mov.
+2025-04-21 20:06:13 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-21 20:06:14 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 20:06:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-21 20:06:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-21 20:06:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-21 20:06:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 20:06:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-21 20:06:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 20:06:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-21 20:06:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 20:06:26 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09 (2).mov.
+2025-04-21 20:06:26 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d.mov.
+2025-04-21 20:06:26 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 20:06:26 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5.mov.
+2025-04-21 20:06:27 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-21 20:06:27 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 20:06:27 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 20:06:27 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26.mov.
+2025-04-21 20:06:30 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-21 20:06:31 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 20:06:31 - Cannot open video file C:/Users/muham/Desktop/Kurban\282454_b506f9.mov.
+2025-04-21 20:06:31 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-21 20:06:34 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-21 20:06:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-21 20:06:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-21 20:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-21 20:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-21 20:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-21 20:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-21 20:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 20:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-21 20:06:37 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-21 20:06:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-21 20:06:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5.mov.
+2025-04-21 20:06:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-21 20:06:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-21 20:06:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-21 20:06:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09 (2).mov.
+2025-04-21 20:06:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d.mov.
+2025-04-21 20:06:48 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-21 20:06:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-21 20:38:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-21 20:38:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b (2).mov.
+2025-04-21 20:38:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-21 20:38:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-21 20:38:07 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-21 20:38:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-29 13:01:21 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-29 13:01:21 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-29 13:01:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-29 13:01:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-29 13:01:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-29 13:01:23 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-29 13:01:31 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-29 13:01:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-29 13:01:38 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (12).mov.
+2025-04-29 13:01:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\test.MOV.
+2025-04-29 13:01:39 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-29 13:01:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-29 13:01:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-29 13:01:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-29 13:01:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-29 13:01:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-29 13:01:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-29 13:01:41 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-29 13:01:42 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-29 13:01:44 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-29 13:01:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-29 13:01:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-29 13:01:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-29 13:01:57 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-29 13:01:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-29 13:01:58 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d (2).mov.
+2025-04-29 13:02:00 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5 (2).mov.
+2025-04-29 13:02:01 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (12).mov.
+2025-04-29 13:02:04 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26 (2).mov.
+2025-04-29 13:02:04 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-29 13:02:04 - Cannot open video file C:/Users/muham/Desktop/Kurban\test.MOV.
+2025-04-29 13:02:04 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-29 13:02:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (5).mov.
+2025-04-29 13:02:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (3).mov.
+2025-04-29 13:02:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (11).mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-29 13:02:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-29 13:02:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-29 13:02:15 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5 (2).mov.
+2025-04-29 13:02:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-29 13:02:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-29 13:02:16 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-29 13:02:17 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-29 13:02:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26 (2).mov.
+2025-04-29 13:02:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-29 13:02:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d (2).mov.
+2025-04-29 13:02:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (12).mov.
+2025-04-29 13:02:18 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-29 13:02:19 - Cannot open video file C:/Users/muham/Desktop/Kurban\test.MOV.
+2025-04-29 13:02:19 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (3).mov.
+2025-04-29 13:02:19 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (11).mov.
+2025-04-29 13:02:19 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (5).mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-29 13:02:22 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-29 13:02:28 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09.mov.
+2025-04-29 13:02:29 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5 (2).mov.
+2025-04-29 13:02:29 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-29 13:02:29 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-29 13:02:30 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-29 13:02:30 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-29 13:02:30 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-29 13:02:31 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d (2).mov.
+2025-04-29 13:02:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-29 13:02:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (11).mov.
+2025-04-29 13:02:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-29 13:02:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (12).mov.
+2025-04-29 13:02:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\test.MOV.
+2025-04-29 13:02:32 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (3).mov.
+2025-04-29 13:02:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26 (2).mov.
+2025-04-29 13:02:33 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (5).mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-29 13:02:36 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-29 13:02:45 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09.mov.
+2025-04-29 13:02:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5 (2).mov.
+2025-04-29 13:02:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-29 13:02:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d (2).mov.
+2025-04-29 13:02:46 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-29 13:02:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-29 13:02:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26 (2).mov.
+2025-04-29 13:02:47 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-29 13:02:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-29 13:02:49 - Cannot open video file C:/Users/muham/Desktop/Kurban\282454_b506f9.mov.
+2025-04-29 13:02:50 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-29 13:02:50 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (11).mov.
+2025-04-29 13:02:51 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (12).mov.
+2025-04-29 13:02:51 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (5).mov.
+2025-04-29 13:02:51 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-29 13:02:53 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-29 13:02:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\test.MOV.
+2025-04-29 13:02:54 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (3).mov.
+2025-04-29 13:02:55 - Cannot open video file C:/Users/muham/Desktop/Kurban\262790_13137_069ddd - Kopya.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_13137_6e513b - Kopya.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262791_6e513b_13137.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262794_13137_c4e5d3.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262792_13137_69fd87 - Kopya.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262795_13137_a691ae.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\262793_13137_204b40.mov.
+2025-04-29 13:02:56 - Cannot open video file C:/Users/muham/Desktop/Kurban\2627956161_a691ae_13137.mov.
+2025-04-29 13:03:04 - Cannot open video file C:/Users/muham/Desktop/Kurban\263424_13159_f7af09.mov.
+2025-04-29 13:03:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_13159_9d44b5 (2).mov.
+2025-04-29 13:03:05 - Cannot open video file C:/Users/muham/Desktop/Kurban\263431_9d44b5.mov.
+2025-04-29 13:03:06 - Cannot open video file C:/Users/muham/Desktop/Kurban\263433_7a4dfe.mov.
+2025-04-29 13:03:07 - Cannot open video file C:/Users/muham/Desktop/Kurban\263441_a8d3bd.mov.
+2025-04-29 13:03:07 - Cannot open video file C:/Users/muham/Desktop/Kurban\263423_d32411131362.mov.
+2025-04-29 13:03:07 - Cannot open video file C:/Users/muham/Desktop/Kurban\263444_13159_5b28ee (2).mov.
+2025-04-29 13:03:08 - Cannot open video file C:/Users/muham/Desktop/Kurban\263435_13159_f9ae6d (2).mov.
+2025-04-29 13:03:09 - Cannot open video file C:/Users/muham/Desktop/Kurban\263440_13159_c31193.mov.
+2025-04-29 13:03:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\282454_b506f9.mov.
+2025-04-29 13:03:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (12).mov.
+2025-04-29 13:03:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\287195_0e68c2 (2).mov.
+2025-04-29 13:03:10 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (3).mov.
+2025-04-29 13:03:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (11).mov.
+2025-04-29 13:03:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\test (5).mov.
+2025-04-29 13:03:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\test.MOV.
+2025-04-29 13:03:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\263446_13159_943c26 (2).mov.
+2025-04-29 13:03:11 - Cannot open video file C:/Users/muham/Desktop/Kurban\282452_13271_40c1e8.mov.
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262790_13137_069ddd - Kopya.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262790_13137_069ddd - Kopya.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262791_13137_6e513b - Kopya.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262791_13137_6e513b - Kopya.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262791_13137_6e513b.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262791_13137_6e513b.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262791_6e513b_13137.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262791_6e513b_13137.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262792_13137_69fd87 - Kopya.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262792_13137_69fd87 - Kopya.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262793_13137_204b40.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262793_13137_204b40.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262794_13137_c4e5d3.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262794_13137_c4e5d3.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\2627956161_a691ae_13137.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\2627956161_a691ae_13137.mov'
+2025-04-29 13:03:14 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\262795_13137_a691ae.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\262795_13137_a691ae.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263423_d32411131362.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263423_d32411131362.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263424_13159_f7af09.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263424_13159_f7af09.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263431_13159_9d44b5 (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263431_13159_9d44b5 (2).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263431_9d44b5.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263431_9d44b5.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263433_7a4dfe.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263433_7a4dfe.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263435_13159_f9ae6d (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263435_13159_f9ae6d (2).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263440_13159_c31193.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263440_13159_c31193.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263441_a8d3bd.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263441_a8d3bd.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263444_13159_5b28ee (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263444_13159_5b28ee (2).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\263446_13159_943c26 (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\263446_13159_943c26 (2).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\282452_13271_40c1e8.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\282452_13271_40c1e8.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\282454_b506f9.mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\282454_b506f9.mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\287195_0e68c2 (2).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\287195_0e68c2 (2).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\test (11).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\test (11).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\test (12).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\test (12).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\test (3).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\test (3).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\test (5).mov' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\test (5).mov'
+2025-04-29 13:03:15 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban\\test.MOV' -> 'C:/Users/muham/Desktop/Kurban\\Basarisiz\\test.MOV'
+2025-04-30 09:46:33 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010101_101010103_Test1.mov.
+2025-04-30 09:46:33 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010102_101010102_Test2 .mov.
+2025-04-30 09:46:33 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010103_101010103_Test3 .mov.
+2025-04-30 09:46:33 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010105_101010105_Test5.mov.
+2025-04-30 09:46:33 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010106_101010106_Test6.mov.
+2025-04-30 09:46:33 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010104_101010104_Test4.mov.
+2025-04-30 09:46:33 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010107_101010107_Test7.mov.
+2025-04-30 09:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010101_101010103_Test1.mov.
+2025-04-30 09:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010102_101010102_Test2 .mov.
+2025-04-30 09:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010103_101010103_Test3 .mov.
+2025-04-30 09:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010105_101010105_Test5.mov.
+2025-04-30 09:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010106_101010106_Test6.mov.
+2025-04-30 09:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010104_101010104_Test4.mov.
+2025-04-30 09:46:38 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010107_101010107_Test7.mov.
+2025-04-30 09:46:43 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010101_101010103_Test1.mov.
+2025-04-30 09:46:43 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010103_101010103_Test3 .mov.
+2025-04-30 09:46:44 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010102_101010102_Test2 .mov.
+2025-04-30 09:46:44 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010104_101010104_Test4.mov.
+2025-04-30 09:46:44 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010105_101010105_Test5.mov.
+2025-04-30 09:46:44 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010106_101010106_Test6.mov.
+2025-04-30 09:46:44 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010107_101010107_Test7.mov.
+2025-04-30 09:46:49 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010101_101010103_Test1.mov.
+2025-04-30 09:46:49 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010102_101010102_Test2 .mov.
+2025-04-30 09:46:50 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010106_101010106_Test6.mov.
+2025-04-30 09:46:50 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010104_101010104_Test4.mov.
+2025-04-30 09:46:50 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010105_101010105_Test5.mov.
+2025-04-30 09:46:50 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010107_101010107_Test7.mov.
+2025-04-30 09:46:58 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010101_101010103_Test1.mov.
+2025-04-30 09:46:58 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010103_101010103_Test3 .mov.
+2025-04-30 09:46:58 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010102_101010102_Test2 .mov.
+2025-04-30 09:46:58 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010106_101010106_Test6.mov.
+2025-04-30 09:46:58 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010104_101010104_Test4.mov.
+2025-04-30 09:46:58 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010105_101010105_Test5.mov.
+2025-04-30 09:46:58 - Cannot open video file C:/Users/muham/Desktop/Kurban/test\101010107_101010107_Test7.mov.
+2025-04-30 09:47:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban/test\\101010101_101010103_Test1.mov' -> 'C:/Users/muham/Desktop/Kurban/test\\Basarisiz\\101010101_101010103_Test1.mov'
+2025-04-30 09:47:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban/test\\101010102_101010102_Test2 .mov' -> 'C:/Users/muham/Desktop/Kurban/test\\Basarisiz\\101010102_101010102_Test2 .mov'
+2025-04-30 09:47:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban/test\\101010103_101010103_Test3 .mov' -> 'C:/Users/muham/Desktop/Kurban/test\\Basarisiz\\101010103_101010103_Test3 .mov'
+2025-04-30 09:47:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban/test\\101010104_101010104_Test4.mov' -> 'C:/Users/muham/Desktop/Kurban/test\\Basarisiz\\101010104_101010104_Test4.mov'
+2025-04-30 09:47:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban/test\\101010105_101010105_Test5.mov' -> 'C:/Users/muham/Desktop/Kurban/test\\Basarisiz\\101010105_101010105_Test5.mov'
+2025-04-30 09:47:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban/test\\101010106_101010106_Test6.mov' -> 'C:/Users/muham/Desktop/Kurban/test\\Basarisiz\\101010106_101010106_Test6.mov'
+2025-04-30 09:47:06 - Error moving file to error folder: [WinError 2] Sistem belirtilen dosyayı bulamıyor: 'C:/Users/muham/Desktop/Kurban/test\\101010107_101010107_Test7.mov' -> 'C:/Users/muham/Desktop/Kurban/test\\Basarisiz\\101010107_101010107_Test7.mov'
